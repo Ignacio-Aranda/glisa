@@ -24,7 +24,7 @@ jobs:
             args: "--target universal-apple-darwin"
     runs-on: ${{ matrix.platform }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: System libraries (Linux)
         if: runner.os == 'Linux'
@@ -68,7 +68,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Checksums
         env:
