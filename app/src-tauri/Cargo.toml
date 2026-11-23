@@ -1,0 +1,47 @@
+[package]
+name = "glisa-app"
+description = "Glisa: configure Logitech mice and keyboards"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+default-run = "glisa"
+
+[lints]
+workspace = true
+
+[lib]
+name = "glisa_app"
+path = "src/lib.rs"
+
+[[bin]]
+name = "glisa"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+glisa-common.workspace = true
+glisa-i18n.workspace = true
+glisa-service.workspace = true
+glisa-ctl.workspace = true
+glisa-flow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+log.workspace = true
+tauri = { version = "2", features = ["tray-icon", "image-png"] }
+tauri-plugin-single-instance = "2"
+tauri-plugin-autostart = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-notification = "2"
+base64 = "0.23.1"
+sha2 = "0.11.0"
+image = { version = "0.25.9", default-features = false, features = ["png", "jpeg", "webp", "gif", "bmp"] }
+ureq = { version = "3.5.2", default-features = false, features = ["rustls"] }
+
+[target."cfg(windows)".dependencies]
+windows-sys = { version = "0.61", features = ["Win32_System_Console"] }

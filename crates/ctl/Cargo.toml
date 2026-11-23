@@ -1,0 +1,33 @@
+[package]
+name = "glisa-ctl"
+description = "glisa-ctl: command-line access to the Glisa service"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "glisa-ctl"
+path = "src/main.rs"
+
+[dependencies]
+glisa-common.workspace = true
+glisa-hid.workspace = true
+glisa-hidpp.workspace = true
+glisa-i18n.workspace = true
+glisa-service.workspace = true
+serde_json.workspace = true
+
+[target."cfg(unix)".dependencies]
+libc = "0.2.191"
+
+[target."cfg(windows)".dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_System_Console"] }
+
+[dev-dependencies]
+glisa-flow.workspace = true

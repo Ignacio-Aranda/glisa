@@ -1,0 +1,1931 @@
+# Spanish translations of the window (app/src).
+# Source language: English. Checked by app/scripts/i18n.mjs.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# ---- App.svelte
+
+msgid "Refreshed"
+msgstr "Actualizado"
+
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+msgid "Loading…"
+msgstr "Cargando…"
+
+# ---- lib/Sidebar.svelte
+
+msgid "Main"
+msgstr "Principal"
+
+msgid "All devices"
+msgstr "Todos los dispositivos"
+
+msgctxt "page title"
+msgid "Devices"
+msgstr "Tus dispositivos"
+
+msgid "Connected"
+msgstr "Conectado"
+
+msgid "Disconnected"
+msgstr "Desconectado"
+
+msgid "These devices are simulated: nothing you change affects a real mouse"
+msgstr "Los dispositivos son simulados: nada de lo que cambies afecta a un ratón real"
+
+msgid "Demo mode"
+msgstr "Modo demostración"
+
+msgctxt "flow state"
+msgid "On"
+msgstr "Activado"
+
+msgctxt "flow state"
+msgid "Off"
+msgstr "Desactivado"
+
+msgid "App settings (Ctrl+,)"
+msgstr "Ajustes (Ctrl+,)"
+
+msgid "App settings"
+msgstr "Ajustes"
+
+# ---- lib/address.ts
+
+msgid "The port must be a number from 1 to 65535"
+msgstr "El puerto debe ser un número del 1 al 65535"
+
+msgid "That address is too long"
+msgstr "Esa dirección es demasiado larga"
+
+msgid "An IPv6 address needs its closing bracket: [address]:port"
+msgstr "A la dirección IPv6 le falta el corchete de cierre: [dirección]:puerto"
+
+msgid "Invalid address"
+msgstr "Dirección no válida"
+
+msgid "“{host}” isn't a valid IPv6 address"
+msgstr "«{host}» no es una dirección IPv6 válida"
+
+msgid "Put an IPv6 address in brackets, like [fe80::1]:27461"
+msgstr "Pon la dirección IPv6 entre corchetes, como [fe80::1]:27461"
+
+msgid "Type the computer's IP address or name"
+msgstr "Escribe la dirección IP o el nombre del equipo"
+
+msgid "“{host}” isn't a valid IP address"
+msgstr "«{host}» no es una dirección IP válida"
+
+msgid "“{host}” isn't a valid computer name or IP address"
+msgstr "«{host}» no es un nombre de equipo ni una dirección IP válidos"
+
+msgid "{app} will look for it at {address}"
+msgstr "{app} lo buscará en {address}"
+
+# ---- lib/components/Banner.svelte
+
+msgid "Close"
+msgstr "Cerrar"
+
+# ---- lib/components/BatteryBadge.svelte
+
+msgid "Battery: {state}"
+msgstr "Batería: {state}"
+
+# ---- lib/components/ConfirmDialog.svelte
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+# ---- lib/components/DeviceArt.svelte
+
+msgid "Device buttons"
+msgstr "Botones del dispositivo"
+
+# ---- lib/components/KeyRecorder.svelte
+
+msgid "Press the key combination…  (Esc to cancel)"
+msgstr "Pulsa la combinación…  (Esc para cancelar)"
+
+msgid "Click, then press a key combination"
+msgstr "Haz clic y pulsa una combinación de teclas"
+
+# ---- lib/components/SearchField.svelte
+
+msgid "Clear"
+msgstr "Borrar"
+
+# ---- lib/components/Toasts.svelte
+
+msgid "Notifications"
+msgstr "Notificaciones"
+
+# ---- lib/format.ts
+
+msgid "Mouse"
+msgstr "Ratón"
+
+msgid "Keyboard"
+msgstr "Teclado"
+
+msgid "Trackball"
+msgstr "Trackball"
+
+msgid "Trackpad"
+msgstr "Panel táctil"
+
+msgid "Numeric keypad"
+msgstr "Teclado numérico"
+
+msgid "Presenter"
+msgstr "Presentador"
+
+msgid "Remote"
+msgstr "Mando"
+
+msgid "Receiver"
+msgstr "Receptor"
+
+msgid "Device"
+msgstr "Dispositivo"
+
+msgctxt "device noun"
+msgid "mouse"
+msgstr "ratón"
+
+msgctxt "device noun"
+msgid "keyboard"
+msgstr "teclado"
+
+msgctxt "device noun"
+msgid "trackball"
+msgstr "trackball"
+
+msgctxt "device noun"
+msgid "trackpad"
+msgstr "panel táctil"
+
+msgctxt "device noun"
+msgid "numeric keypad"
+msgstr "teclado numérico"
+
+msgctxt "device noun"
+msgid "presenter"
+msgstr "presentador"
+
+msgctxt "device noun"
+msgid "remote"
+msgstr "mando"
+
+msgctxt "device noun"
+msgid "device"
+msgstr "dispositivo"
+
+msgid "USB receiver"
+msgstr "Receptor USB"
+
+msgid "USB cable"
+msgstr "Cable USB"
+
+msgctxt "connection"
+msgid "Unknown"
+msgstr "Desconocida"
+
+msgctxt "battery level"
+msgid "Full"
+msgstr "Llena"
+
+msgctxt "battery level"
+msgid "Good"
+msgstr "Buena"
+
+msgctxt "battery level"
+msgid "Low"
+msgstr "Baja"
+
+msgctxt "battery level"
+msgid "Very low"
+msgstr "Muy baja"
+
+msgid "{percent}%"
+msgstr "{percent} %"
+
+msgid "Charging"
+msgstr "Cargando"
+
+msgid "Fully charged"
+msgstr "Carga completa"
+
+msgid "Low battery"
+msgstr "Batería baja"
+
+msgid "Very low battery"
+msgstr "Batería muy baja"
+
+msgid "an image"
+msgstr "una imagen"
+
+msgid "{count} folder"
+msgid_plural "{count} folders"
+msgstr[0] "{count} carpeta"
+msgstr[1] "{count} carpetas"
+
+msgid "{count} file"
+msgid_plural "{count} files"
+msgstr[0] "{count} archivo"
+msgstr[1] "{count} archivos"
+
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} elemento"
+msgstr[1] "{count} elementos"
+
+msgid "Getting {what} ready for {name}…"
+msgstr "Preparando {what} para {name}…"
+
+msgid "Sending {what} to {name}… {percent}%"
+msgstr "Enviando {what} a {name}… {percent} %"
+
+msgid "Receiving {what} from {name}… {percent}%"
+msgstr "Recibiendo {what} de {name}… {percent} %"
+
+msgid "Sent {what} to {name}"
+msgstr "Enviado a {name}: {what}"
+
+msgid "Received {what} from {name}"
+msgstr "Recibido de {name}: {what}"
+
+msgid "Received {what} from {name} — paste it with Ctrl+V"
+msgid_plural "Received {what} from {name} — paste them with Ctrl+V"
+msgstr[0] "Recibido de {name}: {what}. Pulsa Ctrl+V para pegar"
+msgstr[1] "Recibido de {name}: {what}. Pulsa Ctrl+V para pegar"
+
+msgid "Received {what} from {name}. It's in the Flow folder"
+msgid_plural "Received {what} from {name}. They're in the Flow folder"
+msgstr[0] "Recibido de {name}: {what}. Está en la carpeta de Flow"
+msgstr[1] "Recibido de {name}: {what}. Están en la carpeta de Flow"
+
+msgid "Cancelled: {what} for {name}"
+msgstr "Cancelado: {what} para {name}"
+
+msgid "Cancelled: {what} from {name}"
+msgstr "Cancelado: {what} de {name}"
+
+msgid "Didn't arrive: {what} for {name}"
+msgstr "No llegó: {what} para {name}"
+
+msgid "Didn't arrive: {what} from {name}"
+msgstr "No llegó: {what} de {name}"
+
+# ---- lib/pages/AddDeviceDialog.svelte
+
+msgid "Couldn't open the Bluetooth settings"
+msgstr "No se han podido abrir los ajustes de Bluetooth"
+
+msgid "Add a device"
+msgstr "Añadir un dispositivo"
+
+msgid "{app} finds the Logitech devices connected to this computer by itself. Connect yours in one of these two ways and it will show up here within seconds."
+msgstr "{app} detecta solo los dispositivos Logitech que ya están conectados a este equipo. Conéctalo de una de estas dos formas y aparecerá aquí en unos segundos."
+
+msgid "Via Bluetooth"
+msgstr "Por Bluetooth"
+
+msgid "Turn on the device and hold down its pairing button (the channel button) until the light blinks quickly"
+msgstr "Enciende el dispositivo y mantén pulsado su botón de emparejamiento (el de cambio de canal) hasta que la luz parpadee rápido"
+
+msgid "Open the Bluetooth settings of your system and pick the device from the list"
+msgstr "Abre los ajustes de Bluetooth de tu sistema y elige el dispositivo en la lista"
+
+msgid "Come back to {app}: there is nothing else to do"
+msgstr "Vuelve a {app}: no hay que hacer nada más"
+
+msgid "Open Bluetooth settings"
+msgstr "Abrir ajustes de Bluetooth"
+
+msgid "With a USB receiver"
+msgstr "Con receptor USB"
+
+msgid "Plug the receiver into this computer and turn on the device. If they came together in the box, they are already paired."
+msgstr "Conecta el receptor a este equipo y enciende el dispositivo. Si venían juntos de fábrica, ya están emparejados."
+
+msgid "Got it"
+msgstr "Entendido"
+
+# ---- lib/pages/DevicePage.svelte
+
+msgid "Buttons"
+msgstr "Botones"
+
+msgid "Pointer & scrolling"
+msgstr "Puntero y desplazamiento"
+
+msgid "Easy-Switch"
+msgstr "Cambio de equipo"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Rename…"
+msgstr "Cambiar el nombre…"
+
+msgid "Change picture…"
+msgstr "Cambiar imagen…"
+
+msgid "Choose picture…"
+msgstr "Elegir imagen…"
+
+msgid "Remove picture"
+msgstr "Quitar la imagen"
+
+msgid "Remove device…"
+msgstr "Quitar dispositivo…"
+
+msgid "Back to your devices"
+msgstr "Volver a tus dispositivos"
+
+msgid "Back (Esc)"
+msgstr "Volver (Esc)"
+
+msgid "More options"
+msgstr "Más opciones"
+
+msgid "Section"
+msgstr "Sección"
+
+msgid "Couldn't load the device"
+msgstr "No se ha podido cargar el dispositivo"
+
+msgid "Retry"
+msgstr "Reintentar"
+
+msgid "Device not found"
+msgstr "Dispositivo no encontrado"
+
+msgid "It may have been removed. Go back to see your devices."
+msgstr "Puede que se haya quitado. Vuelve para ver tus dispositivos."
+
+msgid "Loading the device…"
+msgstr "Cargando el dispositivo…"
+
+msgid "Couldn't load this section"
+msgstr "No se pudo cargar esta sección"
+
+msgid "Device options"
+msgstr "Opciones del dispositivo"
+
+# ---- lib/pages/FlowPage.svelte
+
+msgid "Flow turned on"
+msgstr "Flow activado"
+
+msgid "Flow turned off"
+msgstr "Flow desactivado"
+
+msgid "No service"
+msgstr "Sin servicio"
+
+msgid "Needs attention"
+msgstr "Con problemas"
+
+msgid "Flow is not available on this desktop"
+msgstr "Flow no está disponible en este escritorio"
+
+msgid "{app} can't tell where the pointer is on this desktop"
+msgstr "{app} no puede saber dónde está el puntero aquí"
+
+msgid "The screen edges aren't being detected"
+msgstr "No se detectan los bordes de la pantalla"
+
+msgid "Flow couldn't fully start"
+msgstr "Flow no ha podido arrancar del todo"
+
+msgid "This desktop doesn't report whether Ctrl is held"
+msgstr "Este escritorio no deja saber si Ctrl está pulsado"
+
+msgid "Turn off “Switch only while holding Ctrl” or Flow won't switch computers"
+msgstr "Desactiva «Cambiar solo con Ctrl pulsado» o Flow no cambiará de equipo"
+
+msgid "The pointer won't be placed when it arrives"
+msgstr "El puntero no se colocará al llegar"
+
+msgid "No access to the virtual device: check the permissions in App settings"
+msgstr "Falta acceso al dispositivo virtual: revisa los permisos en Ajustes"
+
+msgid "Your firewall is on"
+msgstr "Tu cortafuegos está activo"
+
+msgid "Allow UDP port {udp} and TCP ports {tcp} and {pairing} so the computers can find each other (for example, with sudo ufw allow {udp}/udp and sudo ufw allow {tcp}:{pairing}/tcp)"
+msgstr "Permite el puerto UDP {udp} y los puertos TCP {tcp} y {pairing} para que los equipos se encuentren (por ejemplo, con sudo ufw allow {udp}/udp y sudo ufw allow {tcp}:{pairing}/tcp)"
+
+msgid "Flow doesn't connect to the network or move the pointer"
+msgstr "Flow no se conecta a la red ni mueve el puntero"
+
+msgid "Not available on this desktop"
+msgstr "No disponible en este escritorio"
+
+msgid "Flow is off. Turn it on at the top right"
+msgstr "Flow está desactivado. Actívalo arriba a la derecha"
+
+msgid "Getting edge detection ready…"
+msgstr "Preparando la detección de bordes…"
+
+msgid "Ready. Now pair the other computer"
+msgstr "Listo. Ahora vincula el otro equipo"
+
+msgid "Place the other computer in the layout"
+msgstr "Coloca el otro equipo en la disposición"
+
+msgid "Waiting for the other computer to come online"
+msgstr "Esperando a que el otro equipo esté en línea"
+
+msgid "Ready: move the pointer to the edge where the other computer is"
+msgstr "Listo: lleva el puntero al borde donde está el otro equipo"
+
+msgid "on the left"
+msgstr "a la izquierda"
+
+msgid "on the right"
+msgstr "a la derecha"
+
+msgid "above"
+msgstr "arriba"
+
+msgid "below"
+msgstr "abajo"
+
+msgid "It isn't the computer you paired (or it was reinstalled). Remove it and pair it again"
+msgstr "No es el equipo que vinculaste (o se ha reinstalado). Quítalo y vuelve a vincularlo"
+
+msgid "Placed {where}"
+msgstr "Está {where}"
+
+msgid "Not placed in the layout yet"
+msgstr "Aún no lo has colocado en la disposición"
+
+msgid "{placement}. Can't reach it: computers on different networks may need its address set manually"
+msgstr "{placement}. No responde: si está en otra red, puede que tengas que poner su dirección a mano"
+
+msgid "Address not known yet"
+msgstr "Todavía no se conoce su dirección"
+
+msgid "{address} · set manually"
+msgstr "{address} · puesta a mano"
+
+msgid "{address} · found automatically"
+msgstr "{address} · encontrada automáticamente"
+
+msgid "Remove {name}?"
+msgstr "¿Quitar {name}?"
+
+msgid "You won't be able to move the mouse to {name} any more, and its fingerprint will be deleted. To use it again, you'll both have to pair again"
+msgstr "Dejarás de poder pasar el ratón a {name} y se borrará su huella. Para volver a usarlo tendréis que vincularos otra vez"
+
+msgid "Remove"
+msgstr "Quitar"
+
+msgid "{name} removed"
+msgstr "{name} quitado"
+
+msgid "{name} will be looked for at {address}"
+msgstr "{name} se buscará en {address}"
+
+msgid "The address of {name} will be found automatically"
+msgstr "La dirección de {name} se encontrará automáticamente"
+
+msgid "Create a new identity for this computer?"
+msgstr "¿Crear una identidad nueva para este equipo?"
+
+msgid "All paired computers will stop recognizing it and you'll have to pair them again. Do it if you think someone has copied this computer's settings"
+msgstr "Todos los equipos vinculados dejarán de reconocerlo y tendrás que vincularlos otra vez. Hazlo si crees que alguien ha copiado la configuración de este equipo"
+
+msgid "Create new identity"
+msgstr "Crear identidad nueva"
+
+msgid "New identity created"
+msgstr "Identidad nueva creada"
+
+msgctxt "channel"
+msgid "free"
+msgstr "libre"
+
+msgctxt "channel"
+msgid "unnamed"
+msgstr "sin nombre"
+
+msgid "Automatic: channel {channel} · {name}"
+msgstr "Automático: canal {channel} · {name}"
+
+msgid "Choose the channel"
+msgstr "Elige el canal"
+
+msgid "Channel {channel} · {name}"
+msgstr "Canal {channel} · {name}"
+
+msgid "Pair a computer to choose which channel your mouse uses for it"
+msgstr "Vincula un equipo para elegir en qué canal lo tiene tu ratón"
+
+msgid "Connect your mouse to this computer to see its channels"
+msgstr "Conecta tu ratón a este equipo para ver sus canales"
+
+msgid "Files, folders and images you copy (screenshots too) go to the other computer when you switch. Paste them there with Ctrl+V"
+msgstr "Los archivos, carpetas e imágenes que copies (también las capturas de pantalla) pasan al otro equipo al cambiar. Pégalos allí con Ctrl+V"
+
+msgid "This desktop doesn't let background apps use the clipboard, so it only works while this window is open"
+msgstr "Este escritorio no deja usar el portapapeles a las aplicaciones en segundo plano, así que solo funciona con esta ventana abierta"
+
+msgid "Update {app} on {name} to send files there: until then only text goes"
+msgstr "Actualiza {app} en {name} para enviarle archivos: hasta entonces solo se envía el texto"
+
+msgid "Text you copy goes to the other computer when you switch (up to 1 MB). Without the Plasma clipboard, it only works while this window is open"
+msgstr "El texto que copies pasa al otro equipo al cambiar (hasta 1 MB). Sin el portapapeles de Plasma, solo funciona con esta ventana abierta"
+
+msgid "Text you copy goes to the other computer when you switch (up to 1 MB)"
+msgstr "El texto que copies pasa al otro equipo al cambiar (hasta 1 MB)"
+
+msgctxt "edge detection"
+msgid "Simulated"
+msgstr "Simulada"
+
+msgctxt "edge detection"
+msgid "Not available"
+msgstr "No disponible"
+
+msgctxt "navigation"
+msgid "Back"
+msgstr "Volver"
+
+msgid "Turn on Flow"
+msgstr "Activar Flow"
+
+msgid "No connection to the service"
+msgstr "Sin conexión con el servicio"
+
+msgid "Use the same mouse on two computers"
+msgstr "Usa el mismo ratón en dos equipos"
+
+msgid "Move the pointer to the edge of the screen and your mouse moves to the other computer, with the keyboard if you like. Text you've copied goes with it"
+msgstr "Lleva el puntero al borde de la pantalla y tu ratón pasa al otro equipo, con el teclado si quieres. El texto que hayas copiado va con él"
+
+msgid "You need"
+msgstr "Necesitas"
+
+msgid "Your mouse paired with both computers, each on its own channel"
+msgstr "Tu ratón emparejado con los dos equipos, cada uno en un canal"
+
+msgid "{app} open on both"
+msgstr "{app} abierto en los dos"
+
+msgid "Both on the same network, or on networks that can reach each other"
+msgstr "Los dos en la misma red, o en redes que se puedan comunicar entre sí"
+
+msgid "Layout"
+msgstr "Disposición"
+
+msgid "Drag each computer to the side where it sits on your desk. The mouse switches when it reaches that edge of the screen"
+msgstr "Arrastra cada equipo al lado en el que lo tienes en tu mesa. El ratón cambia al llegar a ese borde de la pantalla"
+
+msgid "Once you pair another computer, it will appear here so you can place it"
+msgstr "Cuando vincules otro equipo aparecerá aquí para colocarlo"
+
+msgid "Paired computers"
+msgstr "Equipos"
+
+msgid "Only computers you pair here can receive your mouse"
+msgstr "Solo los equipos que vincules aquí pueden recibir tu ratón"
+
+msgid "Turn on Flow to pair computers"
+msgstr "Activa Flow para vincular equipos"
+
+msgid "Pair a computer"
+msgstr "Vincular un equipo"
+
+msgid "Set the address of {name}"
+msgstr "Poner la dirección de {name}"
+
+msgid "Set address…"
+msgstr "Poner dirección…"
+
+msgid "Identity changed"
+msgstr "Identidad distinta"
+
+msgctxt "computer"
+msgid "Online"
+msgstr "En línea"
+
+msgctxt "computer"
+msgid "Offline"
+msgstr "Sin conexión"
+
+msgid "Remove {name}"
+msgstr "Quitar {name}"
+
+msgid "No other computers yet"
+msgstr "Aún no hay otros equipos"
+
+msgid "You haven't paired a computer yet. Click “Pair a computer” here and on the other computer"
+msgstr "Aún no has vinculado ningún equipo. Pulsa «Vincular un equipo» aquí y en el otro equipo"
+
+msgid "Channels"
+msgstr "Canales"
+
+msgid "Which Easy-Switch channel each device uses for the other computer. {app} suggests one from its name"
+msgstr "En qué canal de cambio de equipo (Easy-Switch) tiene cada dispositivo al otro equipo. {app} lo sugiere por el nombre"
+
+msgid "{device} on {name}"
+msgstr "{device} en {name}"
+
+msgid "Your {device} is using channel {channel} for this computer"
+msgstr "Tu {device} usa ahora el canal {channel} en este equipo"
+
+msgid "Your {device} isn't connected to this computer right now"
+msgstr "Tu {device} no está conectado ahora a este equipo"
+
+msgid "Channel of {device} for {name}"
+msgstr "Canal de {device} para {name}"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid "Switch only while holding Ctrl"
+msgstr "Cambiar solo con Ctrl pulsado"
+
+msgid "Hold Ctrl when you reach the edge, so you never switch by accident"
+msgstr "Mantén Ctrl al llegar al borde. Así no cambias de equipo sin querer"
+
+msgid "Not available on this desktop: it doesn't report whether Ctrl is held"
+msgstr "No disponible en este escritorio: no deja saber si Ctrl está pulsado"
+
+msgid "Bring the clipboard along"
+msgstr "Llevar el portapapeles"
+
+msgid "Bring copied files and images along"
+msgstr "Llevar los archivos e imágenes copiados"
+
+msgid "Size limit"
+msgstr "Límite de tamaño"
+
+msgid "Bigger copies aren't sent or received. Images: up to {limit}"
+msgstr "Lo que ocupe más no se envía ni se recibe. Imágenes: hasta {limit}"
+
+msgid "Size limit for copied files"
+msgstr "Límite de tamaño de los archivos copiados"
+
+msgid "Keyboard switches too"
+msgstr "El teclado también cambia"
+
+msgid "Your Logitech keyboards with Easy-Switch follow the mouse"
+msgstr "Tus teclados Logitech con cambio de equipo siguen al ratón"
+
+msgid "Security and network"
+msgstr "Seguridad y red"
+
+msgid "Paired computers recognize each other by their fingerprint, and everything travels encrypted"
+msgstr "Los equipos vinculados se reconocen por su huella y todo viaja cifrado"
+
+msgid "This computer's fingerprint"
+msgstr "Huella de este equipo"
+
+msgid "Shown on the other computer next to its name"
+msgstr "Aparece en el otro equipo junto a su nombre"
+
+msgid "Created when you turn on Flow"
+msgstr "Se crea al activar Flow"
+
+msgid "Network"
+msgstr "Red"
+
+msgid "Uses UDP port {udp} to find computers, and TCP ports {tcp} (paired computers) and {pairing} (only while pairing)"
+msgstr "Usa el puerto UDP {udp} para encontrar equipos y los puertos TCP {tcp} (equipos vinculados) y {pairing} (solo mientras vinculas)"
+
+msgid "Edge detection"
+msgstr "Cómo detecta el borde"
+
+msgid "Create a new identity"
+msgstr "Crear una identidad nueva"
+
+# ---- lib/pages/Home.svelte
+
+msgid "Configure {name}"
+msgstr "Configurar {name}"
+
+msgid "Pick one to set up its buttons, pointer and more"
+msgstr "Elige uno para configurar sus botones, el puntero y más"
+
+msgid "Click it to set up its buttons, pointer and more"
+msgstr "Haz clic en él para configurar sus botones, el puntero y más"
+
+msgid "Refresh"
+msgstr "Actualizar"
+
+msgid "Refresh (F5)"
+msgstr "Actualizar (F5)"
+
+msgid "Permissions needed"
+msgstr "Faltan permisos"
+
+msgid "Fix"
+msgstr "Solucionar"
+
+msgid "The service isn't responding"
+msgstr "El servicio no responde"
+
+msgid "Looking for devices…"
+msgstr "Buscando dispositivos…"
+
+msgid "No devices found"
+msgstr "No se ha encontrado ningún dispositivo"
+
+msgid "{app} looks for Logitech mice and keyboards connected to this computer via Bluetooth or a USB receiver."
+msgstr "{app} busca ratones y teclados Logitech conectados a este equipo por Bluetooth o con receptor USB."
+
+msgid "How to add a device"
+msgstr "Cómo añadir un dispositivo"
+
+msgid "Already connected? Try this"
+msgstr "Si ya lo tienes conectado, prueba esto"
+
+msgid "Wake the device up"
+msgstr "Despierta el dispositivo"
+
+msgid "Turn it on and move it or press a button: it may be asleep or out of battery"
+msgstr "Enciéndelo y muévelo o pulsa un botón: puede estar dormido o sin batería"
+
+msgid "Check Bluetooth"
+msgstr "Comprueba el Bluetooth"
+
+msgid "It has to be on, and the device paired and connected to this computer"
+msgstr "Tiene que estar activado, y el dispositivo emparejado y conectado con este equipo"
+
+msgid "Open Bluetooth"
+msgstr "Abrir Bluetooth"
+
+msgid "Check the permissions"
+msgstr "Revisa los permisos"
+
+msgid "Without them, {app} can't see your devices"
+msgstr "Sin ellos, {app} no puede ver tus dispositivos"
+
+msgid "Review permissions"
+msgstr "Revisar permisos"
+
+msgid "Add device"
+msgstr "Añadir dispositivo"
+
+msgid "Via Bluetooth or a USB receiver"
+msgstr "Por Bluetooth o con receptor USB"
+
+# ---- lib/pages/PermissionsDialog.svelte
+
+msgid "Allowed"
+msgstr "Concedido"
+
+msgid "Missing"
+msgstr "Falta"
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid "Opened System Settings"
+msgstr "Se han abierto los Ajustes del Sistema"
+
+msgid "Turn on {app} there, then come back: this window updates by itself."
+msgstr "Activa {app} allí y vuelve: esta ventana se actualiza sola."
+
+msgid "All set"
+msgstr "Listo"
+
+msgid "Turn your mouse off and on again, or unplug it and plug it back in"
+msgstr "Apaga y enciende el ratón, o desconéctalo y vuelve a conectarlo"
+
+msgid "Installation cancelled"
+msgstr "Instalación cancelada"
+
+msgid "Nothing was changed. You can try again whenever you like."
+msgstr "No se ha cambiado nada. Puedes intentarlo de nuevo cuando quieras."
+
+msgid "Couldn't install the permissions"
+msgstr "No se han podido instalar los permisos"
+
+msgid "Try again, or use the manual command in a terminal."
+msgstr "Prueba otra vez o usa el comando manual en una terminal."
+
+msgid "Command copied"
+msgstr "Comando copiado"
+
+msgid "Couldn't copy to the clipboard"
+msgstr "No se ha podido copiar al portapapeles"
+
+msgid "Permission to use your devices"
+msgstr "Permiso para usar tus dispositivos"
+
+msgid "Open System Settings"
+msgstr "Abrir Ajustes del Sistema"
+
+msgid "Install permissions"
+msgstr "Instalar permisos"
+
+msgid "Your system will ask for your administrator password"
+msgstr "El sistema te pedirá tu contraseña de administrador"
+
+msgid "No new software is installed, and {app} keeps running as your user"
+msgstr "No se instala ningún programa nuevo y {app} sigue funcionando con tu usuario"
+
+msgid "Nothing to do"
+msgstr "No hay nada que hacer"
+
+msgid "Windows lets {app} use your devices without extra permissions."
+msgstr "Windows deja que {app} use tus dispositivos sin permisos adicionales."
+
+msgid "If you prefer, copy this command, paste it into a terminal, then turn your mouse off and on again."
+msgstr "Si lo prefieres, copia este comando, pégalo en una terminal y después apaga y enciende el ratón."
+
+msgid "Copy command"
+msgstr "Copiar comando"
+
+msgid "Not now"
+msgstr "Ahora no"
+
+msgid "Done"
+msgstr "Hecho"
+
+# ---- lib/pages/RenameDialog.svelte
+
+msgid "Too long: {n} characters, {max} at most"
+msgstr "Demasiado largo: {n} caracteres, {max} como máximo"
+
+msgid "Empty: the model name, {model}, will be used"
+msgstr "Vacío: se usará el nombre del modelo, {model}"
+
+msgid "{n} of {max} characters"
+msgstr "{n} de {max} caracteres"
+
+msgid "Rename device"
+msgstr "Cambiar el nombre del dispositivo"
+
+msgid "Choose the name {app} shows for your {model}, for example “Office mouse”. The device itself doesn't change."
+msgstr "Elige el nombre con el que {app} muestra tu {model}, por ejemplo «Ratón de la oficina». El dispositivo en sí no cambia."
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Show it as {model} again"
+msgstr "Volver a mostrarlo como {model}"
+
+msgid "Use model name"
+msgstr "Usar el nombre del modelo"
+
+msgid "Save"
+msgstr "Guardar"
+
+# ---- lib/pages/SettingsPage.svelte
+
+msgid "{app} will start when you log in"
+msgstr "{app} se iniciará con tu sesión"
+
+msgid "{app} will no longer start when you log in"
+msgstr "{app} ya no se iniciará con tu sesión"
+
+msgid "Couldn't open the link"
+msgstr "No se ha podido abrir el enlace"
+
+msgid "Appearance"
+msgstr "Apariencia"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "“System” follows the light or dark mode of your desktop"
+msgstr "«Sistema» sigue el modo claro u oscuro de tu escritorio"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "System theme"
+msgstr "Tema sistema"
+
+msgctxt "theme"
+msgid "Light"
+msgstr "Claro"
+
+msgid "Light theme"
+msgstr "Tema claro"
+
+msgctxt "theme"
+msgid "Dark"
+msgstr "Oscuro"
+
+msgid "Dark theme"
+msgstr "Tema oscuro"
+
+msgid "App language"
+msgstr "Idioma de la aplicación"
+
+msgid "“System” follows the language of your desktop"
+msgstr "«Sistema» sigue el idioma de tu escritorio"
+
+msgid "Startup and notifications"
+msgstr "Inicio y avisos"
+
+msgid "Start when you log in"
+msgstr "Iniciar con la sesión"
+
+msgid "{app} starts in the background when you log in, so your buttons and settings work without opening this window"
+msgstr "{app} arranca en segundo plano al iniciar sesión, así tus botones y ajustes funcionan sin abrir esta ventana"
+
+msgid "Let me know when a battery is low"
+msgstr "Avisar cuando la batería esté baja"
+
+msgid "You'll get a notice when a device is down to 15% or less"
+msgstr "Recibirás un aviso cuando a un dispositivo le quede un 15 % o menos"
+
+msgid "Device pictures"
+msgstr "Imágenes de los dispositivos"
+
+msgid "Show product photos from logitech.com"
+msgstr "Mostrar las fotos de producto de logitech.com"
+
+msgid "Downloads the official photo of each device from logitech.com and shows it on its card in Devices and on its pages, unless you gave the device a picture of your own. Off: nothing is downloaded."
+msgstr "Descarga de logitech.com la foto oficial de cada dispositivo y la muestra en su tarjeta de Tus dispositivos y en sus páginas, salvo que le hayas puesto una imagen tuya. Desactivado: no se descarga nada."
+
+msgid "Move the pointer to the edge of the screen to take the mouse to another computer running {app}"
+msgstr "Lleva el puntero al borde de la pantalla para pasar el ratón a otro equipo con {app}"
+
+msgid "Open Flow"
+msgstr "Abrir Flow"
+
+msgid "Permissions"
+msgstr "Permisos"
+
+msgid "What {app} needs from the system to work"
+msgstr "Lo que {app} necesita del sistema para funcionar"
+
+msgid "Devices without access"
+msgstr "Dispositivos sin acceso"
+
+msgid "Turn them off and on (or unplug them and plug them back in) for the permission to take effect"
+msgstr "Apágalos y enciéndelos (o desconéctalos y vuelve a conectarlos) para que el permiso tenga efecto"
+
+msgid "No information"
+msgstr "Sin información"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "Version {version}"
+msgstr "Versión {version}"
+
+msgid "Set up the buttons, pointer and wheel of your Logitech mice and keyboards"
+msgstr "Configura los botones, el puntero y la rueda de tus ratones y teclados Logitech"
+
+msgid "License: {license}"
+msgstr "Licencia {license}"
+
+msgid "Independent project, not affiliated with Logitech. Trademarks belong to their owners."
+msgstr "Proyecto independiente, sin relación con Logitech. Las marcas pertenecen a sus dueños."
+
+msgid "Website and source code"
+msgstr "Web y código fuente"
+
+# ---- lib/pages/device/ButtonsSection.svelte
+
+msgid "Button"
+msgstr "Botón"
+
+msgid "Default gestures"
+msgstr "Gestos predeterminados"
+
+msgid "Reset all buttons?"
+msgstr "¿Restablecer todos los botones?"
+
+msgid "The buttons on {name} will go back to their original function."
+msgstr "Los botones de {name} volverán a su función original."
+
+msgid "The buttons on this device will go back to their original function."
+msgstr "Los botones de este dispositivo volverán a su función original."
+
+msgid "Reset"
+msgstr "Restablecer"
+
+msgid "Buttons reset"
+msgstr "Botones restablecidos"
+
+msgid "Press without moving"
+msgstr "Pulsar sin mover"
+
+msgid "Move up"
+msgstr "Mover hacia arriba"
+
+msgid "Move down"
+msgstr "Mover hacia abajo"
+
+msgid "Move left"
+msgstr "Mover hacia la izquierda"
+
+msgid "Move right"
+msgstr "Mover hacia la derecha"
+
+msgid "For “{name}”"
+msgstr "Para el botón «{name}»"
+
+msgid "Back to gestures"
+msgstr "Volver a los gestos"
+
+msgid "All buttons"
+msgstr "Todos los botones"
+
+msgid "Keys can't be configured yet"
+msgstr "Teclas no configurables todavía"
+
+msgid "No configurable buttons"
+msgstr "Sin botones configurables"
+
+msgid "The keys of this keyboard can't be customized from {app} yet."
+msgstr "Las teclas de este teclado aún no se pueden personalizar desde {app}."
+
+msgid "This device has no buttons that can be customized."
+msgstr "Este dispositivo no tiene botones que se puedan personalizar."
+
+msgid "Device disconnected"
+msgstr "Dispositivo desconectado"
+
+msgid "Turn it on or move it to wake it up. You can change its buttons once it reconnects."
+msgstr "Enciéndelo o muévelo para despertarlo. Podrás cambiar sus botones cuando vuelva a conectarse."
+
+msgid "Use the arrow keys to move between the buttons and Enter to choose one"
+msgstr "Usa las flechas para recorrer los botones e Intro para elegir uno"
+
+# ---- lib/pages/device/EasySwitchSection.svelte
+
+msgid "This {device} can only be paired with one computer."
+msgstr "Este {device} solo puede estar emparejado con un equipo."
+
+msgid "This {device} can be paired with up to {count} computer at once. Choose here which one to use it with, or press the {button} button on the {device} itself."
+msgid_plural "This {device} can be paired with up to {count} computers at once. Choose here which one to use it with, or press the {button} button on the {device} itself."
+msgstr[0] "Este {device} puede estar emparejado con hasta {count} equipo a la vez. Elige aquí con cuál quieres usarlo o pulsa el botón {button} del propio {device}."
+msgstr[1] "Este {device} puede estar emparejado con hasta {count} equipos a la vez. Elige aquí con cuál quieres usarlo o pulsa el botón {button} del propio {device}."
+
+msgid "This computer"
+msgstr "Este equipo"
+
+msgid "Not paired"
+msgstr "Sin emparejar"
+
+msgid "Free channel for another computer"
+msgstr "Canal libre para otro equipo"
+
+msgid "Paired"
+msgstr "Emparejado"
+
+msgid "Computer {n}"
+msgstr "Equipo {n}"
+
+msgid "Channel {n}"
+msgstr "Canal {n}"
+
+msgid "Connected here"
+msgstr "Conectado aquí"
+
+msgid "Switching…"
+msgstr "Cambiando…"
+
+msgid "Switch and pair"
+msgstr "Cambiar y emparejar"
+
+msgid "Switch"
+msgstr "Cambiar"
+
+msgid "To use it here again, press its {button} button until channel {n} is selected, or switch it from the other computer."
+msgstr "Para volver a usarlo aquí, pulsa su botón {button} hasta elegir el canal {n} o cámbialo desde el otro equipo."
+
+msgid "To use it here again, press its {button} button or switch it from the other computer."
+msgstr "Para volver a usarlo aquí, pulsa su botón {button} o cámbialo desde el otro equipo."
+
+msgid "The {device} is now on channel {n}"
+msgstr "El {device} está ahora en el canal {n}"
+
+msgid "Switching to channel {n}…"
+msgstr "Cambiando al canal {n}…"
+
+msgid "The {device} will disconnect from this computer in a few seconds."
+msgstr "El {device} se desconectará de este equipo en unos segundos."
+
+msgid "It may be off, asleep or in use with another computer. If you switched its channel, press its {button} button until channel {n} is selected to come back."
+msgstr "Puede estar apagado, en reposo o en uso con otro equipo. Si lo cambiaste de canal, pulsa su botón {button} hasta elegir el canal {n} para volver."
+
+msgid "It may be off, asleep or in use with another computer. If you switched its channel, press its {button} button to come back."
+msgstr "Puede estar apagado, en reposo o en uso con otro equipo. Si lo cambiaste de canal, pulsa su botón {button} para volver."
+
+msgid "To come back, press the {button} button on the {device} until channel {current} is selected, or switch it from the other computer."
+msgstr "Para volver, pulsa el botón {button} del {device} hasta elegir el canal {current} o cámbialo desde el otro equipo."
+
+msgid "To come back, press the {button} button on the {device} or switch it from the other computer."
+msgstr "Para volver, pulsa el botón {button} del {device} o cámbialo desde el otro equipo."
+
+msgid "Switch to channel {n} and pair?"
+msgstr "¿Cambiar al canal {n} y emparejar?"
+
+msgid "The {device} will disconnect from this computer and wait for another computer to pair with it on channel {n}. {back}"
+msgstr "El {device} se desconectará de este equipo y quedará a la espera de que otro equipo lo empareje en el canal {n}. {back}"
+
+msgid "Switch to channel {n}?"
+msgstr "¿Cambiar al canal {n}?"
+
+msgid "The {device} will disconnect from this computer and move to “{name}”. {back}"
+msgstr "El {device} se desconectará de este equipo y pasará a «{name}». {back}"
+
+msgid "The {device} will disconnect from this computer and move to the computer on channel {n}. {back}"
+msgstr "El {device} se desconectará de este equipo y pasará al equipo del canal {n}. {back}"
+
+msgid "No computer switching"
+msgstr "Sin cambio de equipo"
+
+msgid "This device can only be paired with one computer."
+msgstr "Este dispositivo solo puede estar emparejado con un equipo."
+
+msgid "{action} to channel {n}"
+msgstr "{action} al canal {n}"
+
+# ---- lib/pages/device/PictureLayoutEditor.svelte
+
+msgid "Button positions saved"
+msgstr "Posiciones de los botones guardadas"
+
+msgid "Button positions"
+msgstr "Posición de los botones"
+
+msgid "Drag each button onto the picture, where it is on your device. Or select one and move it with the arrow keys."
+msgstr "Arrastra cada botón sobre la imagen, al sitio donde está en tu dispositivo. O selecciona uno y muévelo con las flechas."
+
+msgid "Your picture of {name}"
+msgstr "Tu imagen de {name}"
+
+msgid "{name}: {x}% from the left, {y}% from the top. Arrow keys move it, Delete takes it off"
+msgstr "{name}: a un {x} % de la izquierda y un {y} % de arriba. Las flechas lo mueven y Supr lo quita"
+
+msgid "Choose a picture first"
+msgstr "Elige antes una imagen"
+
+msgid "Not placed"
+msgstr "Sin colocar"
+
+msgid "{name}: not placed. Press Enter to place it, then move it with the arrow keys"
+msgstr "{name}: sin colocar. Pulsa Intro para colocarlo y después muévelo con las flechas"
+
+msgid "Every button is on the picture"
+msgstr "Todos los botones están en la imagen"
+
+msgid "On the picture"
+msgstr "En la imagen"
+
+msgid "Buttons you leave off the picture are shown at free spots."
+msgstr "Los botones que no coloques se muestran en huecos libres."
+
+# ---- lib/pages/device/PointerSection.svelte
+
+msgid "DPI levels saved"
+msgstr "Niveles de DPI guardados"
+
+msgid "You already have a {dpi} DPI level"
+msgstr "Ya tienes un nivel de {dpi} DPI"
+
+msgid "Nothing to adjust here"
+msgstr "Nada que ajustar aquí"
+
+msgid "This device doesn't let you change the pointer speed or how the wheel behaves."
+msgstr "Este dispositivo no permite cambiar la velocidad del puntero ni el comportamiento de la rueda."
+
+msgid "Turn it on or bring it closer to change these settings."
+msgstr "Enciéndelo o acércalo para cambiar estos ajustes."
+
+msgid "Pointer speed"
+msgstr "Velocidad del puntero"
+
+msgid "A higher value moves the pointer further for the same hand movement"
+msgstr "Con un valor más alto, el puntero llega más lejos con el mismo movimiento de la mano"
+
+msgid "Back to {dpi} DPI"
+msgstr "Volver a {dpi} DPI"
+
+msgid "Use {dpi} DPI"
+msgstr "Usar {dpi} DPI"
+
+msgid "DPI levels"
+msgstr "Niveles de DPI"
+
+msgid "The speeds that the “Change DPI” action cycles through"
+msgstr "Las velocidades entre las que alterna la acción «Cambiar DPI»"
+
+msgid "Add another level"
+msgstr "Añadir otro nivel"
+
+msgid "You can save up to {n} level"
+msgid_plural "You can save up to {n} levels"
+msgstr[0] "Puedes guardar hasta {n} nivel"
+msgstr[1] "Puedes guardar hasta {n} niveles"
+
+msgid "You have used every value this device supports"
+msgstr "Ya has usado todos los valores que admite este dispositivo"
+
+msgid "Add"
+msgstr "Añadir"
+
+msgid "DPI level"
+msgstr "Nivel de DPI"
+
+msgid "Remove this level"
+msgstr "Quitar este nivel"
+
+msgid "At least one level has to stay"
+msgstr "Tiene que quedar al menos un nivel"
+
+msgid "Scroll wheel"
+msgstr "Rueda de desplazamiento"
+
+msgid "Natural scrolling"
+msgstr "Desplazamiento natural"
+
+msgid "Content follows the movement of your fingers"
+msgstr "El contenido sigue el movimiento de tus dedos"
+
+msgid "This device can't reverse the scrolling direction"
+msgstr "Este dispositivo no permite invertir el sentido de la rueda"
+
+msgid "Smooth scrolling"
+msgstr "Desplazamiento suave"
+
+msgid "Smaller steps for smoother movement"
+msgstr "Pasos más pequeños para un movimiento más fluido"
+
+msgid "Give the wheel a hard flick and it lets go and spins freely"
+msgstr "Al impulsarla con fuerza, la rueda se suelta y gira libremente"
+
+msgid "Switch to free spin automatically"
+msgstr "Cambio automático a giro libre"
+
+msgid "Once the flick is over, the wheel goes back to clicks"
+msgstr "Al terminar el impulso, la rueda vuelve a los clics"
+
+msgid "Sensitivity"
+msgstr "Sensibilidad"
+
+msgid "Sensitivity of the automatic switch"
+msgstr "Sensibilidad del cambio automático"
+
+msgid "Needs a harder flick"
+msgstr "Hace falta más impulso"
+
+msgid "A gentle flick is enough"
+msgstr "Basta un impulso suave"
+
+msgid "Wheel mode"
+msgstr "Modo de la rueda"
+
+msgid "In free spin, the automatic switch does nothing"
+msgstr "En giro libre, el cambio automático no actúa"
+
+msgid "With clicks"
+msgstr "Con clics"
+
+msgid "Free spin"
+msgstr "Giro libre"
+
+# ---- lib/pages/device/SettingsSection.svelte
+
+msgid "Only https:// links. The picture is downloaded once and kept on this computer."
+msgstr "Solo enlaces https://. La imagen se descarga una vez y se guarda en este equipo."
+
+msgid "The buttons and the pointer speed go back to their factory settings, and everything {app} has stored for this device is deleted."
+msgstr "Los botones y la velocidad del puntero vuelven a sus valores de fábrica, y se borra todo lo que {app} ha guardado para este dispositivo."
+
+msgid "The buttons go back to their factory settings, and everything {app} has stored for this device is deleted."
+msgstr "Los botones vuelven a sus valores de fábrica, y se borra todo lo que {app} ha guardado para este dispositivo."
+
+msgid "The pointer speed goes back to its factory setting, and everything {app} has stored for this device is deleted."
+msgstr "La velocidad del puntero vuelve a su valor de fábrica, y se borra todo lo que {app} ha guardado para este dispositivo."
+
+msgid "Everything {app} has stored for this device is deleted."
+msgstr "Se borra todo lo que {app} ha guardado para este dispositivo."
+
+msgid "the device"
+msgstr "el dispositivo"
+
+msgid "Reset {name}?"
+msgstr "¿Restablecer {name}?"
+
+msgid "This can't be undone."
+msgstr "Esta acción no se puede deshacer."
+
+msgid "Device reset"
+msgstr "Dispositivo restablecido"
+
+msgid "yes"
+msgstr "sí"
+
+msgid "no"
+msgstr "no"
+
+msgid "{app} {version} · device diagnostics"
+msgstr "{app} {version} · diagnóstico del dispositivo"
+
+msgid "Name: {value}"
+msgstr "Nombre: {value}"
+
+msgid "Model: {value}"
+msgstr "Modelo: {value}"
+
+msgid "Type: {name} ({kind})"
+msgstr "Tipo: {name} ({kind})"
+
+msgid "Identifier: {value}"
+msgstr "Identificador: {value}"
+
+msgid "Product ID: {value}"
+msgstr "ID de producto: {value}"
+
+msgid "Connection: {name} ({connection})"
+msgstr "Conexión: {name} ({connection})"
+
+msgid "Source: {value}"
+msgstr "Origen: {value}"
+
+msgid "Status: connected"
+msgstr "Estado: conectado"
+
+msgid "Status: disconnected"
+msgstr "Estado: desconectado"
+
+msgid "Battery: {battery} (level={level}, status={status}, charging={charging})"
+msgstr "Batería: {battery} (nivel={level}, estado={status}, cargando={charging})"
+
+msgid "Battery: no information"
+msgstr "Batería: sin información"
+
+msgid "(not available)"
+msgstr "(no disponible)"
+
+msgid "HID++ features ({n}):"
+msgstr "Funciones HID++ ({n}):"
+
+msgctxt "features"
+msgid "(none)"
+msgstr "(ninguna)"
+
+msgid "Controls ({n}):"
+msgstr "Controles ({n}):"
+
+msgid "divertable"
+msgstr "desviable"
+
+msgid "reprogrammable"
+msgstr "reprogramable"
+
+msgid "gestures"
+msgstr "gestos"
+
+msgctxt "controls"
+msgid "(none)"
+msgstr "(ninguno)"
+
+msgid "DPI: current {current}, default {default}, range {min}-{max}, step {step}, levels {levels}"
+msgstr "DPI: actual {current}, predeterminado {default}, rango {min}-{max}, paso {step}, niveles {levels}"
+
+msgid "DPI: not available"
+msgstr "DPI: no disponible"
+
+msgid "Wheel: smooth={smooth}, inverted={inverted}, can invert={can_invert}"
+msgstr "Rueda: suave={smooth}, invertida={inverted}, admite inversión={can_invert}"
+
+msgid "Wheel: not available"
+msgstr "Rueda: no disponible"
+
+msgid "SmartShift: mode={mode}, threshold={threshold}, enhanced={enhanced}"
+msgstr "SmartShift: modo={mode}, umbral={threshold}, mejorado={enhanced}"
+
+msgid "with clicks"
+msgstr "con clics"
+
+msgid "free spin"
+msgstr "giro libre"
+
+msgid "SmartShift: not available"
+msgstr "SmartShift: no disponible"
+
+msgid "Channels: {count}, current {current}"
+msgstr "Canales: {count}, actual {current}"
+
+msgctxt "channel"
+msgid "paired"
+msgstr "emparejado"
+
+msgctxt "channel"
+msgid "unknown"
+msgstr "desconocido"
+
+msgid "Channels: not available"
+msgstr "Canales: no disponible"
+
+msgid "Stored settings:"
+msgstr "Ajustes guardados:"
+
+msgctxt "stored settings"
+msgid "(none)"
+msgstr "(ninguno)"
+
+msgid "Diagnostics copied to the clipboard"
+msgstr "Diagnóstico copiado al portapapeles"
+
+msgid "How {app} names and shows this device"
+msgstr "Cómo nombra y muestra {app} este dispositivo"
+
+msgid "{name} (model: {model})"
+msgstr "{name} (modelo: {model})"
+
+msgid "{name} (the model's name)"
+msgstr "{name} (el nombre del modelo)"
+
+msgid "Choose a file…"
+msgstr "Elegir un archivo…"
+
+msgid "Picture"
+msgstr "Imagen"
+
+msgid "A photo of your device: one you took (with the background removed, if you like) or a product photo you choose. It stays on this computer."
+msgstr "Una foto de tu dispositivo: una que hayas hecho tú (sin fondo, si quieres) o una foto de producto que elijas. Se queda en este equipo."
+
+msgid "From a link…"
+msgstr "Desde un enlace…"
+
+msgid "Link to a picture"
+msgstr "Enlace a una imagen"
+
+msgid "Use this picture"
+msgstr "Usar esta imagen"
+
+msgid "Use this picture on the device pages too"
+msgstr "Usar también esta imagen en las páginas del dispositivo"
+
+msgid "Off: it only shows on its card in Devices, and the device pages show the illustration"
+msgstr "Desactivado: solo aparece en su tarjeta de Tus dispositivos y las páginas del dispositivo muestran la ilustración"
+
+msgid "Where each button is on the picture, for the Buttons page"
+msgstr "Dónde está cada botón en la imagen, para la página Botones"
+
+msgid "Edit button positions…"
+msgstr "Colocar los botones…"
+
+msgid "Details"
+msgstr "Detalles"
+
+msgid "Model"
+msgstr "Modelo"
+
+msgid "Product ID"
+msgstr "ID de producto"
+
+msgid "Connection"
+msgstr "Conexión"
+
+msgid "Firmware"
+msgstr "Firmware"
+
+msgid "Not available"
+msgstr "No disponible"
+
+msgid "Battery"
+msgstr "Batería"
+
+msgid "Reset and remove"
+msgstr "Restablecer y quitar"
+
+msgid "Reset device"
+msgstr "Restablecer dispositivo"
+
+msgid "{app} forgets this device and everything it stored for it"
+msgstr "{app} olvida este dispositivo y todo lo que ha guardado de él"
+
+msgid "Connect the device to be able to reset it"
+msgstr "Conecta el dispositivo para poder restablecerlo"
+
+msgid "Hide technical information"
+msgstr "Ocultar la información técnica"
+
+msgid "Show technical information"
+msgstr "Mostrar la información técnica"
+
+msgid "Technical information"
+msgstr "Información técnica"
+
+msgid "Details for diagnosing a problem or asking for help"
+msgstr "Datos para diagnosticar un problema o pedir ayuda"
+
+msgid "Identifier"
+msgstr "Identificador"
+
+msgid "Source"
+msgstr "Origen"
+
+msgid "HID++ features"
+msgstr "Funciones HID++"
+
+msgid "Copies a plain-text report to paste wherever you ask for help"
+msgstr "Copia un informe en texto para pegarlo donde pidas ayuda"
+
+msgid "Copy diagnostics"
+msgstr "Copiar diagnóstico"
+
+# ---- lib/pages/device/buttons/CommandEditor.svelte
+
+msgid "Downloads"
+msgstr "Descargas"
+
+msgid "~/Downloads"
+msgstr "~/Descargas"
+
+msgid "e.g. {command} or {other}"
+msgstr "p. ej. {command} o {other}"
+
+msgid "Back to actions"
+msgstr "Volver a las acciones"
+
+msgid "Run command"
+msgstr "Ejecutar comando"
+
+msgid "Command to run"
+msgstr "Comando que se ejecutará"
+
+msgid "Runs as your user every time you press the button"
+msgstr "Se ejecuta con tu usuario cada vez que pulsas el botón"
+
+msgid "Examples"
+msgstr "Ejemplos"
+
+msgid "Assign"
+msgstr "Asignar"
+
+# ---- lib/pages/device/buttons/GesturePad.svelte
+
+msgid "Hold the button down and move the mouse. Choose what each direction does"
+msgstr "Mantén pulsado el botón y mueve el ratón. Elige qué hace cada dirección"
+
+msgid "Stop using gestures on this button and choose another action"
+msgstr "Deja de usar gestos en este botón y elige otra acción"
+
+msgid "Use another action"
+msgstr "Usar otra acción"
+
+msgid "Reset gestures"
+msgstr "Restablecer gestos"
+
+# ---- lib/pages/device/buttons/Overview.svelte
+
+msgid "Choose a button to change what it does"
+msgstr "Elige un botón para cambiar lo que hace"
+
+msgid "Return every button to its original function"
+msgstr "Devuelve todos los botones a su función original"
+
+msgid "Reset all"
+msgstr "Restablecer todos"
+
+# ---- lib/pages/device/buttons/Picker.svelte
+
+msgctxt "search keywords"
+msgid "original factory normal reset restore"
+msgstr "original fábrica normal restablecer"
+
+msgctxt "search keywords"
+msgid "none nothing no action off"
+msgstr "ninguna nada sin acción"
+
+msgctxt "search keywords"
+msgid "nothing no action disabled off"
+msgstr "nada sin acción desactivado"
+
+msgid "Gesture button"
+msgstr "Botón de gestos"
+
+msgctxt "search keywords"
+msgid "gestures hold move directions"
+msgstr "gestos mantener mover direcciones"
+
+msgid "Custom"
+msgstr "Personalizado"
+
+msgid "Keyboard shortcut…"
+msgstr "Atajo de teclado…"
+
+msgctxt "search keywords"
+msgid "keys key combination hotkey custom"
+msgstr "teclas combinación tecla personalizado"
+
+msgid "Run command…"
+msgstr "Ejecutar comando…"
+
+msgctxt "search keywords"
+msgid "program application app open launch script terminal custom"
+msgstr "programa aplicación abrir script terminal orden personalizado"
+
+msgid "Current action"
+msgstr "Acción actual"
+
+msgid "This button can only act as another mouse button"
+msgstr "Este botón solo puede hacer de otro botón del ratón"
+
+msgid "Search actions…"
+msgstr "Buscar acción…"
+
+msgid "Search actions"
+msgstr "Buscar acción"
+
+msgid "No action matches “{query}”"
+msgstr "Ninguna acción coincide con «{query}»"
+
+msgid "Use a keyboard shortcut"
+msgstr "Usar un atajo de teclado"
+
+# ---- lib/pages/device/buttons/ShortcutEditor.svelte
+
+msgid "Same as “{action}”"
+msgstr "Equivale a «{action}»"
+
+msgid "Separate the keys with +, for example {shortcut}"
+msgstr "Separa las teclas con +, por ejemplo {shortcut}"
+
+msgid "Keyboard shortcut"
+msgstr "Atajo de teclado"
+
+msgid "Record keyboard shortcut"
+msgstr "Grabar atajo de teclado"
+
+msgid "If the system intercepts the shortcut, type it instead"
+msgstr "Si el sistema intercepta la combinación, escríbela"
+
+msgid "e.g. {shortcut}"
+msgstr "p. ej. {shortcut}"
+
+msgid "Type a keyboard shortcut"
+msgstr "Atajo de teclado escrito a mano"
+
+# ---- lib/pages/flow/AddressDialog.svelte
+
+msgid "the other computer"
+msgstr "el otro equipo"
+
+msgid "Empty: it will be found automatically"
+msgstr "Vacía: se encontrará automáticamente"
+
+msgid "Address of {name}"
+msgstr "Dirección de {name}"
+
+msgid "Computers on the same network find each other by themselves. If {name} is on a different one (for example, one on Wi-Fi and the other wired), type its IP address or name, and the port if it isn't 27461. Once one of the two connects, both learn each other's address"
+msgstr "Los equipos de la misma red se encuentran solos. Si {name} está en otra (por ejemplo, uno por wifi y el otro por cable), escribe su dirección IP o su nombre, y el puerto si no es el 27461. En cuanto uno de los dos se conecte, los dos aprenderán la dirección del otro"
+
+msgid "For example 192.168.1.20"
+msgstr "Por ejemplo, 192.168.1.20"
+
+msgid "Address"
+msgstr "Dirección"
+
+msgid "Forget the address you typed and find {name} automatically"
+msgstr "Olvida la dirección que escribiste y encuentra {name} automáticamente"
+
+msgid "Automatic"
+msgstr "Automática"
+
+# ---- lib/pages/flow/LayoutEditor.svelte
+
+msgctxt "screen side"
+msgid "Left"
+msgstr "Izquierda"
+
+msgctxt "screen side"
+msgid "Right"
+msgstr "Derecha"
+
+msgctxt "screen side"
+msgid "Top"
+msgstr "Arriba"
+
+msgctxt "screen side"
+msgid "Bottom"
+msgstr "Abajo"
+
+msgid "not placed"
+msgstr "sin colocar"
+
+msgid "{name}: {where}. Arrow keys to place it, Delete to take it off"
+msgstr "{name}: {where}. Flechas para colocarlo, Supr para quitarlo"
+
+msgid "Computer layout"
+msgstr "Disposición de los equipos"
+
+msgid "Drop it on a side"
+msgstr "Suelta en un lado"
+
+# ---- lib/pages/flow/PairDialog.svelte
+
+msgid "Pairing was cancelled"
+msgstr "La vinculación se ha cancelado"
+
+msgid "Paired with {name}. Place it in the layout and check which channel your mouse uses for it"
+msgstr "Vinculado con {name}. Colócalo en la disposición y comprueba en qué canal está tu ratón"
+
+msgid "Pairing didn't complete"
+msgstr "La vinculación no se ha completado"
+
+msgid "Computer paired"
+msgstr "Equipo vinculado"
+
+msgid "Couldn't pair"
+msgstr "No se ha vinculado"
+
+msgid "Check the number"
+msgstr "Comprueba el número"
+
+msgid "Open “Pair a computer” on the other computer too. Then choose it here, or choose “{name}” over there"
+msgstr "Abre también «Vincular un equipo» en el otro equipo. Después elígelo aquí, o elige «{name}» desde allí"
+
+msgid "this computer"
+msgstr "este equipo"
+
+msgid "Different version of {app}: update it"
+msgstr "Otra versión de {app}: actualízalo"
+
+msgid "Pair with {name}"
+msgstr "Vincular con {name}"
+
+msgid "Pair"
+msgstr "Vincular"
+
+msgid "Looking for more computers…"
+msgstr "Buscando más equipos…"
+
+msgid "Looking for computers on the network…"
+msgstr "Buscando equipos en la red…"
+
+msgid "Pair by address…"
+msgstr "Vincular por dirección…"
+
+msgid "Is it on a different network? Type its IP address or name, and the port if it isn't 27461. Open “Pair a computer” there first"
+msgstr "¿Está en otra red? Escribe su dirección IP o su nombre, y el puerto si no es el 27461. Antes, abre allí «Vincular un equipo»"
+
+msgid "Address of the other computer"
+msgstr "Dirección del otro equipo"
+
+msgid "Connect"
+msgstr "Conectar"
+
+msgid "Connecting to {name}…"
+msgstr "Conectando con {name}…"
+
+msgid "You confirmed this number. Confirm it on {name} too"
+msgstr "Has confirmado este número. Confírmalo también en {name}"
+
+msgid "{name} must show exactly the same numbers. Compare them and confirm on both computers. If they don't match, someone could be intercepting the connection"
+msgstr "{name} debe mostrar exactamente estos mismos números. Compáralos y confirma en los dos equipos. Si no coinciden, alguien podría estar interceptando la conexión"
+
+msgid "Pairing code"
+msgstr "Código de vinculación"
+
+msgid "Waiting for {name}…"
+msgstr "Esperando a {name}…"
+
+msgid "{name} has already confirmed"
+msgstr "{name} ya ha confirmado"
+
+msgid "Closes in {time}"
+msgstr "Se cierra en {time}"
+
+msgid "They don't match"
+msgstr "No coinciden"
+
+msgid "They match"
+msgstr "Coinciden"
+
+msgid "Try again"
+msgstr "Volver a intentar"
+
+msgctxt "pairing"
+msgid "Done"
+msgstr "Listo"
+
+# ---- lib/pages/flow/TransferCard.svelte
+
+msgid "Couldn't open the folder"
+msgstr "No se ha podido abrir la carpeta"
+
+msgid "Progress"
+msgstr "Progreso"
+
+msgid "Open folder"
+msgstr "Abrir carpeta"
+
+# ---- lib/permissions.ts
+
+msgid "Access to your Logitech devices"
+msgstr "Acceso a tus dispositivos Logitech"
+
+msgid "A system rule (udev) so your user can read and change their settings without being an administrator"
+msgstr "Una regla del sistema (udev) para que tu usuario pueda leer y cambiar sus ajustes sin ser administrador"
+
+msgid "Sending key presses"
+msgstr "Envío de pulsaciones de teclas"
+
+msgid "So a mouse button can trigger shortcuts such as copy or switching desktops"
+msgstr "Para que un botón del ratón pueda lanzar atajos como copiar o cambiar de escritorio"
+
+msgid "Accessibility"
+msgstr "Accesibilidad"
+
+msgid "So buttons can send keyboard shortcuts and Flow can move the pointer"
+msgstr "Para que los botones puedan enviar atajos de teclado y Flow pueda mover el puntero"
+
+msgid "Input Monitoring"
+msgstr "Monitorización de entrada"
+
+msgid "So {app} can talk to your mice and keyboards"
+msgstr "Para que {app} pueda hablar con tus ratones y teclados"
+
+msgid "Local Network"
+msgstr "Red local"
+
+msgid "So Flow can find your other computers"
+msgstr "Para que Flow pueda encontrar tus otros equipos"
+
+msgid "A Logitech device is connected, but your user isn't allowed to use it."
+msgid_plural "{n} Logitech devices are connected, but your user isn't allowed to use them."
+msgstr[0] "Hay un dispositivo Logitech conectado, pero tu usuario no tiene permiso para usarlo."
+msgstr[1] "Hay {n} dispositivos Logitech conectados, pero tu usuario no tiene permiso para usarlos."
+
+msgid "Permissions have to be installed once so that {app} can see and configure your devices."
+msgstr "Hay que instalar los permisos una vez para que {app} pueda ver y configurar tus dispositivos."
+
+msgid "Without access to the virtual keyboard, buttons can't send keyboard shortcuts."
+msgstr "Sin acceso al teclado virtual, los botones no pueden enviar atajos de teclado."
+
+msgid "Some permissions are missing: {app} may not work fully."
+msgstr "Faltan algunos permisos: puede que {app} no funcione del todo."
+
+msgid "macOS asks you to allow apps that read input devices or send key presses. Turn {app} on in each of these panes of System Settings."
+msgstr "macOS pide permiso para las aplicaciones que leen dispositivos de entrada o envían pulsaciones de teclas. Activa {app} en cada uno de estos paneles de los Ajustes del Sistema."
+
+msgid "For security, Linux doesn't let a regular app talk to your mouse directly or send key presses. {app} needs to install a small system rule, just once."
+msgstr "Por seguridad, Linux no deja que una aplicación normal hable directamente con el ratón ni envíe pulsaciones de teclas. {app} necesita instalar una pequeña regla del sistema, una sola vez."
+
+# ---- lib/state/app.svelte.ts
+
+msgid "{name} is no longer available"
+msgstr "{name} ya no está disponible"
+
+msgid "The device"
+msgstr "El dispositivo"
+
+# ---- lib/state/identity.svelte.ts
+
+msgid "Shown as {model} again"
+msgstr "Se vuelve a mostrar como {model}"
+
+msgid "Renamed to {name}"
+msgstr "Ahora se llama {name}"
+
+msgid "Picture updated"
+msgstr "Imagen actualizada"
+
+msgid "Couldn't use the picture ({error})"
+msgstr "No se ha podido usar la imagen ({error})"
+
+msgid "Picture removed"
+msgstr "Imagen quitada"
+
+msgid "{app} forgets {name} and everything it stored for it: button actions, pointer settings, its name and its picture. If it's connected, it goes back to its factory settings. It shows up again, with default settings, the next time it connects."
+msgstr "{app} olvida {name} y todo lo que ha guardado de él: las acciones de los botones, los ajustes del puntero, su nombre y su imagen. Si está conectado, vuelve a sus ajustes de fábrica. Volverá a aparecer, con los ajustes predeterminados, la próxima vez que se conecte."
+
+msgid "Place the buttons on the product photo to see them on it."
+msgstr "Coloca los botones sobre la foto del producto para verlos en ella."
+
+msgid "Place the buttons on your picture to see them on it."
+msgstr "Coloca los botones sobre tu imagen para verlos en ella."
+
+msgid "Place buttons…"
+msgstr "Colocar botones…"
+
+msgid "Showing the official product photo (App settings). It is used on the device pages too; your own picture would replace it."
+msgstr "Se muestra la foto oficial del producto (Ajustes de la app). También se usa en las páginas del dispositivo; una imagen tuya la sustituiría."
+
+msgid "Drag files across the edge"
+msgstr "Arrastrar archivos por el borde"
+
+msgid "Keep holding the button and the drag goes on there, or paste them with Ctrl+V"
+msgstr "Sin soltar el botón, el arrastre sigue allí; o pégalos con Ctrl+V"
+
+msgid "Needs KDE Plasma on Wayland. Files dragged to you from another computer arrive like copied ones: paste them with Ctrl+V"
+msgstr "Necesita KDE Plasma en Wayland. Los archivos que te arrastren desde otro ordenador llegan como copiados: pégalos con Ctrl+V"
+
+msgid "Available on KDE Plasma (Linux). Files dragged to you from another computer arrive like copied ones: paste them with Ctrl+V"
+msgstr "Disponible en KDE Plasma (Linux). Los archivos que te arrastren desde otro ordenador llegan como copiados: pégalos con Ctrl+V"

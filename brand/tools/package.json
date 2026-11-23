@@ -1,0 +1,17 @@
+{
+  "name": "linoptions-brand-tools",
+  "private": true,
+  "description": "Generators for the brand assets (tokens, device illustrations, logo, wordmark, banner). Install with `npm i --prefix brand/tools`; node_modules here is not committed.",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "tokens": "node tokens.cjs",
+    "devices": "node devices.cjs",
+    "logo": "node logo.cjs",
+    "wordmark": "node wordmark.cjs"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@resvg/resvg-js": "2.6.2",
+    "opentype.js": "2.0.0"
+  }
+}

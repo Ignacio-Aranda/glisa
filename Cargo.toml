@@ -1,0 +1,41 @@
+[workspace]
+resolver = "3"
+members = ["crates/*", "app/src-tauri"]
+default-members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/Ignacio-Aranda/glisa"
+authors = ["Glisa contributors"]
+
+[workspace.dependencies]
+glisa-common = { path = "crates/common" }
+glisa-i18n = { path = "crates/i18n" }
+glisa-hidpp = { path = "crates/hidpp" }
+glisa-hid = { path = "crates/hid" }
+glisa-input = { path = "crates/input" }
+glisa-service = { path = "crates/service" }
+glisa-flow = { path = "crates/flow" }
+glisa-ctl = { path = "crates/ctl" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+log = "0.4"
+
+[workspace.lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+
+[workspace.lints.clippy]
+dbg_macro = "warn"
+todo = "warn"
+
+[profile.dev]
+debug = "line-tables-only"   # smaller target dir, less RAM when linking
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true

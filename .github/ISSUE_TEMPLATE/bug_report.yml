@@ -1,0 +1,50 @@
+name: Bug report
+description: Something doesn't work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time! Security problems: please don't file them here, use
+        *Security → Report a vulnerability* instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Glisa version
+      description: App settings → About, or `glisa --version`.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: System
+      options: [Linux, Windows, macOS]
+    validations:
+      required: true
+  - type: input
+    id: desktop
+    attributes:
+      label: Distribution / desktop / OS version
+      placeholder: "Ubuntu 26.04, KDE Plasma 6.6 (Wayland)"
+  - type: input
+    id: device
+    attributes:
+      label: Device and connection
+      placeholder: "MX Master 3S over Bluetooth"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Start Glisa from a terminal with `GLISA_LOG=debug glisa` and paste the relevant part.
+        For device problems, also paste the output of `glisa ctl probe` (see the README for where
+        `glisa` is on each system).
+      render: text

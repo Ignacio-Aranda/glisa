@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "The main window: Glisa's own commands (registered in lib.rs) and its events. File dialogs, links, notifications, images and the tray go through those commands or the shell, never straight from the page.",
+  "windows": ["main"],
+  "permissions": ["core:event:default"]
+}

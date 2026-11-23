@@ -1,0 +1,1754 @@
+# Spanish translations of LinOptions (core).
+# Source language: English. See linoptions/i18n.py and tools/i18n.py.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: linoptions/daemon.py:31
+msgid "Logitech device"
+msgstr "Dispositivo Logitech"
+
+#: linoptions/daemon.py:600
+msgid "Glisa background service"
+msgstr "Servicio en segundo plano de Glisa"
+
+#: linoptions/daemon.py:602
+msgid "add simulated devices (no hardware needed)"
+msgstr "añade dispositivos simulados (sin hardware)"
+
+#: linoptions/daemon.py:603
+msgid "Unix socket to listen on"
+msgstr "socket Unix en el que escuchar"
+
+#: linoptions/daemon.py:604
+msgid "settings file"
+msgstr "archivo de ajustes"
+
+#: linoptions/daemon.py:606
+msgid "don't create /dev/uinput, only record the events"
+msgstr "no crear /dev/uinput, solo registrar eventos"
+
+#: linoptions/daemon.py:608
+msgid "Flow: address to listen on (default: all)"
+msgstr "Flow: dirección en la que escuchar (por defecto, todas)"
+
+#: linoptions/daemon.py:609
+msgid "PORT"
+msgstr "PUERTO"
+
+#: linoptions/daemon.py:610
+msgid "Flow: UDP/TCP port (default 27461; pairing uses the next one)"
+msgstr "Flow: puerto UDP/TCP (por defecto 27461; vincular usa el siguiente)"
+
+#: linoptions/daemon.py:611
+msgid "IP:PORT"
+msgstr "IP:PUERTO"
+
+#: linoptions/daemon.py:612
+msgid "Flow: send announcements to these addresses instead of broadcasting them (repeatable)"
+msgstr "Flow: enviar los anuncios a estas direcciones en lugar de difundirlos (repetible)"
+
+#: linoptions/daemon.py:613
+msgid "more detailed log"
+msgstr "registro más detallado"
+
+#: linoptions/daemon.py:220
+msgid "Unknown control"
+msgstr "Control desconocido"
+
+#: linoptions/daemon.py:227 linoptions/flow/service.py:1436
+msgid "Invalid channel"
+msgstr "Canal no válido"
+
+#: linoptions/daemon.py:476
+msgid "Invalid parameters"
+msgstr "Parámetros no válidos"
+
+#: linoptions/daemon.py:491 linoptions/flow/service.py:1431
+msgid "Device not found"
+msgstr "Dispositivo no encontrado"
+
+#: linoptions/daemon.py:497
+msgid "The device is disconnected"
+msgstr "El dispositivo está desconectado"
+
+#: linoptions/daemon.py:503
+msgid "The device didn't respond. Check that it's on and connected"
+msgstr "El dispositivo no responde. Comprueba que está encendido y conectado"
+
+#: linoptions/daemon.py:530 linoptions/flow/service.py:1463
+msgid "Unknown method: {method}"
+msgstr "Método desconocido: {method}"
+
+#: linoptions/daemon.py:551
+msgid "Access denied"
+msgstr "Acceso denegado"
+
+#: linoptions/daemon.py:560
+msgid "Invalid request"
+msgstr "Petición no válida"
+
+#: linoptions/daemon.py:587
+msgid "A Glisa service is already listening on {path}"
+msgstr "Ya hay un servicio de Glisa escuchando en {path}"
+
+#: linoptions/daemon.py:501
+msgid "The device rejected the change ({error})"
+msgstr "El dispositivo ha rechazado el cambio ({error})"
+
+#: linoptions/daemon.py:212
+msgid "Unknown setting: {key}"
+msgstr "Ajuste desconocido: {key}"
+
+#: linoptions/cli.py:31
+msgid "battery"
+msgstr "batería"
+
+#: linoptions/cli.py:31
+msgid "wheel"
+msgstr "rueda"
+
+#: linoptions/cli.py:31
+msgid "channels"
+msgstr "canales"
+
+#: linoptions/cli.py:85
+msgctxt "screen side"
+msgid "left"
+msgstr "izquierda"
+
+#: linoptions/cli.py:85
+msgctxt "screen side"
+msgid "right"
+msgstr "derecha"
+
+#: linoptions/cli.py:86
+msgctxt "screen side"
+msgid "top"
+msgstr "arriba"
+
+#: linoptions/cli.py:86
+msgctxt "screen side"
+msgid "bottom"
+msgstr "abajo"
+
+#: linoptions/cli.py:87 linoptions/gui/pages/flow.py:200
+msgid "not placed"
+msgstr "sin colocar"
+
+#: linoptions/cli.py:96
+msgctxt "screen side"
+msgid "none"
+msgstr "ninguno"
+
+#: linoptions/cli.py:101 linoptions/cli.py:145
+msgctxt "connection"
+msgid "online"
+msgstr "en línea"
+
+#: linoptions/cli.py:101 linoptions/cli.py:146
+msgctxt "connection"
+msgid "offline"
+msgstr "sin conexión"
+
+#: linoptions/cli.py:105
+msgctxt "option value"
+msgid "yes"
+msgstr "sí"
+
+#: linoptions/cli.py:105
+msgctxt "option value"
+msgid "no"
+msgstr "no"
+
+#: linoptions/cli.py:125
+msgctxt "flow state"
+msgid "on"
+msgstr "activado"
+
+#: linoptions/cli.py:125
+msgctxt "flow state"
+msgid "off"
+msgstr "desactivado"
+
+#: linoptions/cli.py:166
+msgctxt "short answer"
+msgid "y"
+msgstr "s"
+
+#: linoptions/cli.py:166
+msgctxt "answer"
+msgid "yes"
+msgstr "sí"
+
+#: linoptions/cli.py:22
+msgid "There are no devices"
+msgstr "No hay dispositivos"
+
+#: linoptions/cli.py:43
+msgid "No Logitech hidraw nodes found. Is the device awake and connected?"
+msgstr "No hay nodos hidraw de Logitech. ¿Está el dispositivo despierto y conectado?"
+
+#: linoptions/cli.py:143
+msgid "Paired computers:"
+msgstr "Equipos vinculados:"
+
+#: linoptions/cli.py:143
+msgid "No paired computers"
+msgstr "Sin equipos vinculados"
+
+#: linoptions/cli.py:180 linoptions/gui/pages/flow.py:486
+msgid "Connecting…"
+msgstr "Conectando…"
+
+#: linoptions/cli.py:274
+msgid "Command-line access to the Glisa service"
+msgstr "Acceso al servicio de Glisa desde la línea de órdenes"
+
+#: linoptions/cli.py:275
+msgid "socket of the service (default: the session's)"
+msgstr "socket del servicio (por defecto, el de la sesión)"
+
+#: linoptions/cli.py:276 linoptions/cli.py:299
+msgid "COMMAND"
+msgstr "ORDEN"
+
+#: linoptions/cli.py:277
+msgid "state of the service"
+msgstr "estado del servicio"
+
+#: linoptions/cli.py:278
+msgid "talk to the hardware directly, without the service (diagnostics)"
+msgstr "diagnóstico directo del hardware (sin servicio)"
+
+#: linoptions/cli.py:279
+msgid "list the devices"
+msgstr "lista los dispositivos"
+
+#: linoptions/cli.py:280
+msgid "everything about a device (JSON)"
+msgstr "todo sobre un dispositivo (JSON)"
+
+#: linoptions/cli.py:281 linoptions/cli.py:284 linoptions/cli.py:288
+msgid "DEVICE"
+msgstr "DISPOSITIVO"
+
+#: linoptions/cli.py:282
+msgid "set the pointer speed (DPI)"
+msgstr "cambia la velocidad del puntero (DPI)"
+
+#: linoptions/cli.py:285
+msgid "change a setting, e.g. set wheel_inverted true"
+msgstr "cambia un ajuste, p. ej. set wheel_inverted true"
+
+#: linoptions/cli.py:286
+msgid "KEY"
+msgstr "CLAVE"
+
+#: linoptions/cli.py:287
+msgid "VALUE"
+msgstr "VALOR"
+
+#: linoptions/cli.py:289
+msgid "assign an action: button 0x53 '{\"type\":\"keys\",\"combo\":\"Ctrl+C\"}'"
+msgstr "asignar acción: button 0x53 '{\"type\":\"keys\",\"combo\":\"Ctrl+C\"}'"
+
+#: linoptions/cli.py:291
+msgid "ACTION"
+msgstr "ACCIÓN"
+
+#: linoptions/cli.py:293
+msgid "switch the device to another computer (Easy-Switch channel)"
+msgstr "pasa el dispositivo a otro equipo (canal de Easy-Switch)"
+
+#: linoptions/cli.py:296
+msgid "restore the device's factory buttons and settings"
+msgstr "restablece los botones y los ajustes de fábrica del dispositivo"
+
+#: linoptions/cli.py:298
+msgid "use the mouse on another computer running Glisa"
+msgstr "usar el ratón en otro equipo con Glisa"
+
+#: linoptions/cli.py:300
+msgid "state of Flow"
+msgstr "estado de Flow"
+
+#: linoptions/cli.py:301
+msgid "machine-readable output"
+msgstr "salida para otros programas"
+
+#: linoptions/cli.py:302
+msgid "turn Flow on"
+msgstr "activa Flow"
+
+#: linoptions/cli.py:303
+msgid "turn Flow off"
+msgstr "desactiva Flow"
+
+#: linoptions/cli.py:304
+msgid "paired computers and those seen on the network"
+msgstr "equipos vinculados y los que se ven en la red"
+
+#: linoptions/cli.py:305
+msgid "look for computers on the network now"
+msgstr "busca equipos en la red ahora"
+
+#: linoptions/cli.py:306
+msgid "without an argument: open pairing here; with COMPUTER: pair with it"
+msgstr "sin argumento: abre la vinculación aquí; con EQUIPO: vincula con él"
+
+#: linoptions/cli.py:307 linoptions/cli.py:309 linoptions/cli.py:311
+msgid "COMPUTER"
+msgstr "EQUIPO"
+
+#: linoptions/cli.py:307
+msgid "name, id or IP:PORT"
+msgstr "nombre, id o IP:PUERTO"
+
+#: linoptions/cli.py:308
+msgid "forget a paired computer"
+msgstr "olvida un equipo vinculado"
+
+#: linoptions/cli.py:310
+msgid "on which side of this screen a computer is"
+msgstr "en qué lado de esta pantalla está un equipo"
+
+#: linoptions/cli.py:312
+msgid "SIDE"
+msgstr "LADO"
+
+#: linoptions/cli.py:313
+msgid "left, right, top, bottom or none"
+msgstr "izquierda, derecha, arriba, abajo o ninguno"
+
+#: linoptions/cli.py:314
+msgid "change the Flow options"
+msgstr "cambia las opciones de Flow"
+
+#: linoptions/cli.py:315
+msgid "switch only while Ctrl is held"
+msgstr "cambiar solo con Ctrl pulsado"
+
+#: linoptions/cli.py:316
+msgid "bring the clipboard along"
+msgstr "llevar el portapapeles"
+
+#: linoptions/cli.py:317
+msgid "keyboards follow the mouse"
+msgstr "los teclados siguen al ratón"
+
+#: linoptions/cli.py:319
+msgid "pause after switching"
+msgstr "espera tras cambiar"
+
+#: linoptions/cli.py:320
+msgid "dead zone at the ends of each edge"
+msgstr "zona muerta en los extremos de cada borde"
+
+#: linoptions/cli.py:321
+msgid "the Easy-Switch channel a device uses for a computer"
+msgstr "el canal de Easy-Switch que usa un dispositivo para un equipo"
+
+#: linoptions/cli.py:324
+msgid "CHANNEL"
+msgstr "CANAL"
+
+#: linoptions/cli.py:324
+msgid "1..N or auto"
+msgstr "1..N o auto"
+
+#: linoptions/cli.py:325
+msgid "new identity for this computer (unpairs all)"
+msgstr "nueva identidad para este equipo (desvincula todos)"
+
+#: linoptions/cli.py:326
+msgid "demo mode only"
+msgstr "solo en modo demostración"
+
+#: linoptions/cli.py:28
+msgid "Can't find “{name}”"
+msgstr "No encuentro «{name}»"
+
+#: linoptions/cli.py:117
+msgid "“{name}” matches more than one computer"
+msgstr "«{name}» es ambiguo"
+
+#: linoptions/cli.py:126
+msgid "Flow: {state}  ·  this computer: {name}  ·  fingerprint {fingerprint}"
+msgstr "Flow: {state}  ·  este equipo: {name}  ·  huella {fingerprint}"
+
+#: linoptions/cli.py:145
+msgid "IDENTITY CHANGED"
+msgstr "IDENTIDAD DISTINTA"
+
+#: linoptions/cli.py:155
+msgctxt "channel"
+msgid "chosen"
+msgstr "elegido"
+
+#: linoptions/cli.py:225 linoptions/gui/pages/flow.py:1205
+msgid "Flow turned on"
+msgstr "Flow activado"
+
+#: linoptions/cli.py:225 linoptions/gui/pages/flow.py:1205
+msgid "Flow turned off"
+msgstr "Flow desactivado"
+
+#: linoptions/cli.py:239
+msgid "No computers found"
+msgstr "No hay equipos"
+
+#: linoptions/cli.py:116
+msgid "Can't find the computer “{name}”"
+msgstr "No encuentro el equipo «{name}»"
+
+#: linoptions/cli.py:129
+msgid "edge detection not available"
+msgstr "detección de bordes no disponible"
+
+#: linoptions/cli.py:133
+msgid "ports: UDP {udp} (discovery), TCP {tcp} (computers), TCP {pairing} (only while pairing)"
+msgstr "puertos: UDP {udp} (descubrimiento), TCP {tcp} (equipos), TCP {pairing} (solo al vincular)"
+
+#: linoptions/cli.py:139
+msgid "options: Ctrl={ctrl}  clipboard={clipboard}  keyboard={keyboard}  cooldown={cooldown} ms  corners={corner} px"
+msgstr "opciones: Ctrl={ctrl}  portapapeles={clipboard}  teclado={keyboard}  espera={cooldown} ms  esquinas={corner} px"
+
+#: linoptions/cli.py:156
+msgctxt "channel"
+msgid "suggested"
+msgstr "sugerido"
+
+#: linoptions/cli.py:156
+msgctxt "channel"
+msgid "not chosen"
+msgstr "sin elegir"
+
+#: linoptions/cli.py:183
+msgid "Pairing is open for {seconds} s. On the other computer, choose this one in Glisa → Flow → Pair a computer (or run there: glisa-ctl flow pair NAME)"
+msgstr "Vinculación abierta durante {seconds} s. En el otro equipo, elige este en Glisa → Flow → Vincular un equipo (o ejecuta allí: glisa-ctl flow pair NOMBRE)"
+
+#: linoptions/cli.py:189 linoptions/cli.py:210
+msgid "Pairing cancelled"
+msgstr "Vinculación cancelada"
+
+#: linoptions/cli.py:200
+msgid "Waiting for the other computer…"
+msgstr "Esperando al otro equipo…"
+
+#: linoptions/cli.py:245
+msgid "New identity: fingerprint {fingerprint}. All computers have been unpaired"
+msgstr "Nueva identidad: huella {fingerprint}. Todos los equipos se han desvinculado"
+
+#: linoptions/cli.py:260
+msgid "{name} unpaired"
+msgstr "{name} desvinculado"
+
+#: linoptions/cli.py:52
+msgid "no permission: run ./install.sh (udev rules)"
+msgstr "sin permiso: ejecuta ./install.sh (reglas udev)"
+
+#: linoptions/cli.py:137
+msgid "ufw firewall is active: {command}"
+msgstr "cortafuegos ufw activo: {command}"
+
+#: linoptions/cli.py:148
+msgid "fingerprint {fingerprint}"
+msgstr "huella {fingerprint}"
+
+#: linoptions/cli.py:150
+msgid "{device} (current channel {channel}):"
+msgstr "{device} (canal actual {channel}):"
+
+#: linoptions/cli.py:231
+msgctxt "computer list"
+msgid "paired"
+msgstr "vinculado"
+
+#: linoptions/cli.py:235
+msgid "(different version of Flow)"
+msgstr "(otra versión de Flow)"
+
+#: linoptions/cli.py:367
+msgid "error: {message}"
+msgstr "error: {message}"
+
+#: linoptions/cli.py:64
+msgid "name: {name} | type: {kind}"
+msgstr "nombre: {name} | tipo: {kind}"
+
+#: linoptions/cli.py:65
+msgid "features: {list}"
+msgstr "funciones: {list}"
+
+#: linoptions/cli.py:157
+msgid "channel {channel} ({how})"
+msgstr "canal {channel} ({how})"
+
+#: linoptions/cli.py:236
+msgctxt "computer list"
+msgid "on network"
+msgstr "en la red"
+
+#: linoptions/cli.py:268
+msgid "{name}: channel {channel}"
+msgstr "{name}: canal {channel}"
+
+#: linoptions/cli.py:202 linoptions/flow/service.py:951
+msgid "Paired with {name}"
+msgstr "Vinculado con {name}"
+
+#: linoptions/cli.py:77
+msgid "controls: -- {error}"
+msgstr "controles: -- {error}"
+
+#: linoptions/cli.py:193
+msgid "Check that {name} shows the same number:"
+msgstr "Comprueba que {name} muestra el mismo número:"
+
+#: linoptions/cli.py:205
+msgid "Not paired: {reason}"
+msgstr "No se ha vinculado: {reason}"
+
+#: linoptions/cli.py:196
+msgid "Do they match? [y/N] "
+msgstr "¿Coinciden? [s/N] "
+
+#: linoptions/config.py:43
+msgid "{path} is not a private directory of this user (did another user create it?). Delete it or set XDG_RUNTIME_DIR"
+msgstr "{path} no es un directorio privado de este usuario (¿lo ha creado otro usuario?). Bórralo o define XDG_RUNTIME_DIR"
+
+#: linoptions/ipc.py:53
+msgid "The service at {path} doesn't belong to this user"
+msgstr "El servicio en {path} no pertenece a este usuario"
+
+#: linoptions/ipc.py:47
+msgid "Can't connect to the Glisa service ({error})"
+msgstr "No se puede conectar con el servicio ({error})"
+
+#: linoptions/ipc.py:82
+msgid "Lost the connection to the Glisa service"
+msgstr "Conexión con el servicio perdida"
+
+#: linoptions/hidpp/features.py:228
+msgid "Control {cid}"
+msgstr "Control {cid}"
+
+#: linoptions/flow/backends.py:34 linoptions/gui/pages/flow.py:1003
+msgid "Flow is not available on this desktop"
+msgstr "Flow no está disponible en este escritorio"
+
+#: linoptions/flow/backends.py:57
+msgid "Flow is not available on this desktop: no graphical session found"
+msgstr "Flow no está disponible en este escritorio: no se ha encontrado una sesión gráfica"
+
+#: linoptions/flow/backends.py:51
+msgid "Flow is not available on this desktop: on Wayland, Glisa can only track the pointer on KDE Plasma ({desktop} doesn't allow it)"
+msgstr "Flow no está disponible en este escritorio: en Wayland, Glisa solo puede saber dónde está el puntero con KDE Plasma ({desktop} no lo permite)"
+
+#: linoptions/flow/backends.py:234
+msgid "Connecting to KWin…"
+msgstr "Conectando con KWin…"
+
+#: linoptions/flow/backends.py:49
+msgid "Flow is not available on this desktop: on Wayland, Glisa can only track the pointer on KDE Plasma"
+msgstr "Flow no está disponible en este escritorio: en Wayland, Glisa solo puede saber dónde está el puntero con KDE Plasma"
+
+#: linoptions/flow/backends.py:55
+msgid "Flow is not available on this desktop: the X11 display can't be found"
+msgstr "Flow no está disponible en este escritorio: no se encuentra la pantalla X11"
+
+#: linoptions/flow/backends.py:357
+msgid "libX11 is not installed"
+msgstr "libX11 no está instalada"
+
+#: linoptions/flow/backends.py:374
+msgid "can't open the X11 display"
+msgstr "no se puede abrir la pantalla X11"
+
+#: linoptions/flow/backends.py:250
+msgid "Couldn't start the Flow helper: {error}"
+msgstr "No se ha podido iniciar el ayudante de Flow: {error}"
+
+#: linoptions/flow/backends.py:280
+msgid "Waiting for KWin…"
+msgstr "Esperando a KWin…"
+
+#: linoptions/flow/backends.py:456
+msgid "Flow is not available on this desktop: {reason}"
+msgstr "Flow no está disponible en este escritorio: {reason}"
+
+#: linoptions/flow/backends.py:284
+msgid "KWin didn't load the Flow script"
+msgstr "KWin no ha cargado el script de Flow"
+
+#: linoptions/flow/backends.py:286
+msgid "The Flow helper has stopped"
+msgstr "El ayudante de Flow se ha cerrado"
+
+#: linoptions/flow/bridge.py:89
+msgid "There is no D-Bus session bus"
+msgstr "No hay bus de sesión D-Bus"
+
+#: linoptions/flow/bridge.py:94
+msgid "Couldn't register the D-Bus object"
+msgstr "No se ha podido registrar el objeto D-Bus"
+
+#: linoptions/flow/bridge.py:97
+msgid "Another process is already using the Flow service"
+msgstr "Otro proceso ya usa el servicio de Flow"
+
+#: linoptions/flow/bridge.py:104 linoptions/flow/bridge.py:120
+msgid "KWin didn't load the Flow script ({error})"
+msgstr "KWin no ha cargado el script de Flow ({error})"
+
+#: linoptions/flow/crypto.py:64
+msgid "openssl couldn't create this computer's identity"
+msgstr "openssl no ha podido crear la identidad de este equipo"
+
+#: linoptions/flow/crypto.py:62
+msgid "Couldn't run openssl: {error}"
+msgstr "No se ha podido ejecutar openssl: {error}"
+
+#: linoptions/flow/service.py:56
+msgid "Flow is turned off on {name}"
+msgstr "Flow está desactivado en {name}"
+
+#: linoptions/flow/service.py:57
+msgid "{name} is busy"
+msgstr "{name} está ocupado"
+
+#: linoptions/flow/service.py:58
+msgid "{name} isn't ready to pair: open “Pair a computer” there too"
+msgstr "{name} no está en modo de vinculación: abre «Vincular un equipo» también allí"
+
+#: linoptions/flow/service.py:59
+msgid "Too many attempts: wait a moment and open pairing again"
+msgstr "Demasiados intentos: espera un momento y vuelve a abrir la vinculación"
+
+#: linoptions/flow/service.py:60
+msgid "{name} uses a different version of Flow: update Glisa on both computers"
+msgstr "{name} usa otra versión de Flow: actualiza Glisa en los dos equipos"
+
+#: linoptions/flow/service.py:61
+msgid "{name} doesn't recognize this computer: pair them again"
+msgstr "{name} no reconoce este equipo: vuelve a vincularlos"
+
+#: linoptions/flow/service.py:62
+msgid "On {name}, the numbers were marked as not matching"
+msgstr "En {name} han indicado que los números no coinciden"
+
+#: linoptions/flow/service.py:63
+msgid "Pairing has expired"
+msgstr "La vinculación ha caducado"
+
+#: linoptions/flow/service.py:64
+msgid "The security check failed: pair again"
+msgstr "La comprobación de seguridad ha fallado: vincular de nuevo"
+
+#: linoptions/flow/service.py:65
+msgid "{name} gave an unexpected answer"
+msgstr "{name} ha respondido algo inesperado"
+
+#: linoptions/flow/service.py:549 linoptions/gui/pages/flow.py:602
+msgid "the other computer"
+msgstr "el otro equipo"
+
+#: linoptions/flow/service.py:552
+msgid "The identity of {name} doesn't match the one you paired, so it wasn't connected. If you reinstalled Glisa there, remove it and pair it again"
+msgstr "La identidad de {name} no coincide con la que vinculaste. No se ha conectado: si has reinstalado Glisa allí, quítalo y vuelve a vincularlo"
+
+#: linoptions/flow/service.py:650 linoptions/flow/service.py:707 linoptions/gui/pages/flow.py:996
+msgid "Turn on Flow to pair computers"
+msgstr "Activa Flow para vincular equipos"
+
+#: linoptions/flow/service.py:963
+msgid "You said the numbers don't match. Nothing was saved"
+msgstr "Has indicado que los números no coinciden. No se ha guardado nada"
+
+#: linoptions/flow/service.py:977 linoptions/flow/store.py:232 linoptions/flow/store.py:294
+msgid "That computer isn't paired"
+msgstr "Ese equipo no está vinculado"
+
+#: linoptions/flow/service.py:1012
+msgid "{name} is no longer paired with this computer"
+msgstr "{name} ha dejado de estar vinculado con este equipo"
+
+#: linoptions/flow/service.py:1469
+msgid "Only available in demo mode"
+msgstr "Solo disponible en modo demostración"
+
+#: linoptions/flow/service.py:654 linoptions/flow/service.py:727
+msgid "Pairing is already in progress"
+msgstr "Ya hay una vinculación en curso"
+
+#: linoptions/flow/service.py:701
+msgid "No pairing is waiting for confirmation"
+msgstr "No hay ninguna vinculación esperando confirmación"
+
+#: linoptions/flow/service.py:712
+msgid "That computer can't be found on the network"
+msgstr "No se encuentra ese equipo en la red"
+
+#: linoptions/flow/service.py:723
+msgid "Say which computer to pair with"
+msgstr "Indica con qué equipo vincular"
+
+#: linoptions/flow/service.py:961 linoptions/gui/pages/flow.py:634
+msgid "Pairing didn't complete"
+msgstr "La vinculación no se ha completado"
+
+#: linoptions/flow/service.py:1211
+msgid "{reason}: the mouse stays on this computer"
+msgstr "{reason}: el ratón se queda en este equipo"
+
+#: linoptions/flow/service.py:1292
+msgid "The mouse arrived, but the pointer couldn't be placed at the edge"
+msgstr "El ratón ha llegado, pero no se ha podido colocar el puntero en el borde"
+
+#: linoptions/flow/service.py:1317
+msgid "The copied text is too large to send to the other computer (1 MB maximum)"
+msgstr "El texto copiado es demasiado grande para pasarlo al otro equipo (máximo 1 MB)"
+
+#: linoptions/flow/service.py:1421 linoptions/flow/store.py:237
+msgid "Invalid position"
+msgstr "Posición no válida"
+
+#: linoptions/flow/service.py:1455
+msgid "Invalid text"
+msgstr "Texto no válido"
+
+#: linoptions/flow/service.py:1474
+msgid "Invalid edge"
+msgstr "Borde no válido"
+
+#: linoptions/flow/service.py:1526
+msgid "Missing {key} (true or false)"
+msgstr "Falta {key} (verdadero o falso)"
+
+#: linoptions/flow/service.py:1533
+msgid "Missing {key}"
+msgstr "Falta {key}"
+
+#: linoptions/flow/service.py:662 linoptions/flow/service.py:440
+msgid "Can't use TCP port {port}: {error}"
+msgstr "No se puede usar el puerto TCP {port}: {error}"
+
+#: linoptions/flow/service.py:1189
+msgid "Choose which channel of your mouse {name} is on (Flow → Channels)"
+msgstr "Elige en qué canal de tu ratón está {name} (Flow → Canales)"
+
+#: linoptions/flow/service.py:1205
+msgid "Can't reach {name}: the mouse stays on this computer"
+msgstr "No se puede contactar con {name}: el ratón se queda en este equipo"
+
+#: linoptions/flow/service.py:1481
+msgid "Unknown operation"
+msgstr "Operación desconocida"
+
+#: linoptions/flow/service.py:453
+msgid "Can't use UDP port {port}: {error}"
+msgstr "No se puede usar el puerto UDP {port}: {error}"
+
+#: linoptions/flow/service.py:721
+#: linoptions/flow/service.py:970
+msgid "The other computer"
+msgstr "El otro equipo"
+
+#: linoptions/flow/service.py:1173
+msgid "Flow is set to switch only while Ctrl is held, but this desktop doesn't report whether it is"
+msgstr "Flow está configurado para cambiar solo con Ctrl, pero este escritorio no permite saber si está pulsado"
+
+#: linoptions/flow/store.py:264
+msgid "Unknown option: {option}"
+msgstr "Opción desconocida: {option}"
+
+#: linoptions/flow/store.py:268
+msgid "{option} must be true or false"
+msgstr "{option} debe ser verdadero o falso"
+
+#: linoptions/flow/store.py:271
+msgid "{option} must be a whole number"
+msgstr "{option} debe ser un número entero"
+
+#: linoptions/gui/pages/flow.py:55
+msgid "Hold Ctrl when you reach the edge, so you never switch by accident"
+msgstr "Mantén Ctrl al llegar al borde. Así no cambias de equipo sin querer"
+
+#: linoptions/gui/pages/flow.py:56
+msgid "Text you copy goes to the other computer when you switch (up to 1 MB)"
+msgstr "El texto que copies pasa al otro equipo al cambiar (hasta 1 MB)"
+
+#: linoptions/gui/pages/flow.py:35
+msgid "on the left"
+msgstr "a la izquierda"
+
+#: linoptions/gui/pages/flow.py:35
+msgid "on the right"
+msgstr "a la derecha"
+
+#: linoptions/gui/pages/flow.py:35
+msgid "above"
+msgstr "arriba"
+
+#: linoptions/gui/pages/flow.py:35
+msgid "below"
+msgstr "abajo"
+
+#: linoptions/gui/pages/flow.py:46
+msgctxt "device noun"
+msgid "mouse"
+msgstr "ratón"
+
+#: linoptions/gui/pages/flow.py:46
+msgctxt "device noun"
+msgid "trackball"
+msgstr "trackball"
+
+#: linoptions/gui/pages/flow.py:47
+msgctxt "device noun"
+msgid "touchpad"
+msgstr "panel táctil"
+
+#: linoptions/gui/pages/flow.py:47
+msgctxt "device noun"
+msgid "keyboard"
+msgstr "teclado"
+
+#: linoptions/gui/pages/flow.py:48
+msgctxt "device noun"
+msgid "device"
+msgstr "dispositivo"
+
+#: linoptions/gui/pages/flow.py:52
+msgctxt "computer"
+msgid "Online"
+msgstr "En línea"
+
+#: linoptions/gui/pages/flow.py:52
+msgctxt "computer"
+msgid "Offline"
+msgstr "Sin conexión"
+
+#: linoptions/gui/pages/flow.py:40
+msgctxt "screen side"
+msgid "Left"
+msgstr "Izquierda"
+
+#: linoptions/gui/pages/flow.py:40
+msgctxt "screen side"
+msgid "Right"
+msgstr "Derecha"
+
+#: linoptions/gui/pages/flow.py:41
+msgctxt "screen side"
+msgid "Top"
+msgstr "Arriba"
+
+#: linoptions/gui/pages/flow.py:41
+msgctxt "screen side"
+msgid "Bottom"
+msgstr "Abajo"
+
+#: linoptions/gui/pages/flow.py:100
+msgid "Pairing code"
+msgstr "Código de vinculación"
+
+#: linoptions/gui/pages/flow.py:158
+msgid "Computer layout"
+msgstr "Disposición de los equipos"
+
+#: linoptions/gui/pages/flow.py:159
+msgid "Drag the other computer to the side where it sits on your desk (or use the arrow keys)"
+msgstr "Arrastra el otro equipo al lado en el que está en tu mesa (o usa las flechas)"
+
+#: linoptions/gui/pages/flow.py:173 linoptions/gui/pages/flow.py:329
+msgid "This computer"
+msgstr "Este equipo"
+
+#: linoptions/gui/pages/flow.py:437 linoptions/gui/pages/flow.py:448 linoptions/gui/pages/flow.py:864
+msgid "Pair a computer"
+msgstr "Vincular un equipo"
+
+#: linoptions/gui/pages/flow.py:473 linoptions/gui/pages/flow.py:661
+msgid "Looking for computers on the network…"
+msgstr "Buscando equipos en la red…"
+
+#: linoptions/gui/pages/flow.py:528
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: linoptions/gui/pages/flow.py:530
+msgid "They don't match"
+msgstr "No coinciden"
+
+#: linoptions/gui/pages/flow.py:532
+msgid "They match"
+msgstr "Coinciden"
+
+#: linoptions/gui/pages/flow.py:534
+msgid "Try again"
+msgstr "Volver a intentar"
+
+#: linoptions/gui/pages/flow.py:536 linoptions/gui/pages/flow.py:702
+msgctxt "pairing"
+msgid "Done"
+msgstr "Listo"
+
+#: linoptions/gui/pages/flow.py:782
+msgid "Back (Esc)"
+msgstr "Volver (Esc)"
+
+#: linoptions/gui/pages/flow.py:783
+msgctxt "navigation"
+msgid "Back"
+msgstr "Volver"
+
+#: linoptions/gui/pages/flow.py:792 linoptions/gui/pages/flow.py:793
+msgid "Turn on Flow"
+msgstr "Activar Flow"
+
+#: linoptions/gui/pages/flow.py:832
+msgid "Use the same mouse on two computers"
+msgstr "Usa el mismo ratón en dos equipos"
+
+#: linoptions/gui/pages/flow.py:833
+msgid "Move the pointer to the edge of the screen and your mouse moves to the other computer, with the keyboard if you like. Text you've copied goes with it"
+msgstr "Lleva el puntero al borde de la pantalla y tu ratón pasa al otro equipo, con el teclado si quieres. El texto que hayas copiado va con él"
+
+#: linoptions/gui/pages/flow.py:853
+msgid "Layout"
+msgstr "Disposición"
+
+#: linoptions/gui/pages/flow.py:853
+msgid "Drag each computer to the side where it sits on your desk. The mouse switches when it reaches that edge of the screen"
+msgstr "Arrastra cada equipo al lado en el que lo tienes en tu mesa. El ratón cambia al llegar a ese borde de la pantalla"
+
+#: linoptions/gui/pages/flow.py:866
+msgid "Paired computers"
+msgstr "Equipos"
+
+#: linoptions/gui/pages/flow.py:866
+msgid "Only computers you pair here can receive your mouse"
+msgstr "Solo los equipos que vincules aquí pueden recibir tu ratón"
+
+#: linoptions/gui/pages/flow.py:873
+msgid "You haven't paired a computer yet. Click “Pair a computer” here and on the other computer"
+msgstr "Aún no has vinculado ningún equipo. Pulsa «Vincular un equipo» aquí y en el otro equipo"
+
+#: linoptions/gui/pages/flow.py:879
+msgid "Channels"
+msgstr "Canales"
+
+#: linoptions/gui/pages/flow.py:879
+msgid "Which Easy-Switch channel each device uses for the other computer. Glisa suggests one from its name"
+msgstr "En qué canal de cambio de equipo (Easy-Switch) tiene cada dispositivo al otro equipo. Glisa lo sugiere por el nombre"
+
+#: linoptions/gui/pages/flow.py:891
+msgid "Options"
+msgstr "Opciones"
+
+#: linoptions/gui/pages/flow.py:893 linoptions/gui/pages/flow.py:895
+msgid "Switch only while holding Ctrl"
+msgstr "Cambiar solo con Ctrl pulsado"
+
+#: linoptions/gui/pages/flow.py:899 linoptions/gui/pages/flow.py:901
+msgid "Bring the clipboard along"
+msgstr "Llevar el portapapeles"
+
+#: linoptions/gui/pages/flow.py:905 linoptions/gui/pages/flow.py:907
+msgid "Keyboard switches too"
+msgstr "El teclado también cambia"
+
+#: linoptions/gui/pages/flow.py:913
+msgid "Security and network"
+msgstr "Seguridad y red"
+
+#: linoptions/gui/pages/flow.py:914
+msgid "Paired computers recognize each other by their fingerprint, and everything travels encrypted"
+msgstr "Los equipos vinculados se reconocen por su huella y todo viaja cifrado"
+
+#: linoptions/gui/pages/flow.py:920
+msgid "Network"
+msgstr "Red"
+
+#: linoptions/gui/pages/flow.py:926
+msgid "Create a new identity"
+msgstr "Crear una identidad nueva"
+
+#: linoptions/gui/pages/flow.py:1094
+msgid "Choose the channel"
+msgstr "Elige el canal"
+
+#: linoptions/gui/pages/flow.py:1149
+msgid "Pair a computer to choose which channel your mouse uses for it"
+msgstr "Vincula un equipo para elegir en qué canal lo tiene tu ratón"
+
+#: linoptions/gui/pages/flow.py:1172
+msgid "Text you copy goes to the other computer when you switch (up to 1 MB). Without the Plasma clipboard, it only works while this window is open"
+msgstr "El texto que copies pasa al otro equipo al cambiar (hasta 1 MB). Sin el portapapeles de Plasma, solo funciona con esta ventana abierta"
+
+#: linoptions/gui/pages/flow.py:1186
+msgctxt "edge detection"
+msgid "Simulated"
+msgstr "Simulada"
+
+#: linoptions/gui/pages/flow.py:1187
+msgctxt "edge detection"
+msgid "Not available"
+msgstr "No disponible"
+
+#: linoptions/gui/pages/flow.py:1227
+msgid "Remove"
+msgstr "Quitar"
+
+#: linoptions/gui/pages/flow.py:1231
+msgid "Create a new identity for this computer?"
+msgstr "¿Crear una identidad nueva para este equipo?"
+
+#: linoptions/gui/pages/flow.py:1232
+msgid "All paired computers will stop recognizing it and you'll have to pair them again. Do it if you think someone has copied this computer's settings"
+msgstr "Todos los equipos vinculados dejarán de reconocerlo y tendrás que vincularlos otra vez. Hazlo si crees que alguien ha copiado la configuración de este equipo"
+
+#: linoptions/gui/pages/flow.py:1234
+msgid "Create new identity"
+msgstr "Crear identidad nueva"
+
+#: linoptions/gui/pages/flow.py:197
+msgid "No other computers yet"
+msgstr "Aún no hay otros equipos"
+
+#: linoptions/gui/pages/flow.py:333
+msgid "Not placed"
+msgstr "Sin colocar"
+
+#: linoptions/gui/pages/flow.py:339
+msgid "Drop it on a side"
+msgstr "Suelta en un lado"
+
+#: linoptions/gui/pages/flow.py:651
+msgid "Different version of Glisa: update it"
+msgstr "Otra versión de Glisa: actualízalo"
+
+#: linoptions/gui/pages/flow.py:654
+msgid "Pair"
+msgstr "Vincular"
+
+#: linoptions/gui/pages/flow.py:660
+msgid "Looking for more computers…"
+msgstr "Buscando más equipos…"
+
+#: linoptions/gui/pages/flow.py:693
+msgid "Computer paired"
+msgstr "Equipo vinculado"
+
+#: linoptions/gui/pages/flow.py:693
+msgid "Couldn't pair"
+msgstr "No se ha vinculado"
+
+#: linoptions/gui/pages/flow.py:702
+msgid "Close"
+msgstr "Cerrar"
+
+#: linoptions/gui/pages/flow.py:748
+msgid "Identity changed"
+msgstr "Identidad distinta"
+
+#: linoptions/gui/pages/flow.py:749
+msgid "It isn't the computer you paired (or it was reinstalled). Remove it and pair it again"
+msgstr "No es el equipo que vinculaste (o se ha reinstalado). Quítalo y vuelve a vincularlo"
+
+#: linoptions/gui/pages/flow.py:836
+msgid "You need"
+msgstr "Necesitas"
+
+#: linoptions/gui/pages/flow.py:838
+msgid "Your mouse paired with both computers, each on its own channel"
+msgstr "Tu ratón emparejado con los dos equipos, cada uno en un canal"
+
+#: linoptions/gui/pages/flow.py:840
+msgid "Glisa open on both"
+msgstr "Glisa abierto en los dos"
+
+#: linoptions/gui/pages/flow.py:841
+msgid "Both on the same network, or on networks that can reach each other"
+msgstr "Los dos en la misma red, o en redes que se puedan comunicar entre sí"
+
+#: linoptions/gui/pages/flow.py:908
+msgid "Your Logitech keyboards with Easy-Switch follow the mouse"
+msgstr "Tus teclados Logitech con cambio de equipo siguen al ratón"
+
+#: linoptions/gui/pages/flow.py:917
+msgid "This computer's fingerprint"
+msgstr "Huella de este equipo"
+
+#: linoptions/gui/pages/flow.py:917
+msgid "Shown on the other computer next to its name"
+msgstr "Aparece en el otro equipo junto a su nombre"
+
+#: linoptions/gui/pages/flow.py:924
+msgid "Edge detection"
+msgstr "Cómo detecta el borde"
+
+#: linoptions/gui/pages/flow.py:972
+msgid "Once you pair another computer, it will appear here so you can place it"
+msgstr "Cuando vincules otro equipo aparecerá aquí para colocarlo"
+
+#: linoptions/gui/pages/flow.py:982
+msgid "No service"
+msgstr "Sin servicio"
+
+#: linoptions/gui/pages/flow.py:988
+msgid "Needs attention"
+msgstr "Con problemas"
+
+#: linoptions/gui/pages/flow.py:1044
+msgid "Not available on this desktop"
+msgstr "No disponible en este escritorio"
+
+#: linoptions/gui/pages/flow.py:1090
+msgctxt "channel"
+msgid "free"
+msgstr "libre"
+
+#: linoptions/gui/pages/flow.py:1090
+msgctxt "channel"
+msgid "unnamed"
+msgstr "sin nombre"
+
+#: linoptions/gui/pages/flow.py:1151
+msgid "Connect your mouse to this computer to see its channels"
+msgstr "Conecta tu ratón a este equipo para ver sus canales"
+
+#: linoptions/gui/pages/flow.py:1167
+msgid "Not available on this desktop: it doesn't report whether Ctrl is held"
+msgstr "No disponible en este escritorio: no deja saber si Ctrl está pulsado"
+
+#: linoptions/gui/pages/flow.py:1178
+msgid "Created when you turn on Flow"
+msgstr "Se crea al activar Flow"
+
+#: linoptions/gui/pages/flow.py:1235
+msgid "New identity created"
+msgstr "Identidad nueva creada"
+
+#: linoptions/gui/pages/flow.py:596
+msgid "Pairing was cancelled"
+msgstr "La vinculación se ha cancelado"
+
+#: linoptions/gui/pages/flow.py:737
+msgid "Remove {name}"
+msgstr "Quitar {name}"
+
+#: linoptions/gui/pages/flow.py:754
+msgid "Not placed in the layout yet"
+msgstr "Aún no lo has colocado en la disposición"
+
+#: linoptions/gui/pages/flow.py:950
+msgid "No connection to the service"
+msgstr "Sin conexión con el servicio"
+
+#: linoptions/gui/pages/flow.py:951
+msgid "Flow runs in the Glisa service. Retrying…"
+msgstr "Flow funciona desde el servicio de Glisa. Reintentando…"
+
+#: linoptions/gui/pages/flow.py:990
+msgctxt "flow state"
+msgid "On"
+msgstr "Activado"
+
+#: linoptions/gui/pages/flow.py:990
+msgctxt "flow state"
+msgid "Off"
+msgstr "Desactivado"
+
+#: linoptions/gui/pages/flow.py:1012
+msgid "Flow couldn't fully start"
+msgstr "Flow no ha podido arrancar del todo"
+
+#: linoptions/gui/pages/flow.py:1014
+msgid "This desktop doesn't report whether Ctrl is held"
+msgstr "Este escritorio no deja saber si Ctrl está pulsado"
+
+#: linoptions/gui/pages/flow.py:1015
+msgid "Turn off “Switch only while holding Ctrl” or Flow won't switch computers"
+msgstr "Desactiva «Cambiar solo con Ctrl pulsado» o Flow no cambiará de equipo"
+
+#: linoptions/gui/pages/flow.py:1017
+msgid "The pointer won't be placed when it arrives"
+msgstr "El puntero no se colocará al llegar"
+
+#: linoptions/gui/pages/flow.py:1018
+msgid "No access to the virtual device: install the permissions in Settings"
+msgstr "Falta acceso al dispositivo virtual: instala los permisos en Ajustes"
+
+#: linoptions/gui/pages/flow.py:1022
+msgid "Your firewall is on"
+msgstr "Tu cortafuegos está activo"
+
+#: linoptions/gui/pages/flow.py:1028
+msgid "Demo mode"
+msgstr "Modo demostración"
+
+#: linoptions/gui/pages/flow.py:1028
+msgid "Flow doesn't connect to the network or move the pointer"
+msgstr "Flow no se conecta a la red ni mueve el puntero"
+
+#: linoptions/gui/pages/flow.py:1046
+msgid "Flow is off. Turn it on at the top right"
+msgstr "Flow está desactivado. Actívalo arriba a la derecha"
+
+#: linoptions/gui/pages/flow.py:1092
+msgid "Automatic: channel {channel} · {name}"
+msgstr "Automático: canal {channel} · {name}"
+
+#: linoptions/gui/pages/flow.py:1183
+msgid "Uses UDP port {udp} to find computers, and TCP ports {tcp} (paired computers) and {pairing} (only while pairing)"
+msgstr "Usa el puerto UDP {udp} para encontrar equipos y los puertos TCP {tcp} (equipos vinculados) y {pairing} (solo mientras vinculas)"
+
+#: linoptions/gui/pages/flow.py:1224
+msgid "Remove {name}?"
+msgstr "¿Quitar {name}?"
+
+#: linoptions/gui/pages/flow.py:1225
+msgid "You won't be able to move the mouse to {name} any more, and its fingerprint will be deleted. To use it again, you'll both have to pair again"
+msgstr "Dejarás de poder pasar el ratón a {name} y se borrará su huella. Para volver a usarlo tendréis que vincularos otra vez"
+
+#: linoptions/gui/pages/flow.py:201
+msgid "{name}: {where}. Arrow keys to place it, Delete to take it off"
+msgstr "{name}: {where}. Flechas para colocarlo, Supr para quitarlo"
+
+#: linoptions/gui/pages/flow.py:603
+msgid "Closes in {time}"
+msgstr "Se cierra en {time}"
+
+#: linoptions/gui/pages/flow.py:608
+msgid "Open “Pair a computer” on the other computer too. Then choose it here, or choose “{name}” over there"
+msgstr "Abre también «Vincular un equipo» en el otro equipo. Después elígelo aquí, o elige «{name}» desde allí"
+
+#: linoptions/gui/pages/flow.py:617
+msgid "Check the number"
+msgstr "Comprueba el número"
+
+#: linoptions/gui/pages/flow.py:656
+msgid "Pair with {name}"
+msgstr "Vincular con {name}"
+
+#: linoptions/gui/pages/flow.py:1007
+msgid "Glisa can't tell where the pointer is on this desktop"
+msgstr "Glisa no puede saber dónde está el puntero aquí"
+
+#: linoptions/gui/pages/flow.py:1009 linoptions/gui/pages/flow.py:1048
+msgid "The screen edges aren't being detected"
+msgstr "No se detectan los bordes de la pantalla"
+
+#: linoptions/gui/pages/flow.py:1131
+msgid "Your {device} is using channel {channel} for this computer"
+msgstr "Tu {device} usa ahora el canal {channel} en este equipo"
+
+#: linoptions/gui/pages/flow.py:1228
+msgid "{name} removed"
+msgstr "{name} quitado"
+
+#: linoptions/gui/pages/flow.py:609
+msgid "this computer"
+msgstr "este equipo"
+
+#: linoptions/gui/pages/flow.py:614
+msgid "Connecting to {name}…"
+msgstr "Conectando con {name}…"
+
+#: linoptions/gui/pages/flow.py:753
+msgid "Placed {where}"
+msgstr "Está {where}"
+
+#: linoptions/gui/pages/flow.py:1023
+msgid "Allow UDP port {udp} and TCP ports {tcp} and {pairing} so the computers can find each other (for example, with sudo ufw allow {udp}/udp and sudo ufw allow {tcp}:{pairing}/tcp)"
+msgstr "Permite el puerto UDP {udp} y los puertos TCP {tcp} y {pairing} para que los equipos se encuentren (por ejemplo, con sudo ufw allow {udp}/udp y sudo ufw allow {tcp}:{pairing}/tcp)"
+
+#: linoptions/gui/pages/flow.py:1050
+msgid "Getting edge detection ready…"
+msgstr "Preparando la detección de bordes…"
+
+#: linoptions/gui/pages/flow.py:1122
+msgid "Channel of {device} for {name}"
+msgstr "Canal de {device} para {name}"
+
+#: linoptions/gui/pages/flow.py:1134
+msgid "Your {device} isn't connected to this computer right now"
+msgstr "Tu {device} no está conectado ahora a este equipo"
+
+#: linoptions/gui/pages/flow.py:1135
+msgid "{device} on {name}"
+msgstr "{device} en {name}"
+
+#: linoptions/gui/pages/flow.py:1052
+msgid "Ready. Now pair the other computer"
+msgstr "Listo. Ahora vincula el otro equipo"
+
+#: linoptions/gui/pages/flow.py:1098
+msgid "Channel {channel} · {name}"
+msgstr "Canal {channel} · {name}"
+
+#: linoptions/gui/pages/flow.py:621
+msgid "You confirmed this number. Confirm it on {name} too"
+msgstr "Has confirmado este número. Confírmalo también en {name}"
+
+#: linoptions/gui/pages/flow.py:622
+msgid "Waiting for {name}…"
+msgstr "Esperando a {name}…"
+
+#: linoptions/gui/pages/flow.py:625
+msgid "{name} must show exactly the same numbers. Compare them and confirm on both computers. If they don't match, someone could be intercepting the connection"
+msgstr "{name} debe mostrar exactamente estos mismos números. Compáralos y confirma en los dos equipos. Si no coinciden, alguien podría estar interceptando la conexión"
+
+#: linoptions/gui/pages/flow.py:631
+msgid "Paired with {name}. Place it in the layout and check which channel your mouse uses for it"
+msgstr "Vinculado con {name}. Colócalo en la disposición y comprueba en qué canal está tu ratón"
+
+#: linoptions/gui/pages/flow.py:1054
+msgid "Place the other computer in the layout"
+msgstr "Coloca el otro equipo en la disposición"
+
+#: linoptions/gui/pages/flow.py:627
+msgid "{name} has already confirmed"
+msgstr "{name} ya ha confirmado"
+
+#: linoptions/gui/pages/flow.py:1056
+msgid "Waiting for the other computer to come online"
+msgstr "Esperando a que el otro equipo esté en línea"
+
+#: linoptions/gui/pages/flow.py:1058
+msgid "Ready: move the pointer to the edge where the other computer is"
+msgstr "Listo: lleva el puntero al borde donde está el otro equipo"
+
+# ---- daemon.py, cli.py: name and removal
+msgid "The name has to be text"
+msgstr "El nombre tiene que ser texto"
+
+msgid "The name can't be longer than {n} characters"
+msgstr "El nombre no puede tener más de {n} caracteres"
+
+msgid "choose the name Glisa shows for a device (\"\" for the model's)"
+msgstr "elige el nombre que Glisa muestra para un dispositivo (\"\" para el del modelo)"
+
+msgid "NAME"
+msgstr "NOMBRE"
+
+msgid "remove a device from Glisa and delete its settings"
+msgstr "quita un dispositivo de Glisa y borra sus ajustes"
+
+msgid "don't ask for confirmation"
+msgstr "no pide confirmación"
+
+msgid "{model} uses its model name again"
+msgstr "{model} vuelve a usar el nombre del modelo"
+
+msgid "{model} is now called “{name}”"
+msgstr "{model} ahora se llama «{name}»"
+
+msgid "Glisa will forget {name}: its buttons, pointer settings and name are deleted, and if it's connected its factory settings are restored. It comes back with default settings the next time it connects."
+msgstr "Glisa olvidará {name}: se borran sus botones, los ajustes del puntero y su nombre y, si está conectado, vuelve a sus ajustes de fábrica. Volverá a aparecer con los ajustes predeterminados la próxima vez que se conecte."
+
+msgid "Remove it? [y/N] "
+msgstr "¿Quitarlo? [s/N] "
+
+msgid "Nothing was removed"
+msgstr "No se ha quitado nada"
+
+# Flow: peer addresses (computers on different networks)
+msgid "Invalid address"
+msgstr "Dirección no válida"
+
+msgid "That address is too long"
+msgstr "Esa dirección es demasiado larga"
+
+msgid "The port must be a number from 1 to 65535"
+msgstr "El puerto debe ser un número del 1 al 65535"
+
+msgid "An IPv6 address needs its closing bracket: [address]:port"
+msgstr "A la dirección IPv6 le falta el corchete de cierre: [dirección]:puerto"
+
+msgid "“{host}” isn't a valid IPv6 address"
+msgstr "«{host}» no es una dirección IPv6 válida"
+
+msgid "Put an IPv6 address in brackets, like [fe80::1]:27461"
+msgstr "Pon la dirección IPv6 entre corchetes, como [fe80::1]:27461"
+
+msgid "Type the computer's IP address or name"
+msgstr "Escribe la dirección IP o el nombre del equipo"
+
+msgid "“{host}” isn't a valid IP address"
+msgstr "«{host}» no es una dirección IP válida"
+
+msgid "“{host}” isn't a valid computer name or IP address"
+msgstr "«{host}» no es un nombre de equipo ni una dirección IP válidos"
+
+msgid "set manually"
+msgstr "puesta a mano"
+
+msgid "found automatically"
+msgstr "encontrada automáticamente"
+
+msgid "{name}: {address} ({source})"
+msgstr "{name}: {address} ({source})"
+
+msgid "{name}: address not known yet"
+msgstr "{name}: todavía no se conoce su dirección"
+
+msgid "manual address: {address}"
+msgstr "dirección puesta a mano: {address}"
+
+msgctxt "address"
+msgid "none (automatic)"
+msgstr "ninguna (automática)"
+
+msgid "last address where it was reached: {address}"
+msgstr "última dirección en la que respondió: {address}"
+
+msgid "If it's on a different network, set its address: glisa-ctl flow address {name} HOST[:PORT]"
+msgstr "Si está en otra red, pon su dirección: glisa-ctl flow address {name} EQUIPO[:PUERTO]"
+
+msgid "{name}: address set to {address}"
+msgstr "{name}: dirección puesta en {address}"
+
+msgid "{name}: its address will be found automatically"
+msgstr "{name}: su dirección se encontrará automáticamente"
+
+msgid "show or set where a paired computer is (for another network)"
+msgstr "muestra o pon dónde está un equipo vinculado (para otra red)"
+
+msgid "HOST[:PORT]"
+msgstr "EQUIPO[:PUERTO]"
+
+msgid "IP address or name, optionally with the port; auto to find it automatically"
+msgstr "dirección IP o nombre, con el puerto si hace falta; auto para encontrarlo automáticamente"
+
+msgid "Glisa will look for it at {address}"
+msgstr "Glisa lo buscará en {address}"
+
+msgid "Pair by address…"
+msgstr "Vincular por dirección…"
+
+msgid "Is it on a different network? Type its IP address or name, and the port if it isn't 27461. Open “Pair a computer” there first"
+msgstr "¿Está en otra red? Escribe su dirección IP o su nombre, y el puerto si no es el 27461. Antes, abre allí «Vincular un equipo»"
+
+msgid "For example 192.168.1.20"
+msgstr "Por ejemplo, 192.168.1.20"
+
+msgid "Address of the other computer"
+msgstr "Dirección del otro equipo"
+
+msgid "Connect"
+msgstr "Conectar"
+
+msgid "Address not known yet"
+msgstr "Todavía no se conoce su dirección"
+
+msgid "{address} · set manually"
+msgstr "{address} · puesta a mano"
+
+msgid "{address} · found automatically"
+msgstr "{address} · encontrada automáticamente"
+
+msgid "Address of {name}"
+msgstr "Dirección de {name}"
+
+msgid "Computers on the same network find each other by themselves. If {name} is on a different one (for example, one on Wi-Fi and the other wired), type its IP address or name, and the port if it isn't 27461. Once one of the two connects, both learn each other's address"
+msgstr "Los equipos de la misma red se encuentran solos. Si {name} está en otra (por ejemplo, uno por wifi y el otro por cable), escribe su dirección IP o su nombre, y el puerto si no es el 27461. En cuanto uno de los dos se conecte, los dos aprenderán la dirección del otro"
+
+msgid "Address"
+msgstr "Dirección"
+
+msgid "Automatic"
+msgstr "Automática"
+
+msgid "Forget the address you typed and find {name} automatically"
+msgstr "Olvida la dirección que escribiste y encuentra {name} automáticamente"
+
+msgid "Empty: it will be found automatically"
+msgstr "Vacía: se encontrará automáticamente"
+
+msgid "Set address…"
+msgstr "Poner dirección…"
+
+msgid "Set the address of {name}"
+msgstr "Poner la dirección de {name}"
+
+msgid "{placement}. Can't reach it: computers on different networks may need its address set manually"
+msgstr "{placement}. No responde: si está en otra red, puede que tengas que poner su dirección a mano"
+
+msgid "{name} will be looked for at {address}"
+msgstr "{name} se buscará en {address}"
+
+msgid "The address of {name} will be found automatically"
+msgstr "La dirección de {name} se encontrará automáticamente"
+
+# ---- Flow: copied files and images
+msgid "Bring copied files and images along"
+msgstr "Llevar los archivos e imágenes copiados"
+
+msgid "Files, folders and images you copy (screenshots too) go to the other computer when you switch. Paste them there with Ctrl+V"
+msgstr "Los archivos, carpetas e imágenes que copies (también las capturas de pantalla) pasan al otro equipo al cambiar. Pégalos allí con Ctrl+V"
+
+msgid "Size limit for copied files"
+msgstr "Límite de tamaño de los archivos copiados"
+
+msgid "Size limit"
+msgstr "Límite de tamaño"
+
+msgid "Bigger copies aren't sent or received. Images: up to {limit}"
+msgstr "Lo que ocupe más no se envía ni se recibe. Imágenes: hasta {limit}"
+
+msgid "This desktop doesn't let background apps use the clipboard, so it only works while this window is open"
+msgstr "Este escritorio no deja usar el portapapeles a las aplicaciones en segundo plano, así que solo funciona con esta ventana abierta"
+
+msgid "Update Glisa on {name} to send files there: until then only text goes"
+msgstr "Actualiza Glisa en {name} para enviarle archivos: hasta entonces solo se envía el texto"
+
+msgid "Open folder"
+msgstr "Abrir carpeta"
+
+msgid "an image"
+msgstr "una imagen"
+
+msgid "{count} file"
+msgid_plural "{count} files"
+msgstr[0] "{count} archivo"
+msgstr[1] "{count} archivos"
+
+msgid "{count} folder"
+msgid_plural "{count} folders"
+msgstr[0] "{count} carpeta"
+msgstr[1] "{count} carpetas"
+
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} elemento"
+msgstr[1] "{count} elementos"
+
+msgid "Getting {what} ready for {name}…"
+msgstr "Preparando {what} para {name}…"
+
+msgid "Sending {what} to {name}… {percent}%"
+msgstr "Enviando {what} a {name}… {percent} %"
+
+msgid "Receiving {what} from {name}… {percent}%"
+msgstr "Recibiendo {what} de {name}… {percent} %"
+
+msgid "Sent {what} to {name}"
+msgstr "Enviado a {name}: {what}"
+
+msgid "Received {what} from {name}"
+msgstr "Recibido de {name}: {what}"
+
+msgid "Received {what} from {name} — paste it with Ctrl+V"
+msgid_plural "Received {what} from {name} — paste them with Ctrl+V"
+msgstr[0] "Recibido de {name}: {what}. Pulsa Ctrl+V para pegar"
+msgstr[1] "Recibido de {name}: {what}. Pulsa Ctrl+V para pegar"
+
+msgid "Received {what} from {name}. It's in the Flow folder"
+msgid_plural "Received {what} from {name}. They're in the Flow folder"
+msgstr[0] "Recibido de {name}: {what}. Está en la carpeta de Flow"
+msgstr[1] "Recibido de {name}: {what}. Están en la carpeta de Flow"
+
+msgid "Cancelled: {what} for {name}"
+msgstr "Cancelado: {what} para {name}"
+
+msgid "Cancelled: {what} from {name}"
+msgstr "Cancelado: {what} de {name}"
+
+msgid "Didn't arrive: {what} for {name}"
+msgstr "No llegó: {what} para {name}"
+
+msgid "Didn't arrive: {what} from {name}"
+msgstr "No llegó: {what} de {name}"
+
+msgid "Cancelled: {what}"
+msgstr "Cancelado: {what}"
+
+msgid "The copied files weren't sent to {name}: {reason}"
+msgstr "Los archivos copiados no se enviaron a {name}: {reason}"
+
+msgid "The copied image wasn't sent to {name}: {reason}"
+msgstr "La imagen copiada no se envió a {name}: {reason}"
+
+msgid "The files from {name} weren't received: {reason}"
+msgstr "Los archivos de {name} no se recibieron: {reason}"
+
+msgid "The image from {name} wasn't received: {reason}"
+msgstr "La imagen de {name} no se recibió: {reason}"
+
+msgid "the connection was lost"
+msgstr "se perdió la conexión"
+
+msgid "{name} can't be reached"
+msgstr "no se puede contactar con {name}"
+
+msgid "your limit is {limit} (Flow → Options)"
+msgstr "tu límite es {limit} (Flow → Opciones)"
+
+msgid "there isn't enough free space"
+msgstr "no hay espacio libre suficiente"
+
+msgid "what arrived wasn't valid, so it was deleted"
+msgstr "lo que llegó no era válido y se ha borrado"
+
+msgid "it couldn't be saved"
+msgstr "no se pudo guardar"
+
+msgid "nothing arrived intact"
+msgstr "nada llegó bien"
+
+msgid "{name} cancelled it"
+msgstr "{name} lo canceló"
+
+msgid "{name} doesn't accept copied files and images (it's turned off there)"
+msgstr "{name} no acepta archivos ni imágenes copiados (está desactivado allí)"
+
+msgid "{name} is still receiving something else: try again in a moment"
+msgstr "{name} todavía está recibiendo otra cosa: vuelve a intentarlo en un momento"
+
+msgid "{name} has a lower size limit (Flow → Options there)"
+msgstr "{name} tiene un límite de tamaño menor (Flow → Opciones, allí)"
+
+msgid "{name} doesn't accept that many files"
+msgstr "{name} no acepta tantos archivos"
+
+msgid "{name} doesn't have enough free space"
+msgstr "{name} no tiene espacio libre suficiente"
+
+msgid "cancelled on {name}"
+msgstr "se canceló en {name}"
+
+msgid "saving failed on {name}"
+msgstr "no se pudo guardar en {name}"
+
+msgid "{count} of the files from {name} didn't arrive intact and were left out"
+msgstr "{count} de los archivos de {name} no llegaron bien y se han descartado"
+
+msgid "{count} of the copied files couldn't be sent to {name}: they changed or disappeared while sending"
+msgstr "{count} de los archivos copiados no se pudieron enviar a {name}: cambiaron o desaparecieron mientras se enviaban"
+
+msgid "Still sending the previous files to {name}: the new ones weren't sent"
+msgstr "Todavía se están enviando los archivos anteriores a {name}: los nuevos no se han enviado"
+
+msgid "The copied image is larger than {limit}, the limit for sending it (Flow → Options)"
+msgstr "La imagen copiada ocupa más de {limit}, el límite para enviarla (Flow → Opciones)"
+
+msgid "The copied files are larger than {limit}, the limit for sending them (Flow → Options)"
+msgstr "Los archivos copiados ocupan más de {limit}, el límite para enviarlos (Flow → Opciones)"
+
+msgid "More than {count} files and folders were copied: that's the most Flow sends at once"
+msgstr "Se han copiado más de {count} archivos y carpetas: es lo máximo que Flow envía de una vez"
+
+msgid "The copied folders are nested more than {depth} levels deep: Flow doesn't send them"
+msgstr "Las carpetas copiadas tienen más de {depth} niveles de profundidad: Flow no las envía"
+
+msgid "Nothing that was copied can be sent: links and special files aren't sent"
+msgstr "No se puede enviar nada de lo copiado: los enlaces y los archivos especiales no se envían"
+
+msgid "The copied files can't be read"
+msgstr "No se pueden leer los archivos copiados"
+
+msgid "it didn't arrive intact"
+msgstr "no llegó bien"
+
+msgid "it's larger than {limit}"
+msgstr "ocupa más de {limit}"
+
+msgid "it isn't a valid image"
+msgstr "no es una imagen válida"
+
+msgid "it isn't the kind of image it said it was"
+msgstr "no es el tipo de imagen que decía ser"
+
+msgid "it's too big ({width} × {height} pixels)"
+msgstr "es demasiado grande ({width} × {height} píxeles)"
+
+msgid "copied files and images: {state}, up to {limit} per copy (images up to {image})"
+msgstr "archivos e imágenes copiados: {state}, hasta {limit} por copia (imágenes hasta {image})"
+
+msgid "{done} of {total}"
+msgstr "{done} de {total}"
+
+msgid "to cancel it: glisa-ctl flow cancel"
+msgstr "para cancelarlo: glisa-ctl flow cancel"
+
+msgid "folder: {path}"
+msgstr "carpeta: {path}"
+
+msgid "No copied files or images are being sent or received"
+msgstr "No se está enviando ni recibiendo ningún archivo ni imagen copiados"
+
+msgid "bring copied files and images along"
+msgstr "llevar los archivos e imágenes copiados"
+
+msgid "largest copy of files sent or received (MB)"
+msgstr "copia de archivos más grande que se envía o recibe (MB)"
+
+msgid "largest copied image sent or received (MB)"
+msgstr "imagen copiada más grande que se envía o recibe (MB)"
+
+msgid "cancel the copied files or image being sent or received"
+msgstr "cancelar los archivos o la imagen que se están enviando o recibiendo"
+
+#: crates/service/src/api.rs
+msgid "This device doesn't support that setting"
+msgstr "Este dispositivo no admite ese ajuste"
+
+#: crates/service/src/api.rs
+msgid "Couldn't save the settings: {error}"
+msgstr "No se han podido guardar los ajustes: {error}"
+
+#: crates/service/src/api.rs
+msgid "Flow isn't available"
+msgstr "Flow no está disponible"
+
+#: crates/service/src/api.rs
+msgid "Unknown permission: {id}"
+msgstr "Permiso desconocido: {id}"
+
+#: crates/ctl/src/lib.rs
+msgid "usage"
+msgstr "uso"
+
+#: crates/ctl/src/lib.rs crates/ctl/src/args.rs
+msgid "{option} needs a value ({value})"
+msgstr "{option} necesita un valor ({value})"
+
+#: crates/ctl/src/lib.rs crates/ctl/src/args.rs
+msgid "unrecognized argument: {arg}"
+msgstr "argumento no reconocido: {arg}"
+
+#: crates/ctl/src/lib.rs crates/ctl/src/args.rs
+msgid "missing argument: {name}"
+msgstr "falta el argumento {name}"
+
+#: crates/ctl/src/lib.rs
+msgid "unknown command: {command}"
+msgstr "orden desconocida: {command}"
+
+#: crates/ctl/src/args.rs
+msgid "invalid choice for {name}: {value} (choose from {choices})"
+msgstr "valor no válido para {name}: {value} (elige entre {choices})"
+
+msgid "drag files across the edge to the other computer"
+msgstr "arrastrar archivos por el borde al otro equipo"
+
+msgid "files dragged across the edge: {state}"
+msgstr "archivos arrastrados por el borde: {state}"
+
+msgid "This system has no polkit (pkexec) to ask for your password: run the command below in a terminal instead."
+msgstr "Este sistema no tiene polkit (pkexec) para pedirte la contraseña: ejecuta en un terminal el comando de abajo."
+
+msgid "Your account isn't allowed to install it (polkit refused)."
+msgstr "Tu cuenta no tiene permiso para instalarlo (polkit lo ha rechazado)."
+
+msgid "The installation failed (exit code {code})."
+msgstr "La instalación ha fallado (código de salida {code})."
+
+msgid "Couldn't ask for your password ({error})."
+msgstr "No se ha podido pedir tu contraseña ({error})."

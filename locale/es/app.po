@@ -1,0 +1,85 @@
+# Spanish translations of LinOptions (app shell: tray, notifications, pictures).
+# Source language: English.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Invalid parameters"
+msgstr "Parámetros no válidos"
+
+msgid "{app} keeps running in the background so your buttons keep working. Open it again from its tray icon or the app menu; quit it from the tray."
+msgstr "{app} sigue funcionando en segundo plano para que tus botones sigan funcionando. Vuelve a abrirlo desde su icono de la bandeja o desde el menú de aplicaciones; ciérralo del todo desde la bandeja."
+
+msgid "The picture is too big: at most {side} × {side} pixels"
+msgstr "La imagen es demasiado grande: como mucho {side} × {side} píxeles"
+
+msgid "This file isn't a picture Glisa can use (PNG, JPEG, WebP, GIF or BMP)"
+msgstr "Este archivo no es una imagen que Glisa pueda usar (PNG, JPEG, WebP, GIF o BMP)"
+
+msgid "The file is too large: pictures can be {mb} MB at most"
+msgstr "El archivo es demasiado grande: las imágenes pueden ocupar {mb} MB como mucho"
+
+msgid "Can't read the file ({error})"
+msgstr "No se puede leer el archivo ({error})"
+
+msgid "Can't read the file"
+msgstr "No se puede leer el archivo"
+
+msgid "Can't save the picture ({error})"
+msgstr "No se puede guardar la imagen ({error})"
+
+msgid "Choose a picture"
+msgstr "Elige una imagen"
+
+msgid "Pictures"
+msgstr "Imágenes"
+
+msgid "Critical"
+msgstr "Crítica"
+
+msgid "Low"
+msgstr "Baja"
+
+msgid "Good"
+msgstr "Buena"
+
+msgid "Full"
+msgstr "Completa"
+
+msgid "charging"
+msgstr "cargando"
+
+msgid "{battery}, charging"
+msgstr "{battery}, cargando"
+
+msgid "{name} — disconnected"
+msgstr "{name}: desconectado"
+
+msgid "Open {app}"
+msgstr "Abrir {app}"
+
+msgid "Quit {app}"
+msgstr "Salir de {app}"
+
+msgid "{device}. Charge it soon."
+msgstr "{device}. Cárgalo pronto."
+
+msgid "Low battery: {name}"
+msgstr "Batería baja: {name}"
+
+msgid "Use a link to a picture that starts with https://"
+msgstr "Usa un enlace a una imagen que empiece por https://"
+
+msgid "Can't reach {host}"
+msgstr "No se puede conectar con {host}"
+
+msgid "That link points to this computer or the local network"
+msgstr "Ese enlace apunta a este ordenador o a la red local"
+
+msgid "Can't download the picture ({error})"
+msgstr "No se puede descargar la imagen ({error})"
+
+msgid "Can't find this desktop's Bluetooth settings"
+msgstr "No se encuentran los ajustes de Bluetooth de este escritorio"

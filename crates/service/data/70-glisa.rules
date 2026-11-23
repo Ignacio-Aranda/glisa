@@ -1,0 +1,14 @@
+# Glisa: let the logged-in user talk HID++ to Logitech devices and
+# create a virtual input device for remapped buttons.
+# Must sort before 73-seat-late.rules so TAG+="uaccess" takes effect.
+
+# USB receivers (Unifying / Bolt / Lightspeed) and wired devices
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="046d", TAG+="uaccess"
+# Bluetooth devices (bus 0005, vendor 046D)
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", KERNELS=="0005:046D:*", TAG+="uaccess"
+# Virtual keyboard/mouse used to send shortcuts
+KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"
+# Logitech mice's input nodes, read-only use: Flow checks whether a button is held
+# (EVIOCGKEY) before switching computers, so a drag never crosses. Mice only.
+SUBSYSTEM=="input", KERNEL=="event*", ENV{ID_INPUT_MOUSE}=="1", ENV{ID_INPUT_KEYBOARD}!="1", ATTRS{id/vendor}=="046d", TAG+="uaccess"
+SUBSYSTEM=="input", KERNEL=="event*", ENV{ID_INPUT_MOUSE}=="1", ENV{ID_INPUT_KEYBOARD}!="1", KERNELS=="0005:046D:*", TAG+="uaccess"

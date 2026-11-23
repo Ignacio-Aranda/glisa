@@ -1,0 +1,16 @@
+[package]
+name = "glisa-hidpp"
+description = "HID++ 1.0/2.0 protocol for Logitech devices: requests, features, simulator"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+glisa-i18n.workspace = true
+thiserror.workspace = true

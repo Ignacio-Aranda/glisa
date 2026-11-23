@@ -1,0 +1,42 @@
+name: Device report
+description: Tell us how Glisa works with your mouse or keyboard (works, partly works, doesn't).
+labels: [device]
+body:
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: "MX Anywhere 3S"
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection
+      options: [Bluetooth, Bolt receiver, Unifying receiver, Lightspeed receiver, USB cable]
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options: [Everything works, Partly works, Doesn't work]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: What works and what doesn't
+  - type: textarea
+    id: probe
+    attributes:
+      label: Output of `glisa ctl probe`
+      description: Run it with the device connected. It only reads from the device.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System
+      placeholder: "Fedora 43, GNOME (Wayland) / Windows 11 / macOS 15"

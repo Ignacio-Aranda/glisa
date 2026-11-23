@@ -1,0 +1,66 @@
+# Formatting, lints, tests, the Windows type-check and the window's checks, on Linux.
+# release.yml builds the installers for the three systems.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev libxdo-dev \
+            gcc-mingw-w64-x86-64 pkg-config
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+          targets: x86_64-pc-windows-gnu
+
+      - uses: Swatinem/rust-cache@v2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Window (install, type-check, tests, translations)
+        working-directory: app
+        run: |
+          npm ci
+          npm run check
+          npm test
+          node scripts/i18n.mjs check
+          npm run build
+
+      - name: Rust formatting
+        run: cargo fmt --all --check
+
+      - name: Clippy
+        run: cargo clippy --workspace --all-targets -- -D warnings
+
+      - name: Tests
+        run: cargo test --workspace
+
+      - name: Windows code type-checks
+        run: |
+          cargo check --target x86_64-pc-windows-gnu \
+            -p glisa-common -p glisa-i18n -p glisa-hidpp -p glisa-hid \
+            -p glisa-input -p glisa-service -p glisa-flow -p glisa-ctl

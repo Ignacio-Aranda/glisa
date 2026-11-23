@@ -1,0 +1,650 @@
+# Spanish translations of LinOptions (buttons).
+# Source language: English. See linoptions/i18n.py and tools/i18n.py.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# ---- linoptions/actions.py
+
+#: linoptions/actions.py:40
+msgid "Mouse"
+msgstr "Ratón"
+
+#: linoptions/actions.py:41 linoptions/actions.py:171
+msgid "Left click"
+msgstr "Clic izquierdo"
+
+#: linoptions/actions.py:42 linoptions/actions.py:171
+msgid "Right click"
+msgstr "Clic derecho"
+
+#: linoptions/actions.py:43 linoptions/actions.py:171
+msgid "Middle click"
+msgstr "Clic central"
+
+#: linoptions/actions.py:46 linoptions/actions.py:170
+msgid "Scroll left"
+msgstr "Desplazar a la izquierda"
+
+#: linoptions/actions.py:47 linoptions/actions.py:170
+msgid "Scroll right"
+msgstr "Desplazar a la derecha"
+
+#: linoptions/actions.py:48
+msgid "Change DPI"
+msgstr "Cambiar DPI"
+
+#: linoptions/actions.py:50
+msgid "Editing"
+msgstr "Edición"
+
+#: linoptions/actions.py:51
+msgid "Copy"
+msgstr "Copiar"
+
+#: linoptions/actions.py:52
+msgid "Paste"
+msgstr "Pegar"
+
+#: linoptions/actions.py:53
+msgid "Cut"
+msgstr "Cortar"
+
+#: linoptions/actions.py:54
+msgid "Undo"
+msgstr "Deshacer"
+
+#: linoptions/actions.py:55
+msgid "Redo"
+msgstr "Rehacer"
+
+#: linoptions/actions.py:56
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: linoptions/actions.py:57
+msgid "Find"
+msgstr "Buscar"
+
+#: linoptions/actions.py:58
+msgid "Zoom in"
+msgstr "Acercar zoom"
+
+#: linoptions/actions.py:59
+msgid "Zoom out"
+msgstr "Alejar zoom"
+
+#: linoptions/actions.py:61
+msgid "Windows and desktops"
+msgstr "Ventanas y escritorios"
+
+#: linoptions/actions.py:62
+msgid "Switch apps"
+msgstr "Cambiar de aplicación"
+
+#: linoptions/actions.py:63
+msgid "Overview"
+msgstr "Vista general"
+
+#: linoptions/actions.py:64
+msgid "Show desktop"
+msgstr "Mostrar escritorio"
+
+#: linoptions/actions.py:65
+msgid "Next desktop"
+msgstr "Escritorio siguiente"
+
+#: linoptions/actions.py:66
+msgid "Previous desktop"
+msgstr "Escritorio anterior"
+
+#: linoptions/actions.py:67
+msgid "Maximize window"
+msgstr "Maximizar ventana"
+
+#: linoptions/actions.py:68
+msgid "Minimize window"
+msgstr "Minimizar ventana"
+
+#. KDE: Meta+Left (quick tile the window to the left half)
+#: linoptions/actions.py:69
+msgid "Snap window left"
+msgstr "Ventana a la izquierda"
+
+#. KDE: Meta+Right (quick tile the window to the right half)
+#: linoptions/actions.py:70
+msgid "Snap window right"
+msgstr "Ventana a la derecha"
+
+#: linoptions/actions.py:71
+msgid "Close window"
+msgstr "Cerrar ventana"
+
+#: linoptions/actions.py:73
+msgid "Browser"
+msgstr "Navegador"
+
+#: linoptions/actions.py:74
+msgid "New tab"
+msgstr "Nueva pestaña"
+
+#: linoptions/actions.py:75
+msgid "Close tab"
+msgstr "Cerrar pestaña"
+
+#: linoptions/actions.py:76
+msgid "Reopen closed tab"
+msgstr "Reabrir pestaña cerrada"
+
+#: linoptions/actions.py:77
+msgid "Next tab"
+msgstr "Pestaña siguiente"
+
+#: linoptions/actions.py:78
+msgid "Previous tab"
+msgstr "Pestaña anterior"
+
+#: linoptions/actions.py:79
+msgid "Reload page"
+msgstr "Recargar página"
+
+#: linoptions/actions.py:81
+msgid "Media"
+msgstr "Multimedia"
+
+#: linoptions/actions.py:82
+msgid "Play / pause"
+msgstr "Reproducir / Pausa"
+
+#: linoptions/actions.py:83
+msgid "Next track"
+msgstr "Pista siguiente"
+
+#: linoptions/actions.py:84
+msgid "Previous track"
+msgstr "Pista anterior"
+
+#: linoptions/actions.py:85
+msgid "Volume up"
+msgstr "Subir volumen"
+
+#: linoptions/actions.py:86
+msgid "Volume down"
+msgstr "Bajar volumen"
+
+#: linoptions/actions.py:87
+msgid "Mute"
+msgstr "Silenciar"
+
+#: linoptions/actions.py:88
+msgid "Mute microphone"
+msgstr "Silenciar micrófono"
+
+#: linoptions/actions.py:90
+msgid "System"
+msgstr "Sistema"
+
+#: linoptions/actions.py:91
+msgid "App launcher"
+msgstr "Lanzador de aplicaciones"
+
+#: linoptions/actions.py:92
+msgid "Search and run"
+msgstr "Buscar y ejecutar"
+
+#: linoptions/actions.py:93
+msgid "Screenshot"
+msgstr "Captura de pantalla"
+
+#: linoptions/actions.py:94
+msgid "Capture a region"
+msgstr "Capturar una región"
+
+#: linoptions/actions.py:95
+msgid "Lock screen"
+msgstr "Bloquear pantalla"
+
+#: linoptions/actions.py:96
+msgid "Emoji picker"
+msgstr "Selector de emojis"
+
+#: linoptions/actions.py:97
+msgid "Clipboard history"
+msgstr "Historial del portapapeles"
+
+#: linoptions/actions.py:98
+msgid "Open terminal"
+msgstr "Abrir terminal"
+
+#: linoptions/actions.py:99
+msgid "File manager"
+msgstr "Gestor de archivos"
+
+#: linoptions/actions.py:100
+msgid "Brightness up"
+msgstr "Subir brillo"
+
+#: linoptions/actions.py:101
+msgid "Brightness down"
+msgstr "Bajar brillo"
+
+#: linoptions/actions.py:127
+msgctxt "mouse button"
+msgid "Back"
+msgstr "Atrás"
+
+#: linoptions/actions.py:128
+msgctxt "mouse button"
+msgid "Forward"
+msgstr "Adelante"
+
+#: linoptions/actions.py:129
+msgctxt "gesture"
+msgid "Press"
+msgstr "Pulsar"
+
+#: linoptions/actions.py:130
+msgctxt "gesture"
+msgid "Up"
+msgstr "Arriba"
+
+#: linoptions/actions.py:131
+msgctxt "gesture"
+msgid "Down"
+msgstr "Abajo"
+
+#: linoptions/actions.py:132
+msgctxt "gesture"
+msgid "Left"
+msgstr "Izquierda"
+
+#: linoptions/actions.py:133
+msgctxt "gesture"
+msgid "Right"
+msgstr "Derecha"
+
+#: linoptions/actions.py:169
+msgid "Scroll up"
+msgstr "Desplazar hacia arriba"
+
+#: linoptions/actions.py:169
+msgid "Scroll down"
+msgstr "Desplazar hacia abajo"
+
+#: linoptions/actions.py:224 linoptions/gui/pages/buttons.py:1532
+msgctxt "button action"
+msgid "Default"
+msgstr "Predeterminado"
+
+#: linoptions/actions.py:230 linoptions/gui/pages/buttons.py:1534
+msgctxt "button action"
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: linoptions/actions.py:232
+msgid "Shortcut: {combo}"
+msgstr "Atajo: {combo}"
+
+#: linoptions/actions.py:234
+msgid "Run: {command}"
+msgstr "Ejecutar: {command}"
+
+#: linoptions/actions.py:236 linoptions/hidpp/constants.py:87 linoptions/gui/pages/buttons.py:1538
+msgid "Gesture button"
+msgstr "Botón de gestos"
+
+#: linoptions/actions.py:239
+msgid "Button {name}"
+msgstr "Botón {name}"
+
+#: linoptions/actions.py:242
+msgid "Scroll"
+msgstr "Desplazar"
+
+#: linoptions/actions.py:269
+msgid "Unknown mouse button"
+msgstr "Botón desconocido"
+
+#: linoptions/actions.py:272
+msgid "Empty command"
+msgstr "Comando vacío"
+
+#: linoptions/actions.py:278
+msgid "Unknown action type: {type}"
+msgstr "Tipo de acción desconocido: {type}"
+
+# ---- linoptions/hidpp/constants.py
+
+#: linoptions/hidpp/constants.py:79
+msgid "Left button"
+msgstr "Clic izquierdo"
+
+#: linoptions/hidpp/constants.py:80
+msgid "Right button"
+msgstr "Clic derecho"
+
+#: linoptions/hidpp/constants.py:81
+msgid "Middle button"
+msgstr "Clic central"
+
+#: linoptions/hidpp/constants.py:82
+msgid "Back button"
+msgstr "Atrás"
+
+#: linoptions/hidpp/constants.py:83
+msgid "Forward button"
+msgstr "Adelante"
+
+#: linoptions/hidpp/constants.py:84
+msgid "Scroll left button"
+msgstr "Desplazamiento izquierda"
+
+#: linoptions/hidpp/constants.py:85
+msgid "Scroll right button"
+msgstr "Desplazamiento derecha"
+
+#: linoptions/hidpp/constants.py:86
+msgid "Top button"
+msgstr "Botón superior"
+
+#: linoptions/hidpp/constants.py:88
+msgid "Wheel mode button"
+msgstr "Botón de modo de rueda"
+
+#: linoptions/hidpp/constants.py:89
+msgid "Switch computer button"
+msgstr "Cambiar equipo"
+
+#: linoptions/hidpp/constants.py:90
+msgid "DPI button"
+msgstr "Botón de DPI"
+
+#: linoptions/hidpp/constants.py:91
+msgid "Action button"
+msgstr "Botón de acción"
+
+# ---- linoptions/uinput.py
+
+#: linoptions/uinput.py:71
+msgid "Unknown key: {key}"
+msgstr "Tecla desconocida: {key}"
+
+#: linoptions/uinput.py:74
+msgid "Empty shortcut"
+msgstr "Combinación vacía"
+
+# ---- linoptions/gui/pages/buttons.py
+
+#: linoptions/gui/pages/buttons.py:59
+msgid "Press without moving"
+msgstr "Pulsar sin mover"
+
+#: linoptions/gui/pages/buttons.py:59
+msgid "Move up"
+msgstr "Mover hacia arriba"
+
+#: linoptions/gui/pages/buttons.py:59
+msgid "Move down"
+msgstr "Mover hacia abajo"
+
+#: linoptions/gui/pages/buttons.py:60
+msgid "Move left"
+msgstr "Mover hacia la izquierda"
+
+#: linoptions/gui/pages/buttons.py:60
+msgid "Move right"
+msgstr "Mover hacia la derecha"
+
+#: linoptions/gui/pages/buttons.py:116 linoptions/gui/pages/buttons.py:1536
+msgctxt "button action"
+msgid "None"
+msgstr "Ninguna"
+
+#: linoptions/gui/pages/buttons.py:314
+msgid "current action"
+msgstr "acción actual"
+
+#: linoptions/gui/pages/buttons.py:677
+msgid "Device buttons"
+msgstr "Botones del dispositivo"
+
+#: linoptions/gui/pages/buttons.py:751
+msgid "Use the arrow keys to move between the buttons and Enter to choose one. Shift and the arrow keys rotate the device"
+msgstr "Usa las flechas para recorrer los botones e Intro para elegir uno. Mayús y las flechas giran el dispositivo"
+
+#: linoptions/gui/pages/buttons.py:753
+msgid "Use the arrow keys to move between the buttons and Enter to choose one"
+msgstr "Usa las flechas para recorrer los botones e Intro para elegir uno"
+
+#: linoptions/gui/pages/buttons.py:910 linoptions/gui/pages/buttons.py:1423 linoptions/gui/pages/buttons.py:1850 linoptions/gui/pages/buttons.py:2275
+msgid "Button"
+msgstr "Botón"
+
+#: linoptions/gui/pages/buttons.py:1361
+msgid "Drag to rotate"
+msgstr "Arrastra para girar"
+
+#: linoptions/gui/pages/buttons.py:1391 linoptions/gui/pages/buttons.py:2067
+msgid "Buttons"
+msgstr "Botones"
+
+#: linoptions/gui/pages/buttons.py:1393
+msgid "Choose a button to change what it does"
+msgstr "Elige un botón para cambiar lo que hace"
+
+#: linoptions/gui/pages/buttons.py:1400
+msgid "Reset all"
+msgstr "Restablecer todos"
+
+#: linoptions/gui/pages/buttons.py:1401
+msgid "Return every button to its original function"
+msgstr "Devuelve todos los botones a su función original"
+
+#: linoptions/gui/pages/buttons.py:1480 linoptions/gui/pages/buttons.py:1804 linoptions/gui/pages/buttons.py:2285
+msgid "All buttons"
+msgstr "Todos los botones"
+
+#: linoptions/gui/pages/buttons.py:1496
+msgid "Current action"
+msgstr "Acción actual"
+
+#: linoptions/gui/pages/buttons.py:1500
+msgid "This button can only act as another mouse button"
+msgstr "Este botón solo puede hacer de otro botón del ratón"
+
+#: linoptions/gui/pages/buttons.py:1505
+msgid "Search actions…"
+msgstr "Buscar acción…"
+
+#: linoptions/gui/pages/buttons.py:1506
+msgid "Search actions"
+msgstr "Buscar acción"
+
+#: linoptions/gui/pages/buttons.py:1533
+msgctxt "search keywords"
+msgid "original factory normal reset restore"
+msgstr "original fábrica normal restablecer"
+
+#: linoptions/gui/pages/buttons.py:1535
+msgctxt "search keywords"
+msgid "none nothing no action off"
+msgstr "ninguna nada sin acción"
+
+#: linoptions/gui/pages/buttons.py:1537
+msgctxt "search keywords"
+msgid "nothing no action disabled off"
+msgstr "nada sin acción desactivado"
+
+#: linoptions/gui/pages/buttons.py:1539
+msgctxt "search keywords"
+msgid "gestures hold move directions"
+msgstr "gestos mantener mover direcciones"
+
+#: linoptions/gui/pages/buttons.py:1546
+msgid "Custom"
+msgstr "Personalizado"
+
+#: linoptions/gui/pages/buttons.py:1547
+msgid "Keyboard shortcut…"
+msgstr "Atajo de teclado…"
+
+#: linoptions/gui/pages/buttons.py:1548
+msgctxt "search keywords"
+msgid "keys key combination hotkey custom"
+msgstr "teclas combinación tecla personalizado"
+
+#: linoptions/gui/pages/buttons.py:1549
+msgid "Run command…"
+msgstr "Ejecutar comando…"
+
+#: linoptions/gui/pages/buttons.py:1550
+msgctxt "search keywords"
+msgid "program application app open launch script terminal custom"
+msgstr "programa aplicación abrir script terminal orden personalizado"
+
+#: linoptions/gui/pages/buttons.py:1558
+msgid "Use a keyboard shortcut"
+msgstr "Usar un atajo de teclado"
+
+#: linoptions/gui/pages/buttons.py:1655
+msgid "No action matches “{query}”"
+msgstr "Ninguna acción coincide con «{query}»"
+
+#: linoptions/gui/pages/buttons.py:1817
+msgid "Hold the button down and move the mouse. Choose what each direction does"
+msgstr "Mantén pulsado el botón y mueve el ratón. Elige qué hace cada dirección"
+
+#: linoptions/gui/pages/buttons.py:1839
+msgid "Use another action"
+msgstr "Usar otra acción"
+
+#: linoptions/gui/pages/buttons.py:1840
+msgid "Stop using gestures on this button and choose another action"
+msgstr "Deja de usar gestos en este botón y elige otra acción"
+
+#: linoptions/gui/pages/buttons.py:1842
+msgid "Reset gestures"
+msgstr "Restablecer gestos"
+
+#: linoptions/gui/pages/buttons.py:1878
+msgid "Back to actions"
+msgstr "Volver a las acciones"
+
+#: linoptions/gui/pages/buttons.py:1900
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: linoptions/gui/pages/buttons.py:1902
+msgid "Assign"
+msgstr "Asignar"
+
+#: linoptions/gui/pages/buttons.py:1932
+msgid "Keyboard shortcut"
+msgstr "Atajo de teclado"
+
+#: linoptions/gui/pages/buttons.py:1934
+msgid "Record keyboard shortcut"
+msgstr "Grabar atajo de teclado"
+
+#: linoptions/gui/pages/buttons.py:1938
+msgid "If the system intercepts the shortcut, type it instead"
+msgstr "Si el sistema intercepta la combinación, escríbela"
+
+#: linoptions/gui/pages/buttons.py:1941
+msgid "e.g. {shortcut}"
+msgstr "p. ej. {shortcut}"
+
+#: linoptions/gui/pages/buttons.py:1942
+msgid "Type a keyboard shortcut"
+msgstr "Atajo de teclado escrito a mano"
+
+#: linoptions/gui/pages/buttons.py:1986
+msgid "Same as “{action}”"
+msgstr "Equivale a «{action}»"
+
+#: linoptions/gui/pages/buttons.py:1989
+msgid "Separate the keys with +, for example {shortcut}"
+msgstr "Separa las teclas con +, por ejemplo {shortcut}"
+
+#. the user's Downloads folder (xdg-user-dirs name), used in an example command
+#: linoptions/gui/pages/buttons.py:2014
+msgid "~/Downloads"
+msgstr "~/Descargas"
+
+#: linoptions/gui/pages/buttons.py:2017
+msgid "Run command"
+msgstr "Ejecutar comando"
+
+#: linoptions/gui/pages/buttons.py:2019
+msgid "e.g. {command} or {other}"
+msgstr "p. ej. {command} o {other}"
+
+#: linoptions/gui/pages/buttons.py:2021
+msgid "Command to run"
+msgstr "Comando que se ejecutará"
+
+#: linoptions/gui/pages/buttons.py:2026
+msgid "Runs as your user every time you press the button"
+msgstr "Se ejecuta con tu usuario cada vez que pulsas el botón"
+
+#: linoptions/gui/pages/buttons.py:2029
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: linoptions/gui/pages/buttons.py:2102
+msgid "Device disconnected"
+msgstr "Dispositivo desconectado"
+
+#: linoptions/gui/pages/buttons.py:2103
+msgid "Turn it on or move it to wake it up. You can change its buttons once it reconnects."
+msgstr "Enciéndelo o muévelo para despertarlo. Podrás cambiar sus botones cuando vuelva a conectarse."
+
+#: linoptions/gui/pages/buttons.py:2135 linoptions/gui/pages/buttons.py:2236
+msgid "No configurable buttons"
+msgstr "Sin botones configurables"
+
+#: linoptions/gui/pages/buttons.py:2235
+msgid "Keys can't be configured yet"
+msgstr "Teclas no configurables todavía"
+
+#: linoptions/gui/pages/buttons.py:2238
+msgid "The keys of this keyboard can't be customized from Glisa yet."
+msgstr "Las teclas de este teclado aún no se pueden personalizar desde Glisa."
+
+#: linoptions/gui/pages/buttons.py:2239
+msgid "This device has no buttons that can be customized."
+msgstr "Este dispositivo no tiene botones que se puedan personalizar."
+
+#: linoptions/gui/pages/buttons.py:2280
+msgid "Back to gestures"
+msgstr "Volver a los gestos"
+
+#: linoptions/gui/pages/buttons.py:2360
+msgid "Default gestures"
+msgstr "Gestos predeterminados"
+
+#: linoptions/gui/pages/buttons.py:2367
+msgid "The buttons on {name} will go back to their original function."
+msgstr "Los botones de {name} volverán a su función original."
+
+#: linoptions/gui/pages/buttons.py:2368
+msgid "The buttons on this device will go back to their original function."
+msgstr "Los botones de este dispositivo volverán a su función original."
+
+#: linoptions/gui/pages/buttons.py:2369
+msgid "Reset all buttons?"
+msgstr "¿Restablecer todos los botones?"
+
+#: linoptions/gui/pages/buttons.py:2369
+msgid "Reset"
+msgstr "Restablecer"
+
+#: linoptions/gui/pages/buttons.py:2372
+msgid "Buttons reset"
+msgstr "Botones restablecidos"
+
+#: linoptions/gui/pages/buttons.py:2403
+msgid "For “{name}”"
+msgstr "Para el botón «{name}»"

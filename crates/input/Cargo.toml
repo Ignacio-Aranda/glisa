@@ -1,0 +1,22 @@
+[package]
+name = "glisa-input"
+description = "Virtual keyboard and mouse: Linux uinput, Windows SendInput, macOS CGEvent, dry-run recorder"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+glisa-i18n.workspace = true
+log.workspace = true
+
+[target.'cfg(target_os = "linux")'.dependencies]
+libc = "0.2.191"
+
+[target."cfg(windows)".dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_UI_Input_KeyboardAndMouse"] }

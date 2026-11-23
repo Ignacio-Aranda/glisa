@@ -1,0 +1,489 @@
+# Spanish translations of LinOptions (Flow: crates/flow).
+# Source language: English. Generated from the msgids in crates/flow/src; the
+# translations are those of core.po where the msgid is unchanged.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: crates/flow/src/address.rs
+msgid "An IPv6 address needs its closing bracket: [address]:port"
+msgstr "A la dirección IPv6 le falta el corchete de cierre: [dirección]:puerto"
+
+#: crates/flow/src/linux/kwin.rs
+msgid "Another process is already using the Flow service"
+msgstr "Otro proceso ya usa el servicio de Flow"
+
+#: crates/flow/src/service/engine.rs
+msgid "Can't reach {name}: the mouse stays on this computer"
+msgstr "No se puede contactar con {name}: el ratón se queda en este equipo"
+
+#: crates/flow/src/service/mod.rs
+#: crates/flow/src/service/pairing.rs
+msgid "Can't use TCP port {port}: {error}"
+msgstr "No se puede usar el puerto TCP {port}: {error}"
+
+#: crates/flow/src/service/mod.rs
+msgid "Can't use UDP port {port}: {error}"
+msgstr "No se puede usar el puerto UDP {port}: {error}"
+
+#: crates/flow/src/text.rs
+msgid "Cancelled: {what} for {name}"
+msgstr "Cancelado: {what} para {name}"
+
+#: crates/flow/src/text.rs
+msgid "Cancelled: {what} from {name}"
+msgstr "Cancelado: {what} de {name}"
+
+#: crates/flow/src/service/engine.rs
+msgid "Choose which channel of your mouse {name} is on (Flow → Channels)"
+msgstr "Elige en qué canal de tu ratón está {name} (Flow → Canales)"
+
+#: crates/flow/src/linux/kwin.rs
+msgid "Connecting to KWin…"
+msgstr "Conectando con KWin…"
+
+#: crates/flow/src/crypto.rs
+msgid "Couldn't create this computer's identity: {error}"
+msgstr "No se ha podido crear la identidad de este equipo: {error}"
+
+#: crates/flow/src/service/mod.rs
+msgid "Couldn't read this computer's identity: {error}"
+msgstr "No se ha podido leer la identidad de este equipo: {error}"
+
+#: crates/flow/src/linux/kwin.rs
+msgid "Couldn't start the Flow helper: {error}"
+msgstr "No se ha podido iniciar el ayudante de Flow: {error}"
+
+#: crates/flow/src/service/api.rs
+msgid "Device not found"
+msgstr "Dispositivo no encontrado"
+
+#: crates/flow/src/text.rs
+msgid "Didn't arrive: {what} for {name}"
+msgstr "No llegó: {what} para {name}"
+
+#: crates/flow/src/text.rs
+msgid "Didn't arrive: {what} from {name}"
+msgstr "No llegó: {what} de {name}"
+
+#: crates/flow/src/text.rs
+msgid "Flow is not available on this desktop"
+msgstr "Flow no está disponible en este escritorio"
+
+#: crates/flow/src/backends.rs
+msgid "Flow is not available on this desktop: no graphical session found"
+msgstr "Flow no está disponible en este escritorio: no se ha encontrado una sesión gráfica"
+
+#: crates/flow/src/backends.rs
+msgid "Flow is not available on this desktop: on Wayland, {app} can only track the pointer on KDE Plasma"
+msgstr "Flow no está disponible en este escritorio: en Wayland, {app} solo puede saber dónde está el puntero con KDE Plasma"
+
+#: crates/flow/src/backends.rs
+msgid "Flow is not available on this desktop: on Wayland, {app} can only track the pointer on KDE Plasma ({desktop} doesn't allow it)"
+msgstr "Flow no está disponible en este escritorio: en Wayland, {app} solo puede saber dónde está el puntero con KDE Plasma ({desktop} no lo permite)"
+
+#: crates/flow/src/backends.rs
+msgid "Flow is not available on this desktop: the X11 display can't be found"
+msgstr "Flow no está disponible en este escritorio: no se encuentra la pantalla X11"
+
+#: crates/flow/src/linux/x11.rs
+msgid "Flow is not available on this desktop: {reason}"
+msgstr "Flow no está disponible en este escritorio: {reason}"
+
+#: crates/flow/src/service/engine.rs
+msgid "Flow is set to switch only while Ctrl is held, but this desktop doesn't report whether it is"
+msgstr "Flow está configurado para cambiar solo con Ctrl, pero este escritorio no permite saber si está pulsado"
+
+#: crates/flow/src/service/mod.rs
+msgid "Flow is turned off on {name}"
+msgstr "Flow está desactivado en {name}"
+
+#: crates/flow/src/text.rs
+msgid "Getting {what} ready for {name}…"
+msgstr "Preparando {what} para {name}…"
+
+#: crates/flow/src/address.rs
+#: crates/flow/src/service/api.rs
+#: crates/flow/src/store.rs
+msgid "Invalid address"
+msgstr "Dirección no válida"
+
+#: crates/flow/src/service/api.rs
+msgid "Invalid channel"
+msgstr "Canal no válido"
+
+#: crates/flow/src/service/api.rs
+msgid "Invalid edge"
+msgstr "Borde no válido"
+
+#: crates/flow/src/service/api.rs
+#: crates/flow/src/store.rs
+msgid "Invalid position"
+msgstr "Posición no válida"
+
+#: crates/flow/src/service/api.rs
+msgid "Invalid text"
+msgstr "Texto no válido"
+
+#: crates/flow/src/linux/kwin.rs
+msgid "KWin didn't load the Flow script ({error})"
+msgstr "KWin no ha cargado el script de Flow ({error})"
+
+#: crates/flow/src/service/api.rs
+msgid "Missing {key}"
+msgstr "Falta {key}"
+
+#: crates/flow/src/service/api.rs
+msgid "Missing {key} (true or false)"
+msgstr "Falta {key} (verdadero o falso)"
+
+#: crates/flow/src/transfer.rs
+msgid "More than {count} files and folders were copied: that's the most Flow sends at once"
+msgstr "Se han copiado más de {count} archivos y carpetas: es lo máximo que Flow envía de una vez"
+
+#: crates/flow/src/service/pairing.rs
+msgid "No pairing is waiting for confirmation"
+msgstr "No hay ninguna vinculación esperando confirmación"
+
+#: crates/flow/src/transfer.rs
+msgid "Nothing that was copied can be sent: links and special files aren't sent"
+msgstr "No se puede enviar nada de lo copiado: los enlaces y los archivos especiales no se envían"
+
+#: crates/flow/src/service/mod.rs
+msgid "On {name}, the numbers were marked as not matching"
+msgstr "En {name} han indicado que los números no coinciden"
+
+#: crates/flow/src/service/api.rs
+msgid "Only available in demo mode"
+msgstr "Solo disponible en modo demostración"
+
+#: crates/flow/src/service/pairing.rs
+msgid "Paired with {name}"
+msgstr "Vinculado con {name}"
+
+#: crates/flow/src/service/pairing.rs
+msgid "Pairing didn't complete"
+msgstr "La vinculación no se ha completado"
+
+#: crates/flow/src/service/mod.rs
+msgid "Pairing has expired"
+msgstr "La vinculación ha caducado"
+
+#: crates/flow/src/service/pairing.rs
+msgid "Pairing is already in progress"
+msgstr "Ya hay una vinculación en curso"
+
+#: crates/flow/src/address.rs
+msgid "Put an IPv6 address in brackets, like [fe80::1]:27461"
+msgstr "Pon la dirección IPv6 entre corchetes, como [fe80::1]:27461"
+
+#: crates/flow/src/text.rs
+msgid "Received {what} from {name}"
+msgstr "Recibido de {name}: {what}"
+
+#: crates/flow/src/text.rs
+msgid "Received {what} from {name} — paste it with Ctrl+V"
+msgid_plural "Received {what} from {name} — paste them with Ctrl+V"
+msgstr[0] "Recibido de {name}: {what}. Pulsa Ctrl+V para pegar"
+msgstr[1] "Recibido de {name}: {what}. Pulsa Ctrl+V para pegar"
+
+#: crates/flow/src/text.rs
+msgid "Received {what} from {name}. It's in the Flow folder"
+msgid_plural "Received {what} from {name}. They're in the Flow folder"
+msgstr[0] "Recibido de {name}: {what}. Está en la carpeta de Flow"
+msgstr[1] "Recibido de {name}: {what}. Están en la carpeta de Flow"
+
+#: crates/flow/src/text.rs
+msgid "Receiving {what} from {name}… {percent}%"
+msgstr "Recibiendo {what} de {name}… {percent} %"
+
+#: crates/flow/src/service/pairing.rs
+msgid "Say which computer to pair with"
+msgstr "Indica con qué equipo vincular"
+
+#: crates/flow/src/text.rs
+msgid "Sending {what} to {name}… {percent}%"
+msgstr "Enviando {what} a {name}… {percent} %"
+
+#: crates/flow/src/text.rs
+msgid "Sent {what} to {name}"
+msgstr "Enviado a {name}: {what}"
+
+#: crates/flow/src/service/transfers.rs
+msgid "Still sending the previous files to {name}: the new ones weren't sent"
+msgstr "Todavía se están enviando los archivos anteriores a {name}: los nuevos no se han enviado"
+
+#: crates/flow/src/address.rs
+msgid "That address is too long"
+msgstr "Esa dirección es demasiado larga"
+
+#: crates/flow/src/service/pairing.rs
+msgid "That computer can't be found on the network"
+msgstr "No se encuentra ese equipo en la red"
+
+#: crates/flow/src/service/api.rs
+#: crates/flow/src/service/pairing.rs
+#: crates/flow/src/service/transfers.rs
+#: crates/flow/src/store.rs
+msgid "That computer isn't paired"
+msgstr "Ese equipo no está vinculado"
+
+#: crates/flow/src/transfer.rs
+msgid "The copied files are larger than {limit}, the limit for sending them (Flow → Options)"
+msgstr "Los archivos copiados ocupan más de {limit}, el límite para enviarlos (Flow → Opciones)"
+
+#: crates/flow/src/transfer.rs
+msgid "The copied files can't be read"
+msgstr "No se pueden leer los archivos copiados"
+
+#: crates/flow/src/service/transfers.rs
+msgid "The copied files weren't sent to {name}: {reason}"
+msgstr "Los archivos copiados no se enviaron a {name}: {reason}"
+
+#: crates/flow/src/transfer.rs
+msgid "The copied folders are nested more than {depth} levels deep: Flow doesn't send them"
+msgstr "Las carpetas copiadas tienen más de {depth} niveles de profundidad: Flow no las envía"
+
+#: crates/flow/src/service/transfers.rs
+msgid "The copied image is larger than {limit}, the limit for sending it (Flow → Options)"
+msgstr "La imagen copiada ocupa más de {limit}, el límite para enviarla (Flow → Opciones)"
+
+#: crates/flow/src/service/transfers.rs
+msgid "The copied image wasn't sent to {name}: {reason}"
+msgstr "La imagen copiada no se envió a {name}: {reason}"
+
+#: crates/flow/src/service/engine.rs
+msgid "The copied text is too large to send to the other computer (1 MB maximum)"
+msgstr "El texto copiado es demasiado grande para pasarlo al otro equipo (máximo 1 MB)"
+
+#: crates/flow/src/service/transfers.rs
+msgid "The files from {name} weren't received: {reason}"
+msgstr "Los archivos de {name} no se recibieron: {reason}"
+
+#: crates/flow/src/service/mod.rs
+msgid "The identity of {name} doesn't match the one you paired, so it wasn't connected. If you reinstalled {app} there, remove it and pair it again"
+msgstr "La identidad de {name} no coincide con la que vinculaste. No se ha conectado: si has reinstalado {app} allí, quítalo y vuelve a vincularlo"
+
+#: crates/flow/src/service/transfers.rs
+msgid "The image from {name} wasn't received: {reason}"
+msgstr "La imagen de {name} no se recibió: {reason}"
+
+#: crates/flow/src/service/engine.rs
+msgid "The mouse arrived, but the pointer couldn't be placed at the edge"
+msgstr "El ratón ha llegado, pero no se ha podido colocar el puntero en el borde"
+
+#: crates/flow/src/service/pairing.rs
+msgid "The other computer"
+msgstr "El otro equipo"
+
+#: crates/flow/src/address.rs
+msgid "The port must be a number from 1 to 65535"
+msgstr "El puerto debe ser un número del 1 al 65535"
+
+#: crates/flow/src/service/mod.rs
+msgid "The security check failed: pair again"
+msgstr "La comprobación de seguridad ha fallado: vincular de nuevo"
+
+#: crates/flow/src/linux/kwin.rs
+msgid "There is no D-Bus session bus"
+msgstr "No hay bus de sesión D-Bus"
+
+#: crates/flow/src/service/mod.rs
+#: crates/flow/src/service/pairing.rs
+msgid "Too many attempts: wait a moment and open pairing again"
+msgstr "Demasiados intentos: espera un momento y vuelve a abrir la vinculación"
+
+#: crates/flow/src/service/pairing.rs
+msgid "Turn on Flow to pair computers"
+msgstr "Activa Flow para vincular equipos"
+
+#: crates/flow/src/address.rs
+msgid "Type the computer's IP address or name"
+msgstr "Escribe la dirección IP o el nombre del equipo"
+
+#: crates/flow/src/service/api.rs
+msgid "Unknown method: {method}"
+msgstr "Método desconocido: {method}"
+
+#: crates/flow/src/service/api.rs
+msgid "Unknown operation"
+msgstr "Operación desconocida"
+
+#: crates/flow/src/store.rs
+msgid "Unknown option: {option}"
+msgstr "Opción desconocida: {option}"
+
+#: crates/flow/src/linux/kwin.rs
+msgid "Waiting for KWin…"
+msgstr "Esperando a KWin…"
+
+#: crates/flow/src/service/pairing.rs
+msgid "You said the numbers don't match. Nothing was saved"
+msgstr "Has indicado que los números no coinciden. No se ha guardado nada"
+
+#: crates/flow/src/text.rs
+msgid "an image"
+msgstr "una imagen"
+
+#: crates/flow/src/service/transfers.rs
+msgid "cancelled on {name}"
+msgstr "se canceló en {name}"
+
+#: crates/flow/src/service/transfers.rs
+msgid "it couldn't be saved"
+msgstr "no se pudo guardar"
+
+#: crates/flow/src/transfer.rs
+msgid "it didn't arrive intact"
+msgstr "no llegó bien"
+
+#: crates/flow/src/transfer.rs
+msgid "it isn't a valid image"
+msgstr "no es una imagen válida"
+
+#: crates/flow/src/transfer.rs
+msgid "it isn't the kind of image it said it was"
+msgstr "no es el tipo de imagen que decía ser"
+
+#: crates/flow/src/transfer.rs
+msgid "it's larger than {limit}"
+msgstr "ocupa más de {limit}"
+
+#: crates/flow/src/transfer.rs
+msgid "it's too big ({width} × {height} pixels)"
+msgstr "es demasiado grande ({width} × {height} píxeles)"
+
+#: crates/flow/src/service/transfers.rs
+msgid "nothing arrived intact"
+msgstr "nada llegó bien"
+
+#: crates/flow/src/service/transfers.rs
+msgid "saving failed on {name}"
+msgstr "no se pudo guardar en {name}"
+
+#: crates/flow/src/service/transfers.rs
+msgid "the connection was lost"
+msgstr "se perdió la conexión"
+
+#: crates/flow/src/service/mod.rs
+msgid "the other computer"
+msgstr "el otro equipo"
+
+#: crates/flow/src/service/transfers.rs
+msgid "there isn't enough free space"
+msgstr "no hay espacio libre suficiente"
+
+#: crates/flow/src/service/transfers.rs
+msgid "what arrived wasn't valid, so it was deleted"
+msgstr "lo que llegó no era válido y se ha borrado"
+
+#: crates/flow/src/service/transfers.rs
+msgid "your limit is {limit} (Flow → Options)"
+msgstr "tu límite es {limit} (Flow → Opciones)"
+
+#: crates/flow/src/text.rs
+msgid "{count} file"
+msgid_plural "{count} files"
+msgstr[0] "{count} archivo"
+msgstr[1] "{count} archivos"
+
+#: crates/flow/src/text.rs
+msgid "{count} folder"
+msgid_plural "{count} folders"
+msgstr[0] "{count} carpeta"
+msgstr[1] "{count} carpetas"
+
+#: crates/flow/src/text.rs
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} elemento"
+msgstr[1] "{count} elementos"
+
+#: crates/flow/src/service/transfers.rs
+msgid "{count} of the copied files couldn't be sent to {name}: they changed or disappeared while sending"
+msgstr "{count} de los archivos copiados no se pudieron enviar a {name}: cambiaron o desaparecieron mientras se enviaban"
+
+#: crates/flow/src/service/transfers.rs
+msgid "{count} of the files from {name} didn't arrive intact and were left out"
+msgstr "{count} de los archivos de {name} no llegaron bien y se han descartado"
+
+#: crates/flow/src/service/transfers.rs
+msgid "{name} can't be reached"
+msgstr "no se puede contactar con {name}"
+
+#: crates/flow/src/service/transfers.rs
+msgid "{name} cancelled it"
+msgstr "{name} lo canceló"
+
+#: crates/flow/src/service/transfers.rs
+msgid "{name} doesn't accept copied files and images (it's turned off there)"
+msgstr "{name} no acepta archivos ni imágenes copiados (está desactivado allí)"
+
+#: crates/flow/src/service/transfers.rs
+msgid "{name} doesn't accept that many files"
+msgstr "{name} no acepta tantos archivos"
+
+#: crates/flow/src/service/transfers.rs
+msgid "{name} doesn't have enough free space"
+msgstr "{name} no tiene espacio libre suficiente"
+
+#: crates/flow/src/service/mod.rs
+#: crates/flow/src/service/transfers.rs
+msgid "{name} doesn't recognize this computer: pair them again"
+msgstr "{name} no reconoce este equipo: vuelve a vincularlos"
+
+#: crates/flow/src/service/mod.rs
+#: crates/flow/src/service/transfers.rs
+msgid "{name} gave an unexpected answer"
+msgstr "{name} ha respondido algo inesperado"
+
+#: crates/flow/src/service/transfers.rs
+msgid "{name} has a lower size limit (Flow → Options there)"
+msgstr "{name} tiene un límite de tamaño menor (Flow → Opciones, allí)"
+
+#: crates/flow/src/service/mod.rs
+msgid "{name} is busy"
+msgstr "{name} está ocupado"
+
+#: crates/flow/src/service/pairing.rs
+msgid "{name} is no longer paired with this computer"
+msgstr "{name} ha dejado de estar vinculado con este equipo"
+
+#: crates/flow/src/service/transfers.rs
+msgid "{name} is still receiving something else: try again in a moment"
+msgstr "{name} todavía está recibiendo otra cosa: vuelve a intentarlo en un momento"
+
+#: crates/flow/src/service/mod.rs
+msgid "{name} isn't ready to pair: open “Pair a computer” there too"
+msgstr "{name} no está en modo de vinculación: abre «Vincular un equipo» también allí"
+
+#: crates/flow/src/service/mod.rs
+msgid "{name} uses a different version of Flow: update {app} on both computers"
+msgstr "{name} usa otra versión de Flow: actualiza {app} en los dos equipos"
+
+#: crates/flow/src/store.rs
+msgid "{option} must be a whole number"
+msgstr "{option} debe ser un número entero"
+
+#: crates/flow/src/store.rs
+msgid "{option} must be true or false"
+msgstr "{option} debe ser verdadero o falso"
+
+#: crates/flow/src/service/engine.rs
+msgid "{reason}: the mouse stays on this computer"
+msgstr "{reason}: el ratón se queda en este equipo"
+
+#: crates/flow/src/address.rs
+msgid "“{host}” isn't a valid IP address"
+msgstr "«{host}» no es una dirección IP válida"
+
+#: crates/flow/src/address.rs
+msgid "“{host}” isn't a valid IPv6 address"
+msgstr "«{host}» no es una dirección IPv6 válida"
+
+#: crates/flow/src/address.rs
+msgid "“{host}” isn't a valid computer name or IP address"
+msgstr "«{host}» no es un nombre de equipo ni una dirección IP válidos"
+

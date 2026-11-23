@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Rust / Tauri
+/target/
+app/node_modules/
+app/dist/
+app/src-tauri/gen/
+app/src-tauri/target/
+brand/tools/node_modules/
+app/screenshots-out/

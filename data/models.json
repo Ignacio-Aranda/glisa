@@ -1,0 +1,35 @@
+{
+  "_comment": [
+    "LinOptions' own table of known Logitech models, written from public knowledge (product names, and product ids published by the Linux kernel's hid-logitech-hidpp and the Solaar project) and from what devices report about themselves. Never copied from Logitech Options+ files.",
+    "Keys are product slugs shared with data/photos.json. family: the illustration family (docs/ARCHITECTURE.md, Device pictures). bt: Bluetooth / BLE product ids; wpid: wireless product id behind a Unifying or Lightspeed receiver; usb: USB product ids (cable or receiver). Only ids we are sure of are listed. names: other names the device reports (matched as whole words, longest first). extras: per-model features, e.g. virtual_thumbwheel (hold back or forward and turn the wheel to scroll sideways)."
+  ],
+  "models": {
+    "lift": {"name": "LIFT", "family": "mouse-vertical", "kind": "mouse", "bt": ["B031"], "names": ["LIFT Vertical Ergonomic Mouse"], "extras": {"virtual_thumbwheel": true}},
+    "mx-vertical": {"name": "MX Vertical", "family": "mouse-vertical", "kind": "mouse", "bt": ["B020"], "wpid": ["407B"], "usb": ["C08A"], "extras": {"virtual_thumbwheel": true}},
+    "mx-ergo": {"name": "MX Ergo", "family": "trackball", "kind": "trackball", "bt": ["B01D"], "wpid": ["406F"]},
+    "mx-ergo-s": {"name": "MX Ergo S", "family": "trackball", "kind": "trackball"},
+    "mx-master-3s": {"name": "MX Master 3S", "family": "mouse-performance", "kind": "mouse", "bt": ["B034"]},
+    "mx-master-3": {"name": "MX Master 3", "family": "mouse-performance", "kind": "mouse", "bt": ["B023"], "wpid": ["4082"]},
+    "mx-master-2s": {"name": "MX Master 2S", "family": "mouse-performance", "kind": "mouse", "bt": ["B019"], "wpid": ["4069"]},
+    "mx-anywhere-3s": {"name": "MX Anywhere 3S", "family": "mouse-compact", "kind": "mouse", "bt": ["B037"]},
+    "mx-anywhere-3": {"name": "MX Anywhere 3", "family": "mouse-compact", "kind": "mouse", "bt": ["B025"], "wpid": ["4090"]},
+    "mx-anywhere-2s": {"name": "MX Anywhere 2S", "family": "mouse-compact", "kind": "mouse", "bt": ["B01A"], "wpid": ["406A"]},
+    "m720-triathlon": {"name": "M720 Triathlon", "family": "mouse-ergo-large", "kind": "mouse", "bt": ["B015"], "wpid": ["405E"]},
+    "signature-m650": {"name": "Signature M650", "family": "mouse-basic", "kind": "mouse", "bt": ["B02A"]},
+    "pop-mouse": {"name": "POP Mouse", "family": "mouse-compact", "kind": "mouse"},
+    "pebble-m350s": {"name": "Pebble Mouse 2 M350s", "family": "mouse-compact", "kind": "mouse", "names": ["M350s"]},
+    "mx-keys-s": {"name": "MX Keys S", "family": "keyboard-full", "kind": "keyboard"},
+    "mx-keys": {"name": "MX Keys", "family": "keyboard-full", "kind": "keyboard", "bt": ["B35B"], "wpid": ["408A"]},
+    "mx-keys-mini": {"name": "MX Keys Mini", "family": "keyboard-compact", "kind": "keyboard"},
+    "mx-mechanical": {"name": "MX Mechanical", "family": "keyboard-full", "kind": "keyboard"},
+    "mx-mechanical-mini": {"name": "MX Mechanical Mini", "family": "keyboard-tkl", "kind": "keyboard"},
+    "k380": {"name": "K380", "family": "keyboard-compact", "kind": "keyboard", "bt": ["B342"]},
+    "ergo-k860": {"name": "ERGO K860", "family": "keyboard-tkl", "kind": "keyboard", "names": ["K860"]},
+    "pop-keys": {"name": "POP Keys", "family": "keyboard-compact", "kind": "keyboard"},
+    "k780": {"name": "K780", "family": "keyboard-full", "kind": "keyboard", "wpid": ["405B"]},
+    "wave-keys": {"name": "Wave Keys", "family": "keyboard-full", "kind": "keyboard"},
+    "signature-k650": {"name": "Signature K650", "family": "keyboard-full", "kind": "keyboard"},
+    "bolt-receiver": {"name": "Logi Bolt receiver", "family": "receiver", "kind": "receiver", "usb": ["C548"], "names": ["Bolt Receiver"]},
+    "unifying-receiver": {"name": "Unifying receiver", "family": "receiver", "kind": "receiver", "usb": ["C52B", "C532"], "names": ["USB Receiver"]}
+  }
+}

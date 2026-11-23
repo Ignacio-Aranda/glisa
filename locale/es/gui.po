@@ -1,0 +1,1261 @@
+# Spanish translations of LinOptions (gui).
+# Source language: English. See linoptions/i18n.py and tools/i18n.py.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+# ---- gui/components.py
+msgid "{percent}%"
+msgstr "{percent} %"
+
+msgctxt "battery level"
+msgid "Full"
+msgstr "Llena"
+
+msgctxt "battery level"
+msgid "Good"
+msgstr "Buena"
+
+msgctxt "battery level"
+msgid "Low"
+msgstr "Baja"
+
+msgctxt "battery level"
+msgid "Critical"
+msgstr "Crítica"
+
+msgid "Charging"
+msgstr "Cargando"
+
+msgid "Battery: {state}"
+msgstr "Batería: {state}"
+
+msgid "Search…"
+msgstr "Buscar…"
+
+msgid "Press the key combination…  (Esc to cancel)"
+msgstr "Pulsa la combinación…  (Esc para cancelar)"
+
+msgid "Click, then press a key combination"
+msgstr "Haz clic y pulsa una combinación de teclas"
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "OK"
+msgstr "Aceptar"
+
+# ---- gui/shell.py
+msgid "Not available in demo mode"
+msgstr "No disponible en modo demostración"
+
+msgid "Mouse"
+msgstr "Ratón"
+
+msgid "Keyboard"
+msgstr "Teclado"
+
+msgid "Trackball"
+msgstr "Trackball"
+
+msgid "Trackpad"
+msgstr "Panel táctil"
+
+msgid "Presenter"
+msgstr "Presentador"
+
+msgid "USB receiver"
+msgstr "Receptor USB"
+
+msgid "USB cable"
+msgstr "Cable USB"
+
+msgctxt "page title"
+msgid "Devices"
+msgstr "Tus dispositivos"
+
+msgid "Device"
+msgstr "Dispositivo"
+
+msgid "{battery}, charging"
+msgstr "{battery}, cargando"
+
+msgid "Loading…"
+msgstr "Cargando…"
+
+msgid "Couldn't find the Bluetooth settings of your system"
+msgstr "No se han encontrado los ajustes de Bluetooth de tu sistema"
+
+msgid "Couldn't open the Bluetooth settings"
+msgstr "No se han podido abrir los ajustes de Bluetooth"
+
+msgid "Flow: use your mouse on another computer"
+msgstr "Flow: usa el ratón en otro equipo"
+
+msgid "App settings (Ctrl+,)"
+msgstr "Ajustes (Ctrl+,)"
+
+msgid "App settings"
+msgstr "Ajustes"
+
+msgid "Something went wrong in this section"
+msgstr "Esta sección ha tenido un problema"
+
+msgid "Back (Esc)"
+msgstr "Volver (Esc)"
+
+msgid "Back to your devices"
+msgstr "Volver a tus dispositivos"
+
+msgid "Section"
+msgstr "Sección"
+
+msgid "Loading the device…"
+msgstr "Cargando el dispositivo…"
+
+msgid "The device"
+msgstr "El dispositivo"
+
+msgid "Can't reach the service. Retrying…"
+msgstr "No se puede hablar con el servicio. Reintentando…"
+
+msgid "No connection to the service"
+msgstr "Sin conexión con el servicio"
+
+msgid "Retrying…"
+msgstr "Reintentando…"
+
+msgid "Connecting…"
+msgstr "Conectando…"
+
+msgid "Connected"
+msgstr "Conectado"
+
+msgid "Disconnected"
+msgstr "Desconectado"
+
+msgid "Turn it on or move it to reconnect"
+msgstr "Enciéndelo o muévelo para reconectar"
+
+# ---- gui/app.py
+msgid "{name} is no longer available"
+msgstr "{name} ya no está disponible"
+
+msgid "Refreshed"
+msgstr "Actualizado"
+
+msgid "Can't connect to the service"
+msgstr "No hay conexión con el servicio"
+
+msgid "Starting the service…"
+msgstr "Iniciando el servicio…"
+
+msgid "Permissions needed"
+msgstr "Faltan permisos"
+
+msgid "Demo mode"
+msgstr "Modo demostración"
+
+msgid "Service running"
+msgstr "Servicio activo"
+
+msgid "Service started"
+msgstr "Servicio iniciado"
+
+msgid "Service restarted"
+msgstr "Servicio reiniciado"
+
+msgid "This service was started by hand, so it can't be restarted from here: close it and start it again where you launched it"
+msgstr "No se puede reiniciar desde aquí un servicio que has iniciado a mano: ciérralo y vuelve a abrirlo donde lo lanzaste"
+
+msgid "Couldn't start the service"
+msgstr "No se ha podido iniciar el servicio"
+
+msgid "Couldn't restart the service"
+msgstr "No se ha podido reiniciar el servicio"
+
+msgid "Low battery"
+msgstr "Batería baja"
+
+msgid "{app} is still running in the system tray. Click its icon to open it again."
+msgstr "{app} sigue en marcha en la bandeja del sistema. Haz clic en su icono para volver a abrirlo."
+
+msgid "Something unexpected went wrong"
+msgstr "Ha ocurrido un error inesperado"
+
+msgid "Configure your Logitech mice and keyboards."
+msgstr "Configura tus ratones y teclados Logitech."
+
+msgid "try the app with simulated devices, without changing anything on the system"
+msgstr "prueba la aplicación con dispositivos simulados, sin tocar nada del sistema"
+
+msgid "PATH"
+msgstr "RUTA"
+
+msgid "socket of the background service (default: the one of your session)"
+msgstr "socket del servicio (por defecto, el de tu sesión)"
+
+msgid "start hidden in the system tray"
+msgstr "arranca oculta en la bandeja del sistema"
+
+# ---- gui/onboarding.py
+msgid "Turn your mouse off and on again, or unplug it and plug it back in"
+msgstr "Apaga y enciende el ratón, o desconéctalo y vuelve a conectarlo"
+
+msgid "Permissions"
+msgstr "Permisos"
+
+msgid "Permission to use your devices"
+msgstr "Permiso para usar tus dispositivos"
+
+msgid "For security, Linux doesn't let a regular app talk to your mouse directly or send key presses. LinOptions needs to install a small system rule, just once."
+msgstr "Por seguridad, Linux no deja que una aplicación normal hable directamente con el ratón ni envíe pulsaciones de teclas. LinOptions necesita instalar una pequeña regla del sistema, una sola vez."
+
+msgid "What gets installed, and why"
+msgstr "Qué se instala y para qué"
+
+msgid "Access to your Logitech devices"
+msgstr "Acceso a tus dispositivos Logitech"
+
+msgid "A system rule (udev) so your user can read and change their settings without being an administrator"
+msgstr "Una regla del sistema (udev) para que tu usuario pueda leer y cambiar sus ajustes sin ser administrador"
+
+msgid "Sending key presses"
+msgstr "Envío de pulsaciones de teclas"
+
+msgid "So a mouse button can trigger shortcuts such as copy or switching desktops"
+msgstr "Para que un botón del ratón pueda lanzar atajos como copiar o cambiar de escritorio"
+
+msgid "Nothing else"
+msgstr "Nada más"
+
+msgid "No new software is installed, and LinOptions keeps running as your user"
+msgstr "No se instala ningún programa nuevo y LinOptions sigue funcionando con tu usuario"
+
+msgid "Show manual command"
+msgstr "Ver comando manual"
+
+msgid "Hide manual command"
+msgstr "Ocultar comando manual"
+
+msgid "Copy command"
+msgstr "Copiar comando"
+
+msgid "Not now"
+msgstr "Ahora no"
+
+msgid "Install permissions"
+msgstr "Instalar permisos"
+
+msgid "Your system will ask for your administrator password"
+msgstr "El sistema te pedirá tu contraseña de administrador"
+
+msgid "Command copied"
+msgstr "Comando copiado"
+
+msgid "Waiting for you to enter your password in the system window…"
+msgstr "Esperando a que escribas tu contraseña en la ventana del sistema…"
+
+msgid "All set"
+msgstr "Listo"
+
+msgid "Installation cancelled"
+msgstr "Instalación cancelada"
+
+msgid "Nothing was changed. You can try again whenever you like."
+msgstr "No se ha cambiado nada. Puedes intentarlo de nuevo cuando quieras."
+
+msgid "Couldn't install the permissions"
+msgstr "No se han podido instalar los permisos"
+
+msgid "Try again, or use the manual command in a terminal."
+msgstr "Prueba otra vez o usa el comando manual en una terminal."
+
+msgid "Retry"
+msgstr "Reintentar"
+
+msgid "Done"
+msgstr "Hecho"
+
+msgid "Your system can't ask for the password from here. Copy this command, paste it into a terminal, then turn your mouse off and on again."
+msgstr "Tu sistema no permite pedir la contraseña desde aquí. Copia este comando, pégalo en una terminal y después apaga y enciende el ratón."
+
+msgid "If you prefer, copy this command, paste it into a terminal, then turn your mouse off and on again."
+msgstr "Si lo prefieres, copia este comando, pégalo en una terminal y después apaga y enciende el ratón."
+
+msgid "The installation was interrupted. Try again, or use the manual command."
+msgstr "La instalación se ha interrumpido. Prueba otra vez o usa el comando manual."
+
+msgid "Your password couldn't be verified, or your user can't administer this computer. Use the manual command with an administrator account."
+msgstr "No se ha podido comprobar tu contraseña o tu usuario no puede administrar este equipo. Usa el comando manual con un usuario administrador."
+
+msgid "Something went wrong during the installation. Try again, or use the manual command in a terminal."
+msgstr "Algo ha fallado durante la instalación. Prueba otra vez o usa el comando manual en una terminal."
+
+msgid "Couldn't open the password window of your system. Use the manual command in a terminal."
+msgstr "No se ha podido abrir la ventana de contraseña del sistema. Usa el comando manual en una terminal."
+
+# ---- gui/tray.py
+msgid "Your device"
+msgstr "Tu dispositivo"
+
+msgid "{name} has {battery} battery left. Charge it soon."
+msgstr "A {name} le queda un {battery} de batería. Cárgalo pronto."
+
+msgid "{name} is running low on battery. Charge it soon."
+msgstr "A {name} le queda poca batería. Cárgalo pronto."
+
+msgid "No devices"
+msgstr "Ningún dispositivo"
+
+msgid "{name}: disconnected"
+msgstr "{name}: desconectado"
+
+msgid "{name}: connected"
+msgstr "{name}: conectado"
+
+msgid "{name} — disconnected"
+msgstr "{name} — desconectado"
+
+msgid "Open {app}"
+msgstr "Abrir {app}"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Quit"
+msgstr "Salir"
+
+# ---- gui/pages/__init__.py
+msgid "Couldn't load this section"
+msgstr "No se pudo cargar esta sección"
+
+# ---- gui/pages/home.py
+msgid "battery {level}"
+msgstr "batería {level}"
+
+msgid "disconnected"
+msgstr "desconectado"
+
+msgid "Configure {name}"
+msgstr "Configurar {name}"
+
+msgid "Add device"
+msgstr "Añadir dispositivo"
+
+msgid "Via Bluetooth or a USB receiver"
+msgstr "Por Bluetooth o con receptor USB"
+
+msgid "Add a device"
+msgstr "Añadir un dispositivo"
+
+msgid "LinOptions finds the Logitech devices connected to this computer by itself. Connect yours in one of these two ways and it will show up here within seconds."
+msgstr "LinOptions detecta solo los dispositivos Logitech que ya están conectados a este equipo. Conéctalo de una de estas dos formas y aparecerá aquí en unos segundos."
+
+msgid "Via Bluetooth"
+msgstr "Por Bluetooth"
+
+msgid "Turn on the device and hold down its pairing button (the channel button) until the light blinks quickly"
+msgstr "Enciende el dispositivo y mantén pulsado su botón de emparejamiento (el de cambio de canal) hasta que la luz parpadee rápido"
+
+msgid "Open the Bluetooth settings of your system and pick the device from the list"
+msgstr "Abre los ajustes de Bluetooth de tu sistema y elige el dispositivo en la lista"
+
+msgid "Come back to LinOptions: there is nothing else to do"
+msgstr "Vuelve a LinOptions: no hay que hacer nada más"
+
+msgid "Open Bluetooth settings"
+msgstr "Abrir ajustes de Bluetooth"
+
+msgid "With a USB receiver"
+msgstr "Con receptor USB"
+
+msgid "Plug the receiver into this computer and turn on the device. If they came together in the box, they are already paired."
+msgstr "Conecta el receptor a este equipo y enciende el dispositivo. Si venían juntos de fábrica, ya están emparejados."
+
+msgid "Got it"
+msgstr "Entendido"
+
+msgid "A Logitech device is connected, but your user isn't allowed to use it."
+msgid_plural "{n} Logitech devices are connected, but your user isn't allowed to use them."
+msgstr[0] "Hay un dispositivo Logitech conectado, pero tu usuario no tiene permiso para usarlo."
+msgstr[1] "Hay {n} dispositivos Logitech conectados, pero tu usuario no tiene permiso para usarlos."
+
+msgid "Permissions have to be installed once so that LinOptions can see and configure your devices."
+msgstr "Hay que instalar los permisos una vez para que LinOptions pueda ver y configurar tus dispositivos."
+
+msgid "Without access to the virtual keyboard, buttons can't send keyboard shortcuts."
+msgstr "Sin acceso al teclado virtual, los botones no pueden enviar atajos de teclado."
+
+msgid "Looking for devices…"
+msgstr "Buscando dispositivos…"
+
+msgid "Waiting for the service…"
+msgstr "Esperando al servicio…"
+
+msgid "Refresh (F5)"
+msgstr "Actualizar (F5)"
+
+msgid "Refresh"
+msgstr "Actualizar"
+
+msgid "LinOptions uses a background service to talk to your devices. They will show up here as soon as it is running."
+msgstr "LinOptions usa un servicio en segundo plano para hablar con tus dispositivos. Aparecerán aquí en cuanto esté en marcha."
+
+msgid "No devices found"
+msgstr "No se ha encontrado ningún dispositivo"
+
+msgid "LinOptions looks for Logitech mice and keyboards connected to this computer via Bluetooth or a USB receiver."
+msgstr "LinOptions busca ratones y teclados Logitech conectados a este equipo por Bluetooth o con receptor USB."
+
+msgid "How to add a device"
+msgstr "Cómo añadir un dispositivo"
+
+msgid "Already connected? Try this"
+msgstr "Si ya lo tienes conectado, prueba esto"
+
+msgid "Wake the device up"
+msgstr "Despierta el dispositivo"
+
+msgid "Turn it on and move it or press a button: it may be asleep or out of battery"
+msgstr "Enciéndelo y muévelo o pulsa un botón: puede estar dormido o sin batería"
+
+msgid "Open Bluetooth"
+msgstr "Abrir Bluetooth"
+
+msgid "Check Bluetooth"
+msgstr "Comprueba el Bluetooth"
+
+msgid "It has to be on, and the device paired and connected to this computer"
+msgstr "Tiene que estar activado, y el dispositivo emparejado y conectado con este equipo"
+
+msgid "Review permissions"
+msgstr "Revisar permisos"
+
+msgid "Check the permissions"
+msgstr "Revisa los permisos"
+
+msgid "Without them, Linux won't let LinOptions see your devices"
+msgstr "Sin ellos, Linux no deja que LinOptions vea tus dispositivos"
+
+msgid "Pick one to set up its buttons, pointer and more"
+msgstr "Elige uno para configurar sus botones, el puntero y más"
+
+msgid "Click it to set up its buttons, pointer and more"
+msgstr "Haz clic en él para configurar sus botones, el puntero y más"
+
+msgid "The LinOptions background service wasn't running. It usually takes a couple of seconds."
+msgstr "El servicio en segundo plano de LinOptions no estaba en marcha. Suele tardar un par de segundos."
+
+msgid "Couldn't start the background service. Try again; if nothing changes, log out and back in."
+msgstr "No se ha podido iniciar el servicio en segundo plano. Vuelve a intentarlo; si sigue igual, cierra la sesión y vuelve a entrar."
+
+msgid "There is no connection to the LinOptions background service."
+msgstr "No hay conexión con el servicio en segundo plano de LinOptions."
+
+msgid "The service isn't responding"
+msgstr "El servicio no responde"
+
+msgid "Fix"
+msgstr "Solucionar"
+
+msgid "These devices are simulated: nothing you change affects a real mouse"
+msgstr "Los dispositivos son simulados: nada de lo que cambies afecta a un ratón real"
+
+# ---- gui/pages/pointer.py
+msgid "Pointer speed"
+msgstr "Velocidad del puntero"
+
+msgid "A higher value moves the pointer further for the same hand movement"
+msgstr "Con un valor más alto, el puntero llega más lejos con el mismo movimiento de la mano"
+
+msgid "Reset"
+msgstr "Restablecer"
+
+msgid "Back to {dpi} DPI"
+msgstr "Volver a {dpi} DPI"
+
+msgid "Use {dpi} DPI"
+msgstr "Usar {dpi} DPI"
+
+msgid "DPI level"
+msgstr "Nivel de DPI"
+
+msgid "Remove this level"
+msgstr "Quitar este nivel"
+
+msgid "Add"
+msgstr "Añadir"
+
+msgid "DPI levels"
+msgstr "Niveles de DPI"
+
+msgid "The speeds that the “Change DPI” action cycles through"
+msgstr "Las velocidades entre las que alterna la acción «Cambiar DPI»"
+
+msgid "At least one level has to stay"
+msgstr "Tiene que quedar al menos un nivel"
+
+msgid "Add another level"
+msgstr "Añadir otro nivel"
+
+msgid "You can save up to {n} level"
+msgid_plural "You can save up to {n} levels"
+msgstr[0] "Puedes guardar hasta {n} nivel"
+msgstr[1] "Puedes guardar hasta {n} niveles"
+
+msgid "You have used every value this device supports"
+msgstr "Ya has usado todos los valores que admite este dispositivo"
+
+msgid "You already have a {dpi} DPI level"
+msgstr "Ya tienes un nivel de {dpi} DPI"
+
+msgid "Content follows the movement of your fingers"
+msgstr "El contenido sigue el movimiento de tus dedos"
+
+msgid "This device can't reverse the scrolling direction"
+msgstr "Este dispositivo no permite invertir el sentido de la rueda"
+
+msgid "Scroll wheel"
+msgstr "Rueda de desplazamiento"
+
+msgid "Natural scrolling"
+msgstr "Desplazamiento natural"
+
+msgid "Smooth scrolling"
+msgstr "Desplazamiento suave"
+
+msgid "Smaller steps for smoother movement"
+msgstr "Pasos más pequeños para un movimiento más fluido"
+
+msgid "Give the wheel a hard flick and it lets go and spins freely"
+msgstr "Al impulsarla con fuerza, la rueda se suelta y gira libremente"
+
+msgid "Switch to free spin automatically"
+msgstr "Cambio automático a giro libre"
+
+msgid "Once the flick is over, the wheel goes back to clicks"
+msgstr "Al terminar el impulso, la rueda vuelve a los clics"
+
+msgid "Sensitivity"
+msgstr "Sensibilidad"
+
+msgid "Sensitivity of the automatic switch"
+msgstr "Sensibilidad del cambio automático"
+
+msgid "Needs a harder flick"
+msgstr "Hace falta más impulso"
+
+msgid "A gentle flick is enough"
+msgstr "Basta un impulso suave"
+
+msgid "With clicks"
+msgstr "Con clics"
+
+msgid "Free spin"
+msgstr "Giro libre"
+
+msgid "Wheel mode"
+msgstr "Modo de la rueda"
+
+msgid "In free spin, the automatic switch does nothing"
+msgstr "En giro libre, el cambio automático no actúa"
+
+msgid "Pointer & scrolling"
+msgstr "Puntero y desplazamiento"
+
+msgid "Device disconnected"
+msgstr "Dispositivo desconectado"
+
+msgid "Turn it on or bring it closer to change these settings."
+msgstr "Enciéndelo o acércalo para cambiar estos ajustes."
+
+msgid "Nothing to adjust here"
+msgstr "Nada que ajustar aquí"
+
+msgid "This device doesn't let you change the pointer speed or how the wheel behaves."
+msgstr "Este dispositivo no permite cambiar la velocidad del puntero ni el comportamiento de la rueda."
+
+msgid "DPI levels saved"
+msgstr "Niveles de DPI guardados"
+
+# ---- gui/pages/hosts.py
+# Nouns inside sentences such as "This {device} can only be paired with one
+# computer"; the Spanish sentences assume a masculine noun.
+msgctxt "device noun"
+msgid "mouse"
+msgstr "ratón"
+
+msgctxt "device noun"
+msgid "keyboard"
+msgstr "teclado"
+
+msgctxt "device noun"
+msgid "trackball"
+msgstr "trackball"
+
+msgctxt "device noun"
+msgid "trackpad"
+msgstr "panel táctil"
+
+msgctxt "device noun"
+msgid "numeric keypad"
+msgstr "teclado numérico"
+
+msgctxt "device noun"
+msgid "presenter"
+msgstr "presentador"
+
+msgctxt "device noun"
+msgid "remote"
+msgstr "mando"
+
+msgctxt "device noun"
+msgid "device"
+msgstr "dispositivo"
+
+msgid "Channel {n}"
+msgstr "Canal {n}"
+
+msgid "Switch"
+msgstr "Cambiar"
+
+msgid "{action} to channel {n}"
+msgstr "{action} al canal {n}"
+
+msgid "Easy-Switch"
+msgstr "Cambio de equipo"
+
+msgid "No computer switching"
+msgstr "Sin cambio de equipo"
+
+msgid "This device can only be paired with one computer."
+msgstr "Este dispositivo solo puede estar emparejado con un equipo."
+
+msgid "This {device} can only be paired with one computer."
+msgstr "Este {device} solo puede estar emparejado con un equipo."
+
+msgid "This {device} can be paired with up to {count} computer at once. Choose here which one to use it with, or press the {button} button on the {device} itself."
+msgid_plural "This {device} can be paired with up to {count} computers at once. Choose here which one to use it with, or press the {button} button on the {device} itself."
+msgstr[0] "Este {device} puede estar emparejado con hasta {count} equipo a la vez. Elige aquí con cuál quieres usarlo o pulsa el botón {button} del propio {device}."
+msgstr[1] "Este {device} puede estar emparejado con hasta {count} equipos a la vez. Elige aquí con cuál quieres usarlo o pulsa el botón {button} del propio {device}."
+
+msgid "This computer"
+msgstr "Este equipo"
+
+msgid "Not paired"
+msgstr "Sin emparejar"
+
+msgid "Free channel for another computer"
+msgstr "Canal libre para otro equipo"
+
+msgid "Paired"
+msgstr "Emparejado"
+
+msgid "Computer {n}"
+msgstr "Equipo {n}"
+
+msgid "Connected here"
+msgstr "Conectado aquí"
+
+msgid "Switching…"
+msgstr "Cambiando…"
+
+msgid "Switch and pair"
+msgstr "Cambiar y emparejar"
+
+msgid "To use it here again, press its {button} button until channel {n} is selected, or switch it from the other computer."
+msgstr "Para volver a usarlo aquí, pulsa su botón {button} hasta elegir el canal {n} o cámbialo desde el otro equipo."
+
+msgid "To use it here again, press its {button} button or switch it from the other computer."
+msgstr "Para volver a usarlo aquí, pulsa su botón {button} o cámbialo desde el otro equipo."
+
+msgid "The {device} is now on channel {n}"
+msgstr "El {device} está ahora en el canal {n}"
+
+msgid "Switching to channel {n}…"
+msgstr "Cambiando al canal {n}…"
+
+msgid "The {device} will disconnect from this computer in a few seconds."
+msgstr "El {device} se desconectará de este equipo en unos segundos."
+
+msgid "It may be off, asleep or in use with another computer. If you switched its channel, press its {button} button until channel {n} is selected to come back."
+msgstr "Puede estar apagado, en reposo o en uso con otro equipo. Si lo cambiaste de canal, pulsa su botón {button} hasta elegir el canal {n} para volver."
+
+msgid "It may be off, asleep or in use with another computer. If you switched its channel, press its {button} button to come back."
+msgstr "Puede estar apagado, en reposo o en uso con otro equipo. Si lo cambiaste de canal, pulsa su botón {button} para volver."
+
+msgid "To come back, press the {button} button on the {device} until channel {current} is selected, or switch it from the other computer."
+msgstr "Para volver, pulsa el botón {button} del {device} hasta elegir el canal {current} o cámbialo desde el otro equipo."
+
+msgid "To come back, press the {button} button on the {device} or switch it from the other computer."
+msgstr "Para volver, pulsa el botón {button} del {device} o cámbialo desde el otro equipo."
+
+msgid "Switch to channel {n} and pair?"
+msgstr "¿Cambiar al canal {n} y emparejar?"
+
+msgid "The {device} will disconnect from this computer and wait for another computer to pair with it on channel {n}. {back}"
+msgstr "El {device} se desconectará de este equipo y quedará a la espera de que otro equipo lo empareje en el canal {n}. {back}"
+
+msgid "Switch to channel {n}?"
+msgstr "¿Cambiar al canal {n}?"
+
+msgid "The {device} will disconnect from this computer and move to “{name}”. {back}"
+msgstr "El {device} se desconectará de este equipo y pasará a «{name}». {back}"
+
+msgid "The {device} will disconnect from this computer and move to the computer on channel {n}. {back}"
+msgstr "El {device} se desconectará de este equipo y pasará al equipo del canal {n}. {back}"
+
+# ---- gui/pages/device_info.py
+msgid "Numeric keypad"
+msgstr "Teclado numérico"
+
+msgid "Remote"
+msgstr "Mando"
+
+msgid "Receiver"
+msgstr "Receptor"
+
+msgctxt "connection"
+msgid "Unknown"
+msgstr "Desconocida"
+
+msgctxt "battery level"
+msgid "Very low"
+msgstr "Muy baja"
+
+msgid "The buttons and the pointer speed go back to their factory settings, and everything LinOptions has stored for this device is deleted."
+msgstr "Los botones y la velocidad del puntero vuelven a sus valores de fábrica, y se borra todo lo que LinOptions ha guardado para este dispositivo."
+
+msgid "The buttons go back to their factory settings, and everything LinOptions has stored for this device is deleted."
+msgstr "Los botones vuelven a sus valores de fábrica, y se borra todo lo que LinOptions ha guardado para este dispositivo."
+
+msgid "The pointer speed goes back to its factory setting, and everything LinOptions has stored for this device is deleted."
+msgstr "La velocidad del puntero vuelve a su valor de fábrica, y se borra todo lo que LinOptions ha guardado para este dispositivo."
+
+msgid "Everything LinOptions has stored for this device is deleted."
+msgstr "Se borra todo lo que LinOptions ha guardado para este dispositivo."
+
+msgid "Fully charged"
+msgstr "Carga completa"
+
+msgid "Very low battery"
+msgstr "Batería muy baja"
+
+msgid "{battery} (last reading)"
+msgstr "{battery} (última lectura)"
+
+msgid "No battery information"
+msgstr "Sin información de batería"
+
+msgid "Technical information"
+msgstr "Información técnica"
+
+msgid "Details for diagnosing a problem or asking for help"
+msgstr "Datos para diagnosticar un problema o pedir ayuda"
+
+msgid "Identifier"
+msgstr "Identificador"
+
+msgid "Source"
+msgstr "Origen"
+
+msgid "HID++ features"
+msgstr "Funciones HID++"
+
+msgid "Copy diagnostics"
+msgstr "Copiar diagnóstico"
+
+msgid "Copies a plain-text report to paste wherever you ask for help"
+msgstr "Copia un informe en texto para pegarlo donde pidas ayuda"
+
+msgid "Hide technical information"
+msgstr "Ocultar la información técnica"
+
+msgid "Show technical information"
+msgstr "Mostrar la información técnica"
+
+msgid "Details"
+msgstr "Detalles"
+
+msgid "Model"
+msgstr "Modelo"
+
+msgid "Product ID"
+msgstr "ID de producto"
+
+msgid "Connection"
+msgstr "Conexión"
+
+msgid "Firmware"
+msgstr "Firmware"
+
+msgid "Battery"
+msgstr "Batería"
+
+msgid "Reset device"
+msgstr "Restablecer dispositivo"
+
+msgid "Connect the device to be able to reset it"
+msgstr "Conecta el dispositivo para poder restablecerlo"
+
+msgid "Not available"
+msgstr "No disponible"
+
+msgid "No information"
+msgstr "Sin información"
+
+msgid "the device"
+msgstr "el dispositivo"
+
+msgid "Reset {name}?"
+msgstr "¿Restablecer {name}?"
+
+msgid "This can't be undone."
+msgstr "Esta acción no se puede deshacer."
+
+msgid "Device reset"
+msgstr "Dispositivo restablecido"
+
+msgid "Diagnostics copied to the clipboard"
+msgstr "Diagnóstico copiado al portapapeles"
+
+msgid "yes"
+msgstr "sí"
+
+msgid "no"
+msgstr "no"
+
+msgid "LinOptions {version} · device diagnostics"
+msgstr "LinOptions {version} · diagnóstico del dispositivo"
+
+msgid "Name: {value}"
+msgstr "Nombre: {value}"
+
+msgid "Type: {name} ({kind})"
+msgstr "Tipo: {name} ({kind})"
+
+msgid "Identifier: {value}"
+msgstr "Identificador: {value}"
+
+msgid "Product ID: {value}"
+msgstr "ID de producto: {value}"
+
+msgid "Connection: {name} ({connection})"
+msgstr "Conexión: {name} ({connection})"
+
+msgid "Source: {value}"
+msgstr "Origen: {value}"
+
+msgid "Status: connected"
+msgstr "Estado: conectado"
+
+msgid "Status: disconnected"
+msgstr "Estado: desconectado"
+
+msgid "Battery: {battery} (level={level}, status={status}, charging={charging})"
+msgstr "Batería: {battery} (nivel={level}, estado={status}, cargando={charging})"
+
+msgid "Battery: no information"
+msgstr "Batería: sin información"
+
+msgid "(not available)"
+msgstr "(no disponible)"
+
+msgid "HID++ features ({n}):"
+msgstr "Funciones HID++ ({n}):"
+
+msgctxt "features"
+msgid "(none)"
+msgstr "(ninguna)"
+
+msgid "Controls ({n}):"
+msgstr "Controles ({n}):"
+
+msgid "divertable"
+msgstr "desviable"
+
+msgid "reprogrammable"
+msgstr "reprogramable"
+
+msgid "gestures"
+msgstr "gestos"
+
+msgctxt "controls"
+msgid "(none)"
+msgstr "(ninguno)"
+
+msgid "DPI: current {current}, default {default}, range {min}-{max}, step {step}, levels {levels}"
+msgstr "DPI: actual {current}, predeterminado {default}, rango {min}-{max}, paso {step}, niveles {levels}"
+
+msgid "DPI: not available"
+msgstr "DPI: no disponible"
+
+msgid "Wheel: smooth={smooth}, inverted={inverted}, can invert={can_invert}"
+msgstr "Rueda: suave={smooth}, invertida={inverted}, admite inversión={can_invert}"
+
+msgid "Wheel: not available"
+msgstr "Rueda: no disponible"
+
+msgid "SmartShift: mode={mode}, threshold={threshold}, enhanced={enhanced}"
+msgstr "SmartShift: modo={mode}, umbral={threshold}, mejorado={enhanced}"
+
+msgid "with clicks"
+msgstr "con clics"
+
+msgid "free spin"
+msgstr "giro libre"
+
+msgid "SmartShift: not available"
+msgstr "SmartShift: no disponible"
+
+msgid "Channels: {count}, current {current}"
+msgstr "Canales: {count}, actual {current}"
+
+msgctxt "channel"
+msgid "paired"
+msgstr "emparejado"
+
+msgctxt "channel"
+msgid "free"
+msgstr "libre"
+
+msgctxt "channel"
+msgid "unknown"
+msgstr "desconocido"
+
+msgid "Channels: not available"
+msgstr "Canales: no disponible"
+
+msgid "Stored settings:"
+msgstr "Ajustes guardados:"
+
+msgctxt "stored settings"
+msgid "(none)"
+msgstr "(ninguno)"
+
+# ---- gui/pages/settings.py
+msgctxt "theme"
+msgid "Light"
+msgstr "Claro"
+
+msgctxt "theme"
+msgid "Dark"
+msgstr "Oscuro"
+
+msgid "System"
+msgstr "Sistema"
+
+msgid "Back"
+msgstr "Volver"
+
+msgid "Appearance"
+msgstr "Apariencia"
+
+msgid "System theme"
+msgstr "Tema sistema"
+
+msgid "Light theme"
+msgstr "Tema claro"
+
+msgid "Dark theme"
+msgstr "Tema oscuro"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "“System” follows the light or dark mode of your desktop"
+msgstr "«Sistema» sigue el modo claro u oscuro de tu escritorio"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "“System” follows the language of your desktop"
+msgstr "«Sistema» sigue el idioma de tu escritorio"
+
+msgid "The new language applies after a restart"
+msgstr "El nuevo idioma se aplica al reiniciar"
+
+msgid "LinOptions will be shown in {language} the next time it starts."
+msgstr "LinOptions se mostrará en {language} la próxima vez que se inicie."
+
+msgid "Restart now"
+msgstr "Reiniciar ahora"
+
+msgid "Startup"
+msgstr "Inicio"
+
+msgid "Start when you log in"
+msgstr "Iniciar con la sesión"
+
+msgid "Keep running in the tray when the window is closed"
+msgstr "Seguir en la bandeja al cerrar la ventana"
+
+msgid "The LinOptions service starts when you log in, so your buttons and settings work without opening this window"
+msgstr "El servicio de LinOptions arranca al iniciar sesión, así tus botones y ajustes funcionan sin abrir esta ventana"
+
+msgid "Not available: the LinOptions service isn't installed in your session. Install the app with install.sh to turn this on"
+msgstr "No disponible: el servicio de LinOptions no está instalado en tu sesión. Instala la aplicación con install.sh para poder activarlo"
+
+msgid "LinOptions stays at hand in the system tray and tells you when a battery is low"
+msgstr "LinOptions sigue a mano en la bandeja del sistema y te avisa si la batería está baja"
+
+msgid "Not available: your desktop has no system tray"
+msgstr "No disponible: tu escritorio no ofrece una bandeja del sistema"
+
+msgid "LinOptions will start when you log in"
+msgstr "LinOptions se iniciará con tu sesión"
+
+msgid "LinOptions will no longer start when you log in"
+msgstr "LinOptions ya no se iniciará con tu sesión"
+
+msgid "Couldn't change whether LinOptions starts when you log in"
+msgstr "No se ha podido cambiar el inicio con la sesión"
+
+msgid "Notifications"
+msgstr "Notificaciones"
+
+msgid "Let me know when a battery is low"
+msgstr "Avisar cuando la batería esté baja"
+
+msgid "You'll get a notice when a device is down to 15% or less"
+msgstr "Recibirás un aviso cuando a un dispositivo le quede un 15 % o menos"
+
+msgid "Open Flow"
+msgstr "Abrir Flow"
+
+msgid "Use the same mouse on two computers"
+msgstr "Usa el mismo ratón en dos equipos"
+
+msgid "Move the pointer to the edge of the screen to take the mouse to another computer running LinOptions"
+msgstr "Lleva el puntero al borde de la pantalla para pasar el ratón a otro equipo con LinOptions"
+
+msgid "What LinOptions needs from the system to work"
+msgstr "Lo que LinOptions necesita del sistema para funcionar"
+
+msgid "Access rules"
+msgstr "Reglas de acceso"
+
+msgid "They let your user configure the devices without being an administrator"
+msgstr "Permiten que tu usuario configure los dispositivos sin ser administrador"
+
+msgid "Virtual keyboard"
+msgstr "Teclado virtual"
+
+msgid "So that buttons can send keyboard shortcuts"
+msgstr "Para que los botones puedan enviar atajos de teclado"
+
+msgid "Devices without access"
+msgstr "Dispositivos sin acceso"
+
+msgid "Turn them off and on (or unplug them and plug them back in) for the permission to take effect"
+msgstr "Apágalos y enciéndelos (o desconéctalos y vuelve a conectarlos) para que el permiso tenga efecto"
+
+msgid "Service"
+msgstr "Servicio"
+
+msgid "The background program that applies your settings even when this window is closed"
+msgstr "El programa en segundo plano que aplica tus ajustes aunque cierres esta ventana"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Service version"
+msgstr "Versión del servicio"
+
+msgid "Restart service"
+msgstr "Reiniciar servicio"
+
+msgid "Version {version}"
+msgstr "Versión {version}"
+
+msgid "Set up the buttons, pointer and wheel of your Logitech mice on Linux"
+msgstr "Configura los botones, el puntero y la rueda de tus ratones Logitech en Linux"
+
+msgid "License: {license}"
+msgstr "Licencia {license}"
+
+msgid "Independent project, not affiliated with Logitech. Trademarks belong to their owners."
+msgstr "Proyecto independiente, sin relación con Logitech. Las marcas pertenecen a sus dueños."
+
+msgctxt "rules"
+msgid "Installed"
+msgstr "Instaladas"
+
+msgctxt "rules"
+msgid "Not installed"
+msgstr "Sin instalar"
+
+msgid "Available"
+msgstr "Disponible"
+
+msgid "No access"
+msgstr "Sin acceso"
+
+msgid "Reinstall permissions"
+msgstr "Volver a instalar permisos"
+
+msgid "Running"
+msgstr "En marcha"
+
+msgid "Starting…"
+msgstr "Iniciando…"
+
+msgid "No connection"
+msgstr "Sin conexión"
+
+msgid "Running (demo)"
+msgstr "En marcha (demostración)"
+
+msgid "Start service"
+msgstr "Iniciar servicio"
+
+msgid "App language"
+msgstr "Idioma de la aplicación"
+
+msgctxt "language name in a sentence"
+msgid "Spanish"
+msgstr "español"
+
+msgctxt "language name in a sentence"
+msgid "English"
+msgstr "inglés"
+
+# ---- gui/identity.py, gui/pages/device_info.py, gui/shell.py: name, picture, removal
+msgid "Pictures ({patterns})"
+msgstr "Imágenes ({patterns})"
+
+msgid "The file doesn't exist anymore"
+msgstr "El archivo ya no existe"
+
+msgid "Couldn't open the file ({error})"
+msgstr "No se ha podido abrir el archivo ({error})"
+
+msgid "That isn't a picture file"
+msgstr "Eso no es un archivo de imagen"
+
+msgid "Couldn't read the file ({error})"
+msgstr "No se ha podido leer el archivo ({error})"
+
+msgid "The file is too large: pictures can be {mb} MB at most"
+msgstr "El archivo es demasiado grande: las imágenes pueden ocupar {mb} MB como máximo"
+
+msgid "The picture is too large: it can be {side} × {side} pixels at most"
+msgstr "La imagen es demasiado grande: puede tener {side} × {side} píxeles como máximo"
+
+msgid "LinOptions can't use this kind of file. Choose a PNG, JPEG or WebP picture"
+msgstr "LinOptions no puede usar este tipo de archivo. Elige una imagen PNG, JPEG o WebP"
+
+msgid "The picture couldn't be read. The file may be damaged"
+msgstr "No se ha podido leer la imagen. Puede que el archivo esté dañado"
+
+msgid "Couldn't save the picture"
+msgstr "No se ha podido guardar la imagen"
+
+msgid "Couldn't save the picture ({error})"
+msgstr "No se ha podido guardar la imagen ({error})"
+
+msgid "Couldn't use the picture ({error})"
+msgstr "No se ha podido usar la imagen ({error})"
+
+msgid "Rename device"
+msgstr "Cambiar el nombre del dispositivo"
+
+msgid "Choose the name LinOptions shows for your {model}, for example “Office mouse”. The device itself doesn't change."
+msgstr "Elige el nombre con el que LinOptions muestra tu {model}, por ejemplo «Ratón de la oficina». El dispositivo en sí no cambia."
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Use model name"
+msgstr "Usar el nombre del modelo"
+
+msgid "Show it as {model} again"
+msgstr "Volver a mostrarlo como {model}"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Too long: {n} characters, {max} at most"
+msgstr "Demasiado largo: {n} caracteres, {max} como máximo"
+
+msgid "Empty: the model name, {model}, will be used"
+msgstr "Vacío: se usará el nombre del modelo, {model}"
+
+msgid "{n} of {max} characters"
+msgstr "{n} de {max} caracteres"
+
+msgid "Choose a picture"
+msgstr "Elige una imagen"
+
+msgid "LinOptions forgets {name} and everything it stored for it: button actions, pointer settings, its name and its picture. If it's connected, it goes back to its factory settings. It shows up again, with default settings, the next time it connects."
+msgstr "LinOptions olvida {name} y todo lo que ha guardado de él: las acciones de los botones, los ajustes del puntero, su nombre y su imagen. Si está conectado, vuelve a sus ajustes de fábrica. Volverá a aparecer, con los ajustes predeterminados, la próxima vez que se conecte."
+
+msgid "Rename…"
+msgstr "Cambiar el nombre…"
+
+msgid "Choose picture…"
+msgstr "Elegir imagen…"
+
+msgid "Change picture…"
+msgstr "Cambiar imagen…"
+
+msgid "Use 3D model"
+msgstr "Usar el modelo 3D"
+
+msgid "Use custom picture"
+msgstr "Usar la imagen propia"
+
+msgid "Remove device…"
+msgstr "Quitar dispositivo…"
+
+msgid "Shown as {model} again"
+msgstr "Se vuelve a mostrar como {model}"
+
+msgid "Renamed to {name}"
+msgstr "Ahora se llama {name}"
+
+msgid "Picture updated"
+msgstr "Imagen actualizada"
+
+msgid "More options"
+msgstr "Más opciones"
+
+msgid "Device options"
+msgstr "Opciones del dispositivo"
+
+msgid "How LinOptions names and shows this device"
+msgstr "Cómo nombra y muestra LinOptions este dispositivo"
+
+msgid "Picture in Devices"
+msgstr "Imagen en Tus dispositivos"
+
+msgid "Its card in Devices can show the 3D model or a picture of your own. Everywhere else LinOptions shows the 3D model of this device. The picture stays on this computer."
+msgstr "Su tarjeta en Tus dispositivos puede mostrar el modelo 3D o una imagen tuya. En el resto de LinOptions se ve siempre el modelo 3D de este dispositivo. La imagen se queda en este equipo."
+
+msgid "3D model"
+msgstr "Modelo 3D"
+
+msgid "Custom picture"
+msgstr "Imagen propia"
+
+msgid "Reset and remove"
+msgstr "Restablecer y quitar"
+
+msgid "LinOptions forgets this device and everything it stored for it"
+msgstr "LinOptions olvida este dispositivo y todo lo que ha guardado de él"
+
+msgid "{name} (model: {model})"
+msgstr "{name} (modelo: {model})"
+
+msgid "{name} (the model's name)"
+msgstr "{name} (el nombre del modelo)"
+
+msgid "Model: {value}"
+msgstr "Modelo: {value}"

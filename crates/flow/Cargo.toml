@@ -1,0 +1,43 @@
+[package]
+name = "glisa-flow"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+glisa-common.workspace = true
+glisa-i18n.workspace = true
+log.workspace = true
+rcgen = "0.14.7"
+ring = "0.17.14"
+rustls = { version = "0.23.46", default-features = false, features = ["ring", "std", "logging"] }
+serde = { workspace = true, features = ["derive"] }
+serde_json.workspace = true
+socket2 = "0.6.5"
+time = "0.3.45"
+unicode-general-category = "1.1.0"
+unicode-normalization = "0.1.26"
+png = "0.17"
+
+[target."cfg(unix)".dependencies]
+libc = "0.2.191"
+rustix = { version = "1.1.6", features = ["fs", "net", "event", "process", "system", "pipe"] }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+x11rb = { version = "0.14.0", features = ["randr"] }
+zbus = "5.13.2"
+
+[target."cfg(windows)".dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging", "Win32_Graphics_Gdi", "Win32_UI_Input_KeyboardAndMouse", "Win32_System_DataExchange", "Win32_System_Memory", "Win32_UI_Shell", "Win32_System_Ole", "Win32_Networking_WinSock", "Win32_NetworkManagement_IpHelper", "Win32_NetworkManagement_Ndis", "Win32_Storage_FileSystem", "Win32_System_SystemInformation", "Win32_System_LibraryLoader", "Win32_Security", "Win32_System_Threading"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6"
+
+[dev-dependencies]
+tempfile = "3.27.0"

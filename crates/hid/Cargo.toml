@@ -1,0 +1,24 @@
+[package]
+name = "glisa-hid"
+description = "HID transports for HID++: Linux hidraw + sysfs, Windows and macOS through hidapi"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+glisa-hidpp.workspace = true
+
+[target.'cfg(target_os = "linux")'.dependencies]
+libc = "0.2.191"
+
+[target."cfg(windows)".dependencies]
+hidapi = { version = "2.6.7", default-features = false, features = ["windows-native"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+hidapi = { version = "2.6.7", default-features = false, features = ["macos-shared-device"] }
