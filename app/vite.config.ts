@@ -7,7 +7,7 @@ import type { Plugin } from 'vite';
  *  to hold the page's load event (and so Firefox's --screenshot) until the window has drawn. */
 function screenshotDelay(): Plugin {
   return {
-    name: 'linoptions-screenshot-delay',
+    name: 'glisa-screenshot-delay',
     configurePreviewServer(server) {
       server.middlewares.use('/__shot-delay', (req, res) => {
         const ms = Math.min(10000, Number(new URL(req.url ?? '', 'http://x').searchParams.get('ms')) || 1000);

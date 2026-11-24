@@ -2,7 +2,7 @@
 
 This is the visual contract for the Tauri UI. The tokens live in
 `app/src/lib/brand/tokens.css` (generated from `brand/tools/tokens.cjs`); this page says how
-to use them. The product is named **Glisa** (formerly LinOptions; see `brand/NAMES.md`).
+to use them. The product is named **Glisa** (formerly LinOptions).
 Never hard-code the name in artwork: use the logo files, which are generated from the name.
 
 ## 1. Principles
@@ -238,8 +238,8 @@ the size rather than scaling another one.
 - Don't recolour, stretch, rotate further, outline, add effects, or put the colour mark on
   busy or mid-violet backgrounds (use the mono mark there).
 - In the UI the product name is plain text in Inter 650, not the wordmark image.
-- Name proposals: `brand/NAMES.md`. After a rename, run
-  `node brand/tools/wordmark.cjs "<Name>"` to regenerate the wordmark and the banner.
+- After a rename, run `node brand/tools/wordmark.cjs "<Name>"` to regenerate the wordmark,
+  the banner and the social preview.
 
 ## Regenerating the assets
 
@@ -248,10 +248,8 @@ Everything in the brand area is generated from scripts in `brand/tools/` (Node â
 ```
 npm i --prefix brand/tools          # resvg, opentype.js, Inter (dev only; not committed)
 node brand/tools/tokens.cjs         # app/src/lib/brand/tokens.css
-node brand/tools/devices.cjs        # device SVGs, index.ts, devices.css, brand/preview.html
-node brand/tools/devices.cjs --png <dir>   # + a contact sheet to review
 node brand/tools/logo.cjs           # mark, app icon, tray icons, favicon
-node brand/tools/wordmark.cjs "Glisa"      # wordmark + README banner
+node brand/tools/wordmark.cjs "Glisa"      # wordmark, README banner, social preview
 ```
 
 ## 9. Do and don't

@@ -159,7 +159,7 @@ export class FlowMock {
       drag_available: dragHere(),
       clipboard_backend: running ? 'fake' : 'none', files_backend: running ? 'fake' : 'none',
       transfers: this.transfers.map((t) => ({ ...t })),
-      staging: '/home/user/.cache/linoptions/flow/received',
+      staging: '/home/user/.cache/glisa/flow/received',
       id: this.id, name: this.name, fingerprint: this.fp,
       ports: { udp: PORT, tcp: PORT, pairing: PORT + 1 }, firewall: { ufw: false },
       options: { ...this.options },
@@ -410,7 +410,7 @@ export class FlowMock {
       t.percent = Math.min(100, Math.floor((t.done * 100) / t.bytes));
       if (t.done >= t.bytes) {
         Object.assign(t, { state: 'done', active: false, percent: 100,
-          folder: direction === 'receive' ? '/home/user/.cache/linoptions/flow/received/1' : '',
+          folder: direction === 'receive' ? '/home/user/.cache/glisa/flow/received/1' : '',
           placed: direction === 'receive' ? 'clipboard' : '' });
         this.emit('transfer', { ...t });
         return;

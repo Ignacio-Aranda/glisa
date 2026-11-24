@@ -1,11 +1,10 @@
 {
-  "name": "linoptions-brand-tools",
+  "name": "glisa-brand-tools",
   "private": true,
-  "description": "Generators for the brand assets (tokens, device illustrations, logo, wordmark, banner). Install with `npm i --prefix brand/tools`; node_modules here is not committed.",
+  "description": "Generators for the brand assets (tokens, logo, wordmark, banner, social preview). Install with `npm i --prefix brand/tools`; node_modules here is not committed.",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "tokens": "node tokens.cjs",
-    "devices": "node devices.cjs",
     "logo": "node logo.cjs",
     "wordmark": "node wordmark.cjs"
   },

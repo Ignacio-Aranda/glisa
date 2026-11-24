@@ -2,12 +2,19 @@
 
 ![Glisa](brand/readme-banner.png)
 
-**Set up your Logitech mouse and keyboard your way, on Linux, Windows and macOS.**
+**Free and open-source app to configure Logitech mice and keyboards on Linux, Windows and macOS.**<br>
+An alternative to Logi Options+: buttons and gestures, DPI and scrolling, Easy-Switch, and Flow
+between computers. No account, no telemetry.
 
-![License: GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-5B45E5)
+[![Latest release](https://img.shields.io/github/v/release/Ignacio-Aranda/glisa?label=release&color=5B45E5)](https://github.com/Ignacio-Aranda/glisa/releases/latest)
+[![License: GPL-3.0-or-later](https://img.shields.io/badge/license-GPL--3.0--or--later-5B45E5)](LICENSE)
 ![Platforms: Linux, Windows, macOS](https://img.shields.io/badge/platforms-Linux%20·%20Windows%20·%20macOS-5B45E5)
 ![Built with Rust and Tauri](https://img.shields.io/badge/built%20with-Rust%20%2B%20Tauri-5B45E5)
 ![Status: beta](https://img.shields.io/badge/status-beta-orange)
+
+**[Download](https://github.com/Ignacio-Aranda/glisa/releases/latest)** ·
+[Screenshots](#screenshots) · [Features](#features) · [Flow](#flow-one-mouse-several-computers) ·
+[Build from source](#building-from-source)
 
 </div>
 
@@ -16,8 +23,12 @@ channels and moves one mouse between your computers with **Flow**: copied text, 
 and images travel with it. It talks the devices' own **HID++ 2.0** protocol directly, runs your
 button actions in the background, and is one small download with nothing else to install.
 
-It is an independent, open-source project. It contains no Logitech code, images or data, and
-it is not affiliated with Logitech.
+Made for HID++ 2.0 mice and keyboards such as the **MX Master**, **MX Anywhere**,
+**MX Vertical**, **MX Ergo**, **MX Keys**, **LIFT**, **Signature** and **ERGO K860**, over
+Bluetooth or a receiver (see [Compatibility](#compatibility)).
+
+It is an independent, open-source project (GPL-3.0). It contains no Logitech code, images or
+data, and it is not affiliated with Logitech.
 
 Available in **English** and **Spanish**. It follows your system language, or pick one in
 *App settings → Language*.
@@ -30,7 +41,8 @@ Available in **English** and **Spanish**. It follows your system language, or pi
 - [Compatibility](#compatibility)
 - [Using Glisa](#using-glisa) · [Flow](#flow-one-mouse-several-computers)
 - [Files and privacy](#files-and-privacy) · [Security](#security)
-- [Building from source](#building-from-source) · [Roadmap](#roadmap) · [License](#license)
+- [Building from source](#building-from-source) · [Roadmap](#roadmap)
+- [Related projects](#related-projects) · [License](#license)
 
 ## Screenshots
 
@@ -256,6 +268,17 @@ See [docs/ROADMAP.md](docs/ROADMAP.md). Next:
 - dragging files across the edge on X11, Windows and macOS ([notes](docs/FLOW-DRAG-DROP.md));
 - LIFT's virtual thumb wheel;
 - per-application profiles.
+
+## Related projects
+
+Other open-source tools for Logitech devices, each with its own focus:
+- [Solaar](https://github.com/pwr-Solaar/Solaar): device manager for Linux, with receiver
+  pairing and rules;
+- [logiops](https://github.com/PixlOne/logiops): a Linux driver configured with a text file;
+- [OpenLogi](https://github.com/AprilNEA/OpenLogi): a native Logi Options+ alternative written
+  in Rust.
+
+Glisa aims at one app with a window on Linux, Windows and macOS, and Flow between computers.
 
 ## License
 

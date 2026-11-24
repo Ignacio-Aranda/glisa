@@ -1,6 +1,6 @@
 {
   "_comment": [
-    "LinOptions' own table of known Logitech models, written from public knowledge (product names, and product ids published by the Linux kernel's hid-logitech-hidpp and the Solaar project) and from what devices report about themselves. Never copied from Logitech Options+ files.",
+    "Glisa's own table of known Logitech models, written from public knowledge (product names, and product ids published by the Linux kernel's hid-logitech-hidpp and the Solaar project) and from what devices report about themselves. Never copied from Logitech Options+ files.",
     "Keys are product slugs shared with data/photos.json. family: the illustration family (docs/ARCHITECTURE.md, Device pictures). bt: Bluetooth / BLE product ids; wpid: wireless product id behind a Unifying or Lightspeed receiver; usb: USB product ids (cable or receiver). Only ids we are sure of are listed. names: other names the device reports (matched as whole words, longest first). extras: per-model features, e.g. virtual_thumbwheel (hold back or forward and turn the wheel to scroll sideways)."
   ],
   "models": {

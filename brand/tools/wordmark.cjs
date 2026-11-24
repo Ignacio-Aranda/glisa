@@ -132,8 +132,54 @@ function banner(name) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${name}">${body}</svg>\n`;
 }
 
+/**
+ * Social preview (the picture shown when the repository link is shared), 1280×640 as GitHub
+ * asks: the banner's Iris and wordmark on the left, a screenshot on the right. Upload it in
+ * the repository's Settings → General → Social preview.
+ */
+function socialPreview(name) {
+  const W = 1280, H = 640, X = 76;
+  const { ICON } = require('./logo.cjs');
+  const wm = wordmark(name, { color: '#FFFFFF', size: 92, idp: 'sp', markColors: { button: ICON.button, body: ICON.body } });
+  const lines = (arr, size, weight, y0, gap, opacity) =>
+    arr
+      .map((l, i) => `<path d="${textPath(l, { weight, size, x: X, y: y0 + i * gap, tracking: -0.01 }).d}" fill="#FFFFFF" fill-opacity="${opacity}"/>`)
+      .join('');
+  const wmY = 118;
+  const headY = wmY + wm.h + 78;
+  const head = lines(['Configure Logitech mice', 'and keyboards'], 40, 600, headY, 52, 1);
+  const subY = headY + 52 + 56;
+  const sub = lines(['Buttons, gestures, DPI, Easy-Switch', 'and Flow between computers'], 24, 400, subY, 34, 0.82);
+  const pillY = subY + 34 + 40;
+  let pills = '';
+  let px = 0;
+  for (const label of ['Linux', 'Windows', 'macOS', 'Open source']) {
+    const p = pill(X, pillY, label, { size: 19 });
+    pills += p.svg(px);
+    px += p.w + 10;
+  }
+  const shot = fs.readFileSync(path.join(ROOT, 'docs/screenshots/buttons-photo.png')).toString('base64');
+  const sw = 700, sh = Math.round((sw * 820) / 1280), sx = 600, sy = Math.round((H - sh) / 2);
+  const body =
+    `<defs>` +
+    `<linearGradient id="sp-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#644FEE"/><stop offset="1" stop-color="#523DDB"/></linearGradient>` +
+    `<clipPath id="sp-shot"><rect x="${sx}" y="${sy}" width="${sw}" height="${sh}" rx="14"/></clipPath>` +
+    `<filter id="sp-shadow" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#1A0F66" flood-opacity="0.45"/></filter>` +
+    `</defs>` +
+    `<rect width="${W}" height="${H}" fill="url(#sp-bg)"/>` +
+    `<rect x="${sx}" y="${sy}" width="${sw}" height="${sh}" rx="14" fill="#111016" filter="url(#sp-shadow)"/>` +
+    `<image href="data:image/png;base64,${shot}" x="${sx}" y="${sy}" width="${sw}" height="${sh}" clip-path="url(#sp-shot)"/>` +
+    `<g transform="translate(${X} ${wmY})">${wm.body}</g>` +
+    head +
+    sub +
+    pills;
+  return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">${body}</svg>\n`;
+}
+
 function main() {
   const name = process.argv[2] || 'Glisa';
+  // Only the PNG is kept: the SVG would carry the screenshot inline.
+  write('brand/social-preview.png', toPng(socialPreview(name), { width: 1280 }));
   const cur = wordmarkSvg(name, 'currentColor', 'wm');
   write('brand/logo/wordmark.svg', cur);
   write('app/src/lib/brand/logo-wordmark.svg', cur);
